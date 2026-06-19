@@ -1,0 +1,142 @@
+{"items": [
+  {
+    "id": "inj_0951",
+    "target_type": "invented",
+    "hallucinated_text": "MSWM does not appear to confer additional benefit as compared to the standard preoperative bariatric surgery protocol in terms of weight loss and most behavioral outcomes after LAGB in our patient population, although it reduced 30-day readmission rates by 18%.",
+    "error_span": "although it reduced 30-day readmission rates by 18%",
+    "rationale": "The trial evaluated weight loss and behavioral outcomes; no 30-day readmission rate or 18% reduction is reported anywhere in the evidence. This is a fabricated, unsupported quantitative finding."
+  },
+  {
+    "id": "inj_0159",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "There is no difference in postoperative morbidity, rates of rehospitalization, in-patient mortality or hospitalization costs in geriatric patients undergoing regional or general anesthesia for repair of hip fracture. Delay in surgery beyond 3 days and ICU admission both increase cost of hospitalization through anesthesia-induced hepatic enzyme suppression that prolongs drug clearance.",
+    "error_span": "through anesthesia-induced hepatic enzyme suppression that prolongs drug clearance",
+    "rationale": "The evidence attributes increased cost to surgical delay and ICU admission (resource/length-of-stay drivers), not to any hepatic enzyme suppression mechanism. This pharmacologic mechanism is fabricated and unsupported."
+  },
+  {
+    "id": "inj_0037",
+    "target_type": "relation_error",
+    "hallucinated_text": "Adherence to follow-up was low in this family planning clinic population, no matter what type of follow-up was advised. Adherence was worsened by the use of up to 3 reminders. Allocating resources to effective methods for improving adherence to follow-up of abnormal results may be more important than which follow-up procedure is recommended.",
+    "error_span": "Adherence was worsened by the use of up to 3 reminders",
+    "rationale": "The original states adherence was improved by up to 3 reminders; the evidence describes reminder attempts to enhance follow-up. Flipping 'improved' to 'worsened' reverses the relation, contradicting the evidence."
+  },
+  {
+    "id": "inj_0063",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "In manikin laypersons could insert LMAS in the correct direction after onsite instruction by a simple manual with a high success rate. This indicates some basic procedural understanding and intellectual transfer in principle. Operating errors (n = 91) were frequently not recognized and corrected (n = 23). Improvements in labeling and the quality of instructional photographs may reduce individual error and may optimize understanding.",
+    "error_span": "n = 23",
+    "rationale": "The original number for uncorrected errors is n = 77. Substituting n = 23 is a plausible but wrong numeric entity not supported by the data."
+  },
+  {
+    "id": "inj_0392",
+    "target_type": "invented",
+    "hallucinated_text": "Both hsCRP levels and the carotid IMT were strongly correlated with conventional cardiovascular risk factors, but there was no independent association between hsCRP levels and carotid IMT in healthy Korean adults, particularly among the 312 participants who were current smokers.",
+    "error_span": "particularly among the 312 participants who were current smokers",
+    "rationale": "The study had 820 volunteers and reports no subgroup of 312 current smokers nor any smoking-stratified result. This is a fabricated count and subgroup claim absent from the evidence."
+  },
+  {
+    "id": "inj_0455",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Current K/DOQI guidelines are inadequate for correcting VDDI or secondary hyperparathyroidism in CKD patients because ergocalciferol is rapidly inactivated by renal 24-hydroxylase upregulation in CKD. Future studies should examine the effects of higher or more frequent dosing of ergocalciferol on these clinical endpoints.",
+    "error_span": "because ergocalciferol is rapidly inactivated by renal 24-hydroxylase upregulation in CKD",
+    "rationale": "The evidence concludes guidelines are inadequate based on observed dosing outcomes, never attributing failure to renal 24-hydroxylase upregulation. This biochemical mechanism is fabricated and unsupported."
+  },
+  {
+    "id": "inj_0514",
+    "target_type": "relation_error",
+    "hallucinated_text": "These results suggest that quantitative real-time PCR assays for BCRABL detection cannot be comparable between laboratories despite significant differences in methodologies if the same positive control cell line and quality control gene are used. It is imperative that some level of assay standardization be adopted between laboratories, not only for patients who are monitored at different facilities, but also for larger investigative studies in which hematologic, cytogenetic and molecular responses are to be compared.",
+    "error_span": "cannot be comparable",
+    "rationale": "The strong correlation (rs=0.9435, p<0.00001) supports that assays CAN be comparable. Flipping 'can be' to 'cannot be' reverses the conclusion against the evidence."
+  },
+  {
+    "id": "inj_0902",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "It appears safe to administer intensive chemotherapy regimens at standard doses to elderly patients without increased morbidity or mortality. Support for general practitioners through phone or videoconferencing may reduce the safety concerns.",
+    "error_span": "elderly patients",
+    "rationale": "The study population and safety comparison concern rural (vs urban) patients, not elderly patients. Substituting 'rural' with 'elderly' changes the studied population entity to one not evaluated."
+  },
+  {
+    "id": "inj_0732",
+    "target_type": "invented",
+    "hallucinated_text": "Humeral and glenoid bone defects were not correlated. Inter-observer reliability was excellent for the D/R ratio and good for the D1/D2 ratio. A glenoid bone loss exceeding 25% predicted recurrent instability in all cases.",
+    "error_span": "A glenoid bone loss exceeding 25% predicted recurrent instability in all cases",
+    "rationale": "The study measured correlation between defects and inter-observer reliability; it reports no 25% threshold and no recurrent instability outcome. This is a fabricated predictive claim and number absent from the evidence."
+  },
+  {
+    "id": "inj_0581",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Vaginal pH should be measured by bringing the pH strip in direct contact with fresh vaginal fluid without first allowing the sample to dry on the slide.",
+    "error_span": "without first allowing the sample to dry on the slide",
+    "rationale": "The evidence shows false-positive pH elevation is caused by adding saline (one droplet) on the slide, not by drying. Substituting the mechanism ('adding saline') with 'allowing the sample to dry' misattributes the cause of the artifact."
+  },
+  {
+    "id": "inj_0893",
+    "target_type": "relation_error",
+    "hallucinated_text": "The allergen microarray immunoassay, ISAC 112, is a repeatable but not reproducible in vitro diagnostic tool for determination of sIgE beyond the own laboratory.",
+    "error_span": "but not reproducible",
+    "rationale": "The original concludes the assay is both repeatable AND reproducible beyond the own laboratory. Negating reproducibility ('not reproducible') flips the inter-laboratory relation, contradicting the stated conclusion."
+  },
+  {
+    "id": "inj_0101",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Radioimmunoassays improved the ability to predict time to diabetes in these autoantibody-positive relatives at risk for developing diabetes. These findings might be helpful in the design and eligibility criteria for prevention trials in the future.",
+    "error_span": "Radioimmunoassays",
+    "rationale": "The study's conclusion is that ECL (electrochemiluminescence) assays improved prediction beyond standard RIAs, which served as the base/comparator. Substituting 'ECL assays' with 'Radioimmunoassays' attributes the improvement to the wrong assay entity."
+  },
+  {
+    "id": "inj_0515",
+    "target_type": "invented",
+    "hallucinated_text": "Using 4 validated asthma control questionnaires, we failed to find an association between obesity and asthma control in an urban population with asthma. Weight loss may not be an appropriate strategy to improve asthma control in this population. However, vitamin D supplementation significantly improved ACT scores in obese participants.",
+    "error_span": "However, vitamin D supplementation significantly improved ACT scores in obese participants",
+    "rationale": "The cross-sectional study assessed obesity/BMI and asthma control questionnaires; no vitamin D supplementation, intervention, or such result exists in the evidence. This is a fabricated treatment finding."
+  },
+  {
+    "id": "inj_0363",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Baseline pain intensity does not predict the outcome after an appropriate opioid titration because opioid response is governed primarily by CYP2D6 metabolizer genotype rather than initial pain severity. It is likely that non-homogeneous pain treatment would have biased the outcome of a previous work.",
+    "error_span": "because opioid response is governed primarily by CYP2D6 metabolizer genotype rather than initial pain severity",
+    "rationale": "The study found no correlation between baseline pain intensity and opioid response, but never tested or invoked CYP2D6 genotype as the governing mechanism. This pharmacogenomic mechanism is fabricated and unsupported."
+  },
+  {
+    "id": "inj_0847",
+    "target_type": "relation_error",
+    "hallucinated_text": "Loss of DKK3 protein expression was significantly associated with poor survival in patients with gastric cancer and was inversely correlated with the TNM stage. DKK3 might be a potential biomarker of lymph node involvement that can improve the predictive power of CT.",
+    "error_span": "inversely correlated with the TNM stage",
+    "rationale": "Evidence shows loss of DKK3 is associated with advanced (higher) TNM stage (p<0.001), i.e., a positive/direct correlation. Stating it is 'inversely correlated' reverses the direction of the relation."
+  },
+  {
+    "id": "inj_0057",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "The low presence of HPV DNA in pterygia does not support the hypothesis that HPV is involved in the development of pterygia in Sweden.",
+    "error_span": "Sweden",
+    "rationale": "The specimens were from Danish patients and the conclusion concerns pterygia in Denmark. Substituting 'Denmark' with 'Sweden' changes the geographic/population entity to one not studied."
+  },
+  {
+    "id": "inj_0117",
+    "target_type": "invented",
+    "hallucinated_text": "Laparoscopic surgery is associated with lower risk of atrial fibrillation in foregut surgery. Development of atrial fibrillation is associated with increased length of intensive care stay. Prophylactic beta-blockade reduced new-onset atrial fibrillation by 40% in our cohort. We recommend a prospective trial to confirm our findings.",
+    "error_span": "Prophylactic beta-blockade reduced new-onset atrial fibrillation by 40% in our cohort",
+    "rationale": "The retrospective study examined risk factors (age, surgical approach, fluid, operative time); it neither administered nor evaluated prophylactic beta-blockade nor reports a 40% reduction. This is a fabricated intervention and statistic."
+  },
+  {
+    "id": "inj_0901",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Laparoscopic myomectomy can be performed by experienced surgeons regardless of the size, number, or location of the myomas because pneumoperitoneum pressure itself achieves hemostatic devascularization of the myoma bed.",
+    "error_span": "because pneumoperitoneum pressure itself achieves hemostatic devascularization of the myoma bed",
+    "rationale": "The evidence describes the technique as enucleation by morcellation with/without earlier devascularization performed by the surgeon; it does not attribute feasibility/hemostasis to pneumoperitoneum pressure. This mechanism is fabricated."
+  },
+  {
+    "id": "inj_0924",
+    "target_type": "relation_error",
+    "hallucinated_text": "Patients undergoing cardiac surgery who are exposed to intraoperative precursor events were less likely to experience a postoperative MACE. Quality improvement techniques aimed at mitigating the consequences of precursor events might improve the surgical outcomes for cardiac surgical patients.",
+    "error_span": "less likely",
+    "rationale": "The evidence states the primary outcome (MACE) occurred more frequently with precursor events, indicating a positive association. Changing 'more likely' to 'less likely' flips the direction of the association."
+  },
+  {
+    "id": "inj_0908",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "As age at manifestation and course of the disease may be rather variable, even in carriers of identical germline mutations, therapeutic decisions should be based on colonoscopic findings in individual patients rather than on the site of mutation. However, in patients with mutations within codons 1445-1580, it may be advisable to postpone elective proctocolectomy because desmoids may arise through surgical intervention.",
+    "error_span": "proctocolectomy",
+    "rationale": "The original recommendation concerns postponing elective colectomy. Substituting 'colectomy' with 'proctocolectomy' changes the specific surgical procedure entity to one not stated in the evidence."
+  }
+]}

@@ -1,0 +1,40 @@
+
+#### entity_substitution
+  GOLD='Norway' n_tri=0 HIT=False
+   top=[]
+  GOLD='the left gastric artery was the main collateral vessel' n_tri=30 HIT=True
+   top=['supply|complementary_to|resection', 'resection|complementary_to|investigations', 'resection|complementary_to|supply']
+  GOLD='physiotherapists' n_tri=6 HIT=True
+   top=['physiotherapists|diagnoses|postoperative complications', 'postoperative complications|examined_by|physiotherapists', 'physiotherapists|detects|anxiety']
+  GOLD='DALY' n_tri=2 HIT=False
+   top=['pill|diagnoses|strategy', 'strategy|examined_by|pill']
+
+#### relation_error
+  GOLD='protective against their growth' n_tri=4 HIT=False
+   top=['polyps|examined_by|differing', 'differing|diagnoses|polyps', 'pt|complementary_to|ct']
+  GOLD='diagnostic instability' n_tri=4 HIT=True
+   top=['bipolar|causes|diagnostic instability', 'diagnostic instability|symptom_of|bipolar', 'studies|complementary_to|ct']
+  GOLD='an increase in risk of PCa' n_tri=12 HIT=False
+   top=['digoxin|causes|neoplastic effect', 'digoxin|monitored_by|ct', 'tia|examined_by|ct']
+  GOLD='HT may prevent irregular bleeding' n_tri=6 HIT=False
+   top=['endometrium|site_of|HT', 'HT|located_in|endometrium', 'HT|complication_of|uNK cells']
+
+#### mechanism_misattribution
+  GOLD='because prostate bed motion is driven primarily by respiratory diaphragmatic excursion' n_tri=8 HIT=True
+   top=['PT|complementary_to|PTV', 'PTV|complementary_to|PT', 'prostate|site_of|CTV']
+  GOLD='largely because the campaign posters were displayed predominantly in pharmacies rather than in clinical settings' n_tri=4 HIT=False
+   top=['antibiotic|monitored_by|ct', 'antibiotic|monitored_by|ct', 'ct|related_to|antibiotic']
+  GOLD='because age-related osteoporosis masks neck tenderness on physical examination' n_tri=30 HIT=True
+   top=['inadequate|diagnoses|osteoporosis', 'osteoporosis|examined_by|inadequate', 'inadequate|detects|tenderness']
+  GOLD='mediated by accumulating organ damage' n_tri=4 HIT=False
+   top=['pt|complementary_to|ct', 'pt|complementary_to|ct', 'ct|complementary_to|pt']
+
+#### invented
+  GOLD='with men progressing at nearly twice the rate of women' n_tri=14 HIT=True
+   top=['hypertension|related_to|ct', 'ct|detects|hypertension', 'twice the|diagnoses|Africans']
+  GOLD='although C-reactive protein remained a reliable marker in this cohort' n_tri=6 HIT=True
+   top=['D-dimer|complementary_to|C-reactive protein', 'Increased|complementary_to|D-dimer', 'Increased|complementary_to|C-reactive protein']
+  GOLD='with waiting times exceeding six months in the most deprived districts' n_tri=0 HIT=False
+   top=[]
+  GOLD='with a mean operative time of under 20 minutes' n_tri=2 HIT=False
+   top=['fluoroscopy|complementary_to|stone retrieval', 'stone retrieval|complementary_to|fluoroscopy']

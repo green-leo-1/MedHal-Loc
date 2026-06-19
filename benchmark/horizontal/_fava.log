@@ -1,0 +1,51 @@
+'(MaxRetryError("HTTPSConnectionPool(host='huggingface.co', port=443): Max retries exceeded with url: /fava-uw/fava-model/resolve/main/tokenizer_config.json (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1028)')))"), '(Request ID: 62a19993-fd51-4894-a31e-a9b42ba6148a)')' thrown while requesting HEAD https://huggingface.co/fava-uw/fava-model/resolve/main/tokenizer_config.json
+Retrying in 1s [Retry 1/5].
+C:\Users\admin\AppData\Roaming\Python\Python313\site-packages\huggingface_hub\file_download.py:143: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\admin\.cache\huggingface\hub\models--fava-uw--fava-model. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading FAVA (fava-uw/fava-model, ~7B)...
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Xet Storage is enabled for this repo, but the 'hf_xet' package is not installed. Falling back to regular HTTP download. For better performance, install the package with: `pip install huggingface_hub[hf_xet]` or `pip install hf_xet`
+Error while downloading from https://huggingface.co/fava-uw/fava-model/resolve/c88e2dfc4d9b9360fc032ed598fed881f96715b9/pytorch_model-00002-of-00002.bin: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out.
+Trying to resume download...
+Error while downloading from https://huggingface.co/fava-uw/fava-model/resolve/c88e2dfc4d9b9360fc032ed598fed881f96715b9/pytorch_model-00002-of-00002.bin: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out.
+Trying to resume download...
+Error while downloading from https://huggingface.co/fava-uw/fava-model/resolve/c88e2dfc4d9b9360fc032ed598fed881f96715b9/pytorch_model-00002-of-00002.bin: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out.
+Trying to resume download...
+Error while downloading from https://huggingface.co/fava-uw/fava-model/resolve/c88e2dfc4d9b9360fc032ed598fed881f96715b9/pytorch_model-00002-of-00002.bin: HTTPSConnectionPool(host='cas-bridge.xethub.hf.co', port=443): Read timed out.
+Trying to resume download...
+Fetching 2 files:  50%|¨€¨€¨€¨€¨€     | 1/2 [16:27<16:27, 987.90s/it]Fetching 2 files: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2/2 [16:27<00:00, 493.95s/it]
+Loading checkpoint shards:   0%|          | 0/2 [00:00<?, ?it/s]Loading checkpoint shards:  50%|¨€¨€¨€¨€¨€     | 1/2 [00:10<00:10, 10.47s/it]Loading checkpoint shards: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2/2 [00:14<00:00,  6.54s/it]Loading checkpoint shards: 100%|¨€¨€¨€¨€¨€¨€¨€¨€¨€¨€| 2/2 [00:14<00:00,  7.13s/it]
+The following generation flags are not valid and may be ignored: ['temperature', 'top_p']. Set `TRANSFORMERS_VERBOSITY=info` for more details.
+  4/300
+  24/300
+  44/300
+  64/300
+  84/300
+  104/300
+  124/300
+  144/300
+  164/300
+  184/300
+  204/300
+  224/300
+  244/300
+  264/300
+  284/300
+
+======================================================================
+FAVA localization on MedHal-Loc (n=295)
+======================================================================
+flagged anything           : 85.4%
+mean error spans / item    : 1.3
+HIT (a flagged span overlaps gold): 55.3%
+random-flag chance (~flag coverage of passage): 18.8%
+----------------------------------------------------------------------
+error type                    n  flagged    hit
+entity_substitution          70     90.0   64.3
+relation_error               75     92.0   66.7
+mechanism_misattribution     75     89.3   57.3
+invented                     75     70.7   33.3
+======================================================================

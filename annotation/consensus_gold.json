@@ -1,0 +1,868 @@
+{
+ "mh_0481": {
+  "gold_words": [
+   "abdominal",
+   "crucial",
+   "ensuring",
+   "higher",
+   "injuries",
+   "missed",
+   "overlooked",
+   "play",
+   "risk",
+   "role",
+   "scans"
+  ],
+  "types": {
+   "abdominal": "contradictory",
+   "overlooked": "contradictory",
+   "crucial": "contradictory",
+   "injuries": "contradictory",
+   "role": "contradictory",
+   "missed": "contradictory",
+   "risk": "contradictory",
+   "higher": "contradictory",
+   "scans": "contradictory",
+   "play": "contradictory",
+   "ensuring": "contradictory"
+  }
+ },
+ "mh_0834": {
+  "gold_words": [
+   "accurate",
+   "arterial",
+   "hari",
+   "hepatic",
+   "highly",
+   "index",
+   "resistive"
+  ],
+  "types": {
+   "highly": "contradictory",
+   "hepatic": "entity_substitution",
+   "index": "entity_substitution",
+   "resistive": "entity_substitution",
+   "arterial": "entity_substitution",
+   "hari": "entity_substitution",
+   "accurate": "contradictory"
+  }
+ },
+ "mh_0452": {
+  "gold_words": [
+   "complication",
+   "compromised",
+   "higher",
+   "longer",
+   "operative",
+   "rates",
+   "times"
+  ],
+  "types": {
+   "compromised": "contradictory",
+   "times": "contradictory",
+   "complication": "contradictory",
+   "rates": "contradictory",
+   "operative": "contradictory",
+   "higher": "contradictory",
+   "longer": "contradictory"
+  }
+ },
+ "mh_0854": {
+  "gold_words": [
+   "acts",
+   "distinct",
+   "exist",
+   "impermeable",
+   "layer"
+  ],
+  "types": {
+   "layer": "contradictory",
+   "distinct": "contradictory",
+   "exist": "contradictory",
+   "impermeable": "contradictory",
+   "acts": "contradictory"
+  }
+ },
+ "mh_0693": {
+  "gold_words": [
+   "cognitive",
+   "correlates",
+   "decline",
+   "driven",
+   "environmental",
+   "exacerbated",
+   "factors",
+   "neurodegenerative",
+   "processes",
+   "severity",
+   "stress",
+   "symptom"
+  ],
+  "types": {
+   "environmental": "unverifiable",
+   "processes": "mechanism_misattribution",
+   "driven": "mechanism_misattribution",
+   "severity": "unverifiable",
+   "factors": "unverifiable",
+   "exacerbated": "unverifiable",
+   "symptom": "unverifiable",
+   "cognitive": "unverifiable",
+   "correlates": "unverifiable",
+   "stress": "unverifiable",
+   "neurodegenerative": "mechanism_misattribution",
+   "decline": "unverifiable"
+  }
+ },
+ "mh_0583": {
+  "gold_words": [
+   "cost-effective",
+   "neonatal",
+   "programs",
+   "screening"
+  ],
+  "types": {
+   "programs": "invented",
+   "screening": "invented",
+   "neonatal": "invented",
+   "cost-effective": "contradictory"
+  }
+ },
+ "mh_0453": {
+  "gold_words": [
+   "damage",
+   "effective",
+   "higher",
+   "infections",
+   "methods",
+   "nerve",
+   "postoperative",
+   "rates",
+   "surgical"
+  ],
+  "types": {
+   "postoperative": "contradictory",
+   "nerve": "contradictory",
+   "surgical": "contradictory",
+   "damage": "contradictory",
+   "rates": "contradictory",
+   "effective": "contradictory",
+   "higher": "contradictory",
+   "methods": "contradictory",
+   "infections": "contradictory"
+  }
+ },
+ "mh_0626": {
+  "gold_words": [
+   "crucial",
+   "fluoroscopy",
+   "remains"
+  ],
+  "types": {
+   "remains": "contradictory",
+   "fluoroscopy": "contradictory",
+   "crucial": "contradictory"
+  }
+ },
+ "mh_0811": {
+  "gold_words": [
+   "associated",
+   "better",
+   "bilobar",
+   "complications",
+   "incidence",
+   "lower",
+   "morphology",
+   "operative",
+   "outcomes",
+   "prostate",
+   "reduced",
+   "time"
+  ],
+  "types": {
+   "bilobar": "contradictory",
+   "outcomes": "contradictory",
+   "operative": "contradictory",
+   "associated": "contradictory",
+   "prostate": "contradictory",
+   "lower": "contradictory",
+   "time": "contradictory",
+   "better": "contradictory",
+   "incidence": "contradictory",
+   "complications": "contradictory",
+   "morphology": "contradictory",
+   "reduced": "contradictory"
+  }
+ },
+ "mh_0074": {
+  "gold_words": [
+   "affect",
+   "alignment",
+   "choice",
+   "component",
+   "crucial",
+   "design",
+   "femoral",
+   "mechanical",
+   "plays",
+   "role"
+  ],
+  "types": {
+   "femoral": "invented",
+   "crucial": "invented",
+   "affect": "contradictory",
+   "choice": "invented",
+   "role": "invented",
+   "alignment": "contradictory",
+   "design": "invented",
+   "mechanical": "contradictory",
+   "plays": "invented",
+   "component": "invented"
+  }
+ },
+ "mh_0413": {
+  "gold_words": [
+   "atrophy",
+   "increases",
+   "months",
+   "orchiopexy",
+   "performing",
+   "risk",
+   "testicular"
+  ],
+  "types": {
+   "performing": "contradictory",
+   "increases": "contradictory",
+   "testicular": "contradictory",
+   "months": "contradictory",
+   "risk": "contradictory",
+   "orchiopexy": "contradictory",
+   "atrophy": "contradictory"
+  }
+ },
+ "mh_0267": {
+  "gold_words": [
+   "enhances",
+   "rate",
+   "success"
+  ],
+  "types": {
+   "success": "contradictory",
+   "enhances": "contradictory",
+   "rate": "contradictory"
+  }
+ },
+ "mh_0496": {
+  "gold_words": [
+   "acidosis",
+   "distress",
+   "effective",
+   "fetal",
+   "neonatal",
+   "predictor",
+   "predicts",
+   "reliably",
+   "respiratory",
+   "syndrome"
+  ],
+  "types": {
+   "fetal": "contradictory",
+   "reliably": "invented",
+   "acidosis": "contradictory",
+   "predictor": "contradictory",
+   "respiratory": "invented",
+   "syndrome": "invented",
+   "effective": "contradictory",
+   "predicts": "invented",
+   "neonatal": "invented",
+   "distress": "invented"
+  }
+ },
+ "mh_0848": {
+  "gold_words": [
+   "enhances",
+   "likelihood",
+   "long-term",
+   "maintaining",
+   "postoperative",
+   "rhythm",
+   "sinus",
+   "stable"
+  ],
+  "types": {
+   "postoperative": "contradictory",
+   "maintaining": "contradictory",
+   "long-term": "contradictory",
+   "sinus": "contradictory",
+   "enhances": "contradictory",
+   "stable": "contradictory",
+   "rhythm": "contradictory",
+   "likelihood": "contradictory"
+  }
+ },
+ "mh_0489": {
+  "gold_words": [
+   "attitudes",
+   "demographics",
+   "improved",
+   "knowledge",
+   "particularly",
+   "public",
+   "younger"
+  ],
+  "types": {
+   "knowledge": "contradictory",
+   "younger": "invented",
+   "public": "contradictory",
+   "demographics": "invented",
+   "particularly": "invented",
+   "attitudes": "contradictory",
+   "improved": "contradictory"
+  }
+ },
+ "mh_0355": {
+  "gold_words": [
+   "deficiency",
+   "factor",
+   "insufficiency",
+   "primary",
+   "rather",
+   "vitamin"
+  ],
+  "types": {
+   "deficiency": "contradictory",
+   "insufficiency": "contradictory",
+   "rather": "contradictory",
+   "primary": "contradictory",
+   "factor": "contradictory",
+   "vitamin": "contradictory"
+  }
+ },
+ "mh_0041": {
+  "gold_words": [
+   "complete",
+   "higher",
+   "improved",
+   "margins",
+   "overall",
+   "rates",
+   "resection",
+   "survival"
+  ],
+  "types": {
+   "complete": "contradictory",
+   "resection": "contradictory",
+   "overall": "contradictory",
+   "margins": "contradictory",
+   "rates": "contradictory",
+   "higher": "contradictory",
+   "survival": "contradictory",
+   "improved": "contradictory"
+  }
+ },
+ "mh_0358": {
+  "gold_words": [
+   "advanced",
+   "exist",
+   "genetic",
+   "identified",
+   "testing"
+  ],
+  "types": {
+   "testing": "invented",
+   "exist": "contradictory",
+   "genetic": "invented",
+   "identified": "invented",
+   "advanced": "invented"
+  }
+ },
+ "mh_0605": {
+  "gold_words": [
+   "national",
+   "standards",
+   "students"
+  ],
+  "types": {
+   "standards": "contradictory",
+   "students": "contradictory",
+   "national": "contradictory"
+  }
+ },
+ "mh_0960": {
+  "gold_words": [
+   "high",
+   "outcomes",
+   "reliable",
+   "routine",
+   "variability"
+  ],
+  "types": {
+   "outcomes": "contradictory",
+   "high": "contradictory",
+   "reliable": "contradictory",
+   "routine": "contradictory",
+   "variability": "contradictory"
+  }
+ },
+ "mh_0699": {
+  "gold_words": [
+   "contagiosum",
+   "higher",
+   "molluscum"
+  ],
+  "types": {
+   "contagiosum": "entity_substitution",
+   "higher": "contradictory",
+   "molluscum": "entity_substitution"
+  }
+ },
+ "mh_0770": {
+  "gold_words": [
+   "cervical",
+   "length",
+   "reliable"
+  ],
+  "types": {
+   "cervical": "contradictory",
+   "length": "contradictory",
+   "reliable": "contradictory"
+  }
+ },
+ "mh_0156": {
+  "gold_words": [
+   "accurately",
+   "complications",
+   "fails",
+   "mortality",
+   "predict",
+   "reliable"
+  ],
+  "types": {
+   "mortality": "contradictory",
+   "reliable": "contradictory",
+   "fails": "contradictory",
+   "predict": "contradictory",
+   "complications": "contradictory",
+   "accurately": "contradictory"
+  }
+ },
+ "mh_0230": {
+  "gold_words": [
+   "conditions",
+   "disease",
+   "esophagitis",
+   "exclusively",
+   "fragility",
+   "gastroesophageal",
+   "gerd",
+   "mucosal",
+   "pathognomonic",
+   "reflux",
+   "seen",
+   "similar",
+   "types"
+  ],
+  "types": {
+   "reflux": "invented",
+   "exclusively": "contradictory",
+   "seen": "invented",
+   "pathognomonic": "contradictory",
+   "gastroesophageal": "invented",
+   "mucosal": "invented",
+   "gerd": "invented",
+   "types": "invented",
+   "esophagitis": "invented",
+   "similar": "invented",
+   "fragility": "invented",
+   "disease": "invented",
+   "conditions": "invented"
+  }
+ },
+ "mh_0384": {
+  "gold_words": [
+   "blood",
+   "reductions"
+  ],
+  "types": {
+   "reductions": "entity_substitution",
+   "blood": "invented"
+  }
+ },
+ "mh_0014": {
+  "gold_words": [
+   "affect",
+   "education",
+   "emergency",
+   "medicine",
+   "residents",
+   "ultrasound"
+  ],
+  "types": {
+   "emergency": "contradictory",
+   "ultrasound": "contradictory",
+   "residents": "contradictory",
+   "affect": "contradictory",
+   "medicine": "contradictory",
+   "education": "contradictory"
+  }
+ },
+ "mh_0494": {
+  "gold_words": [
+   "accelerates",
+   "cause",
+   "healing",
+   "otorrhea",
+   "process",
+   "severe"
+  ],
+  "types": {
+   "cause": "contradictory",
+   "healing": "contradictory",
+   "process": "contradictory",
+   "accelerates": "contradictory",
+   "otorrhea": "contradictory",
+   "severe": "contradictory"
+  }
+ },
+ "mh_0570": {
+  "gold_words": [
+   "aligns",
+   "balanced",
+   "closely",
+   "consume",
+   "diet",
+   "fiber",
+   "improvements",
+   "intake",
+   "nutritional",
+   "predominantly",
+   "recommendations",
+   "saturated"
+  ],
+  "types": {
+   "closely": "contradictory",
+   "recommendations": "contradictory",
+   "predominantly": "contradictory",
+   "improvements": "contradictory",
+   "aligns": "contradictory",
+   "nutritional": "contradictory",
+   "intake": "contradictory",
+   "balanced": "contradictory",
+   "consume": "contradictory",
+   "saturated": "contradictory",
+   "diet": "contradictory",
+   "fiber": "contradictory"
+  }
+ },
+ "mh_0830": {
+  "gold_words": [
+   "arteries",
+   "chest",
+   "constriction",
+   "coronary",
+   "infarction",
+   "leading",
+   "myocardial",
+   "rather",
+   "rigidity",
+   "sudden",
+   "wall"
+  ],
+  "types": {
+   "myocardial": "mechanism_misattribution",
+   "leading": "mechanism_misattribution",
+   "infarction": "mechanism_misattribution",
+   "rigidity": "contradictory",
+   "wall": "contradictory",
+   "constriction": "mechanism_misattribution",
+   "rather": "contradictory",
+   "arteries": "mechanism_misattribution",
+   "chest": "contradictory",
+   "sudden": "mechanism_misattribution",
+   "coronary": "mechanism_misattribution"
+  }
+ },
+ "mh_0280": {
+  "gold_words": [
+   "affect",
+   "back",
+   "changes",
+   "chronic",
+   "increases",
+   "pain",
+   "risk",
+   "spinal",
+   "structures",
+   "vascular"
+  ],
+  "types": {
+   "structures": "mechanism_misattribution",
+   "spinal": "mechanism_misattribution",
+   "increases": "contradictory",
+   "affect": "mechanism_misattribution",
+   "chronic": "contradictory",
+   "vascular": "mechanism_misattribution",
+   "risk": "contradictory",
+   "pain": "contradictory",
+   "changes": "mechanism_misattribution",
+   "back": "contradictory"
+  }
+ },
+ "mh_0039": {
+  "gold_words": [
+   "background",
+   "decreases",
+   "fdg-pet",
+   "glucose",
+   "high",
+   "increased",
+   "metabolism",
+   "noise",
+   "non-tumoral",
+   "sensitivity",
+   "tissues"
+  ],
+  "types": {
+   "sensitivity": "contradictory",
+   "glucose": "mechanism_misattribution",
+   "high": "mechanism_misattribution",
+   "noise": "mechanism_misattribution",
+   "decreases": "contradictory",
+   "metabolism": "mechanism_misattribution",
+   "tissues": "mechanism_misattribution",
+   "background": "mechanism_misattribution",
+   "fdg-pet": "contradictory",
+   "non-tumoral": "mechanism_misattribution",
+   "increased": "mechanism_misattribution"
+  }
+ },
+ "mh_0068": {
+  "gold_words": [
+   "bacterial",
+   "colonization",
+   "enhanced",
+   "incidence",
+   "increases",
+   "infections",
+   "site",
+   "surgical"
+  ],
+  "types": {
+   "bacterial": "mechanism_misattribution",
+   "site": "mechanism_misattribution",
+   "increases": "contradictory",
+   "surgical": "mechanism_misattribution",
+   "colonization": "mechanism_misattribution",
+   "incidence": "contradictory",
+   "enhanced": "mechanism_misattribution",
+   "infections": "contradictory"
+  }
+ },
+ "mh_0235": {
+  "gold_words": [
+   "blood",
+   "disruption",
+   "increased",
+   "increases",
+   "manipulation",
+   "necrosis",
+   "potential",
+   "radiation-induced",
+   "risk",
+   "skin",
+   "supply",
+   "tissue"
+  ],
+  "types": {
+   "radiation-induced": "invented",
+   "blood": "mechanism_misattribution",
+   "increases": "invented",
+   "necrosis": "invented",
+   "tissue": "mechanism_misattribution",
+   "manipulation": "mechanism_misattribution",
+   "disruption": "mechanism_misattribution",
+   "potential": "mechanism_misattribution",
+   "skin": "invented",
+   "risk": "invented",
+   "supply": "mechanism_misattribution",
+   "increased": "mechanism_misattribution"
+  }
+ },
+ "mh_0945": {
+  "gold_words": [
+   "bacterial",
+   "bile",
+   "caused",
+   "colonization",
+   "differ",
+   "duct",
+   "pathogenesis",
+   "primarily"
+  ],
+  "types": {
+   "bacterial": "mechanism_misattribution",
+   "primarily": "mechanism_misattribution",
+   "bile": "mechanism_misattribution",
+   "pathogenesis": "contradictory",
+   "colonization": "mechanism_misattribution",
+   "differ": "contradictory",
+   "duct": "mechanism_misattribution",
+   "caused": "mechanism_misattribution"
+  }
+ },
+ "mh_0464": {
+  "gold_words": [
+   "caused",
+   "environmental",
+   "exposure",
+   "primarily",
+   "toxins"
+  ],
+  "types": {
+   "environmental": "mechanism_misattribution",
+   "primarily": "mechanism_misattribution",
+   "exposure": "mechanism_misattribution",
+   "toxins": "mechanism_misattribution",
+   "caused": "mechanism_misattribution"
+  }
+ },
+ "mh_0061": {
+  "gold_words": [
+   "adulthood",
+   "altered",
+   "depression",
+   "developing",
+   "forms",
+   "increases",
+   "neurochemical",
+   "pathways",
+   "risk",
+   "severe"
+  ],
+  "types": {
+   "increases": "contradictory",
+   "altered": "mechanism_misattribution",
+   "adulthood": "contradictory",
+   "neurochemical": "mechanism_misattribution",
+   "forms": "contradictory",
+   "pathways": "mechanism_misattribution",
+   "risk": "contradictory",
+   "developing": "contradictory",
+   "depression": "contradictory",
+   "severe": "contradictory"
+  }
+ },
+ "mh_0467": {
+  "gold_words": [
+   "airway",
+   "dyspnea",
+   "increase",
+   "perception",
+   "receptors",
+   "reducing",
+   "sensitivity",
+   "threshold"
+  ],
+  "types": {
+   "receptors": "mechanism_misattribution",
+   "increase": "contradictory",
+   "dyspnea": "contradictory",
+   "threshold": "mechanism_misattribution",
+   "airway": "mechanism_misattribution",
+   "sensitivity": "mechanism_misattribution",
+   "perception": "contradictory",
+   "reducing": "mechanism_misattribution"
+  }
+ },
+ "mh_0874": {
+  "gold_words": [
+   "cholesterol",
+   "enhance",
+   "function",
+   "hepatic",
+   "levels",
+   "lipid",
+   "liver",
+   "mean",
+   "mechanisms",
+   "multicenter",
+   "recent",
+   "reduce",
+   "reduction",
+   "synthesis",
+   "total"
+  ],
+  "types": {
+   "total": "invented",
+   "cholesterol": "invented",
+   "liver": "mechanism_misattribution",
+   "hepatic": "mechanism_misattribution",
+   "recent": "invented",
+   "reduce": "mechanism_misattribution",
+   "mean": "invented",
+   "enhance": "mechanism_misattribution",
+   "multicenter": "invented",
+   "lipid": "mechanism_misattribution",
+   "levels": "invented",
+   "function": "mechanism_misattribution",
+   "synthesis": "mechanism_misattribution",
+   "mechanisms": "mechanism_misattribution",
+   "reduction": "invented"
+  }
+ },
+ "mh_0736": {
+  "gold_words": [
+   "alone",
+   "combined",
+   "effective",
+   "mitoxantrone",
+   "paclitaxel",
+   "trastuzumab"
+  ],
+  "types": {
+   "trastuzumab": "invented",
+   "mitoxantrone": "invented",
+   "effective": "contradictory",
+   "alone": "contradictory",
+   "paclitaxel": "invented",
+   "combined": "invented"
+  }
+ },
+ "mh_0056": {
+  "gold_words": [
+   "adjuvant",
+   "chemotherapy",
+   "colleagues",
+   "delayed",
+   "delays",
+   "delivery",
+   "initiation",
+   "jane",
+   "journal",
+   "lead",
+   "leading",
+   "plastic",
+   "published",
+   "reconstructive",
+   "retrospective",
+   "surgery"
+  ],
+  "types": {
+   "surgery": "invented",
+   "leading": "contradictory",
+   "chemotherapy": "contradictory",
+   "delays": "contradictory",
+   "retrospective": "invented",
+   "journal": "invented",
+   "plastic": "invented",
+   "delayed": "contradictory",
+   "colleagues": "invented",
+   "published": "invented",
+   "adjuvant": "contradictory",
+   "delivery": "contradictory",
+   "jane": "invented",
+   "reconstructive": "invented",
+   "lead": "contradictory",
+   "initiation": "contradictory"
+  }
+ }
+}

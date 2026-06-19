@@ -1,0 +1,142 @@
+{"items": [
+  {
+    "id": "inj_0789",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "The incidence of CPM is not increased in IVF/ICSI pregnancies compared with spontaneous conceptions. CPM probably does not account for the adverse perinatal outcomes, which are instead driven by mitochondrial DNA depletion in the trophoblast, following IVF/ICSI.",
+    "error_span": "which are instead driven by mitochondrial DNA depletion in the trophoblast",
+    "rationale": "The evidence proposed only that ovarian stimulation could alter the embryo chromosomal constitution leading to localized placental chromosomal anomalies (CPM); it found CPM was actually LOWER in IVF/ICSI and never mentioned mitochondrial DNA depletion in the trophoblast as a mechanism for adverse outcomes, so this attributed mechanism is fabricated and unsupported."
+  },
+  {
+    "id": "inj_0552",
+    "target_type": "relation_error",
+    "hallucinated_text": "A reduced alveolar macrophage phagocytic host response to apoptotic cells or NTHi may protect against neutrophilic inflammation and NTHi colonization in both PBB and bronchiectasis. Whether this mechanism also contributes to the progression of PBB to bronchiectasis remains unknown.",
+    "error_span": "may protect against neutrophilic inflammation and NTHi colonization",
+    "rationale": "The evidence states that defective (reduced) macrophage phagocytosis/efferocytosis CONTRIBUTES TO tissue damage, neutrophil persistence and NTHi colonization. Saying a reduced phagocytic response 'protects against' neutrophilic inflammation and colonization flips the relation/direction and is the opposite of what the evidence supports."
+  },
+  {
+    "id": "inj_0683",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "It is concluded from the study that this knowledge if applied to dead human subjects, may preserve dead bodies temporarily allowing delayed autopsy.",
+    "error_span": "delayed autopsy",
+    "rationale": "The evidence concerns embalming/preservation of bodies prior to a funeral (delayed funeral). Substituting 'funeral' with 'autopsy' replaces a plausible but wrong entity; the study never addresses delaying autopsy and embalming would in fact interfere with autopsy findings."
+  },
+  {
+    "id": "inj_0727",
+    "target_type": "invented",
+    "hallucinated_text": "There were significant differences in tumor characteristics by tumor location within and between both national cohorts, with Korean patients showing a 30% higher five-year disease-specific survival rate than U.S. patients. On the basis of these findings, further study to investigate the biological difference between the two countries is needed.",
+    "error_span": "with Korean patients showing a 30% higher five-year disease-specific survival rate than U.S. patients",
+    "rationale": "The evidence compares tumor characteristics and predictors of disease-specific survival by location but never reports a 30% higher five-year survival for Korean versus U.S. patients; this specific survival figure is fabricated and absent from the evidence."
+  },
+  {
+    "id": "inj_0716",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Serum sample, through detection of exosomal microRNA rather than circulating tumor DNA, might be alternatively used in the difficult time of getting tumor tissue for analyzing the status of EGFR mutation status in patients with advanced NSCLC.",
+    "error_span": "through detection of exosomal microRNA rather than circulating tumor DNA",
+    "rationale": "The evidence determined serum EGFR mutation status using a peptide nucleic acid / locked nucleic acid PCR clamp on circulating DNA, not by detecting exosomal microRNA. Attributing serum EGFR mutation detection to exosomal microRNA is a wrong, fabricated mechanism."
+  },
+  {
+    "id": "inj_0682",
+    "target_type": "relation_error",
+    "hallucinated_text": "Tests combining total and percent free PSA show modest overall improvements over total PSA. However, utilization of percent free PSA below a PSA threshold of 4 ng/mL could translate into a practically important increase in unnecessary biopsies without sacrificing cancers detected.",
+    "error_span": "a practically important increase in unnecessary biopsies",
+    "rationale": "The evidence and conclusion indicate that combination tests/percent free PSA below 4 ng/mL would REDUCE unnecessary biopsies. Changing 'reduction' to 'increase' flips the relational direction, contradicting the evidence."
+  },
+  {
+    "id": "inj_0729",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Improving hospital efficiency by shortening length of stay does not appear to result in increased rates of readmission or numbers of physician visits within 90 days after discharge from hospital. Research is needed to identify optimal lengths of stay and expected readmission rates.",
+    "error_span": "within 90 days",
+    "rationale": "The study explicitly measured readmission and physician visits within 30 days after discharge. Substituting '30 days' with '90 days' replaces the correct time window with a plausible but wrong numeric entity not supported by the methods."
+  },
+  {
+    "id": "inj_0876",
+    "target_type": "invented",
+    "hallucinated_text": "Older patients were less likely to receive diagnostic investigations and lifestyle modification advice, with only 12% receiving anticoagulation for atrial fibrillation, than younger patients. Guidelines need to be adopted to ensure prompt evidence-based stroke care in the outpatient setting.",
+    "error_span": "with only 12% receiving anticoagulation for atrial fibrillation",
+    "rationale": "The evidence reports rates of atrial fibrillation and CT scanning but never states that only 12% of older patients received anticoagulation; this specific anticoagulation figure is fabricated and unsupported."
+  },
+  {
+    "id": "inj_0113",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "The rabbit is a good model to be used in training of surgery, with a low morbi-mortality, able to be anesthetized intramuscularly, with no need of pre-operative fasting and does not present hypoglycemia, owing to gluconeogenesis from the splenectomy, even with the extended fasting period.",
+    "error_span": "owing to gluconeogenesis from the splenectomy",
+    "rationale": "The evidence shows blood glucose rose (199.4 to 326.1 mg/dl) with no hypoglycemia, but proposes no mechanism; attributing the absence of hypoglycemia to 'gluconeogenesis from the splenectomy' is a fabricated, physiologically implausible mechanism (the spleen is not a gluconeogenic organ) not supported by the evidence."
+  },
+  {
+    "id": "inj_0385",
+    "target_type": "relation_error",
+    "hallucinated_text": "Physicians who opt to treat UTI in postmenopausal women empirically should consider continuing fluoroquinolones. Concomitant longitudinal surveillance of both antibiotic utilization patterns and uropathogen resistance rates should become routine practice in this managed-care organization.",
+    "error_span": "should consider continuing fluoroquinolones",
+    "rationale": "The evidence/title indicate fluoroquinolones may be a lost option in older women because resistance approaches/exceeds the 10% threshold, and the conclusion recommends drugs OTHER than fluoroquinolones. Changing this to recommend continuing fluoroquinolones flips the recommendation relation against the evidence."
+  },
+  {
+    "id": "inj_0077",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Rescue AC may apply to only 35% of cases, and we identified subsets of more likely candidates.",
+    "error_span": "35%",
+    "rationale": "The evidence shows only 124 of 692 women (17.9%) remained pregnant one week after AC and delivered before 34 weeks, i.e. the rescue-eligible group is ~18%. Substituting '18%' with '35%' (the unrelated proportion delivering at >=34 weeks) is a wrong numeric entity."
+  },
+  {
+    "id": "inj_0284",
+    "target_type": "invented",
+    "hallucinated_text": "This case illustrates the importance of considering PAN in the differential diagnosis of renal infarction with inflammatory syndrome and shows that spontaneous remission of renal PAN can occur in approximately 15% of cases.",
+    "error_span": "in approximately 15% of cases",
+    "rationale": "The evidence is a single case report describing one patient with spontaneous remission; it provides no incidence rate. The quantified '15% of cases' is fabricated and unsupported."
+  },
+  {
+    "id": "inj_0590",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Not all the patients undergoing TKA who receive tranexamic acid need the same preoperative Hb optimization target. Two easily available factors, such as the body mass index and the Hb level, can help individualize the Hb optimization target.",
+    "error_span": "the body mass index",
+    "rationale": "The evidence identifies the ASA performance-status score and the preoperative Hb level as the two factors associated with (and used to predict) transfusion risk. Replacing the ASA score with 'body mass index' misattributes the predictive driver to a factor the study did not find or use."
+  },
+  {
+    "id": "inj_0426",
+    "target_type": "relation_error",
+    "hallucinated_text": "In 1995, the first year that the MQSA was in effect, there was a significant decline in the quality of mammography in North Carolina. This improvement probably resulted from facilities' compliance with federal regulations.",
+    "error_span": "a significant decline in the quality of mammography",
+    "rationale": "The evidence shows passing rates rose at the second inspection (phantom 31.6% to 78.2%, darkroom fog 74.3% to 88.5%, temperature 62.4% to 86.9%), i.e. quality IMPROVED. Stating there was a significant 'decline' reverses the direction of the finding."
+  },
+  {
+    "id": "inj_0573",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "DW imaging can be helpful in the detection of uterine cervical cancer in nonenhanced MR imaging.",
+    "error_span": "uterine cervical cancer",
+    "rationale": "The study investigated diffusion-weighted MR imaging for detecting uterine ENDOMETRIAL cancer. Substituting 'endometrial' with 'cervical' replaces the disease/anatomical entity with a different, plausible but wrong cancer not studied."
+  },
+  {
+    "id": "inj_0407",
+    "target_type": "invented",
+    "hallucinated_text": "Education by pharmacists, combined with access to counter samples, may or may not have an effect on medical provider prescribing, depending on the category of medication targeted for cost control, with PPI prescribing falling by 40% in the intervention group.",
+    "error_span": "with PPI prescribing falling by 40% in the intervention group",
+    "rationale": "The evidence describes the study design and outcome measures but the conclusion deliberately states the effect was equivocal ('may or may not'); a specific 40% drop in PPI prescribing is fabricated and not reported in the evidence."
+  },
+  {
+    "id": "inj_0578",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "It appears safe to administer chemotherapy in rural towns under the supervision of medical oncologists from larger centres via automated chemotherapy dosing algorithms, provided that rural health care resources and governance arrangements are adequate.",
+    "error_span": "via automated chemotherapy dosing algorithms",
+    "rationale": "The evidence describes supervision delivered through a teleoncology (videoconference/remote tele-supervision) model within the Townsville Teleoncology Network. Attributing the supervision to 'automated chemotherapy dosing algorithms' replaces the actual teleoncology mechanism with a wrong one."
+  },
+  {
+    "id": "inj_0852",
+    "target_type": "relation_error",
+    "hallucinated_text": "Initial single scrotal incision can be recommended for orchidopexy, even in the more difficult cases of impalpable undescended testes. Advantages seem to include shorter operative time, a cosmetically appealing single incision, and possibly less pain. The scrotal incision technique significantly increases the need for laparoscopy in impalpable testes. Surprisingly, it even allows successful orchidopexy of abdominal testes, provided an open processus is present.",
+    "error_span": "significantly increases the need for laparoscopy",
+    "rationale": "The evidence shows the scrotal approach treated 36 of 46 impalpable testes (78%) and required conversion to laparoscopy in only 4 cases, i.e. it reduces/avoids laparoscopy. Stating it 'increases the need for laparoscopy' reverses the relational direction against the evidence."
+  },
+  {
+    "id": "inj_0566",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Brachytherapy seems to be a safe and effective method of palliative management of gallbladder carcinoma. However, further studies are necessary to determine the role of radiotherapy in palliative or adjuvant treatment of gallbladder carcinoma.",
+    "error_span": "Brachytherapy",
+    "rationale": "The evidence describes EXTERNAL radiotherapy delivered by (60)Co using a three-field technique (external beam). Substituting 'External radiotherapy' with 'Brachytherapy' replaces the treatment modality with a different, plausible but wrong one not used in the case."
+  },
+  {
+    "id": "inj_0911",
+    "target_type": "invented",
+    "hallucinated_text": "A significant difference in dental health between recruits to each Service does exist and is a likely to be a reflection of the sociodemographic background from which they are drawn, with Army recruits showing twice the prevalence of periodontal disease as other Services.",
+    "error_span": "with Army recruits showing twice the prevalence of periodontal disease as other Services",
+    "rationale": "The evidence reports differences in dental decay (decayed teeth counts) and treatment need by Service but never measures or reports periodontal disease prevalence; the claim of Army recruits having twice the periodontal disease prevalence is fabricated and unsupported."
+  }
+]}

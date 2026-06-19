@@ -1,0 +1,142 @@
+{"items": [
+  {
+    "id": "inj_0637",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "In contrast to other findings, raising the blood glucose of dialysis patients was not associated with a positive effect on albumin and muscle protein synthesis, or nutritional and endocrinal parameters.",
+    "error_span": "blood glucose",
+    "rationale": "The study and evidence concern raising blood pH (alkalization via oral sodium bicarbonate), not blood glucose. Substituting 'pH' with the plausible-but-wrong entity 'glucose' misstates the intervention measured."
+  },
+  {
+    "id": "inj_0234",
+    "target_type": "invented",
+    "hallucinated_text": "Although there are different patterns of atrophy across the different FTLD-TDP types, with type 3 alone accounting for 71% of cerebellar volume loss, it appears that genetic and pathologic factors may also affect the patterns of atrophy.",
+    "error_span": "with type 3 alone accounting for 71% of cerebellar volume loss",
+    "rationale": "The evidence reports type 3 shows predominantly posterior frontal atrophy and never mentions the cerebellum or any 71% figure. The inserted cerebellar volume-loss statistic is fabricated and unsupported."
+  },
+  {
+    "id": "inj_0373",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "The integration of whole-lesion diffusion-weighted apparent diffusion coefficient mapping tends to improve specificity. However, no statistical significance backs up this finding.",
+    "error_span": "diffusion-weighted apparent diffusion coefficient mapping",
+    "rationale": "The CAD analysis in the evidence is based on dynamic contrast-enhanced kinetic (time-curve) data, not on diffusion-weighted/ADC mapping. Replacing the kinetic 'dynamic data' mechanism with a diffusion mechanism misattributes how the information is derived."
+  },
+  {
+    "id": "inj_0770",
+    "target_type": "relation_error",
+    "hallucinated_text": "Measuring myometrial electrical activity may impair identification of patients in true premature labor.",
+    "error_span": "impair identification",
+    "rationale": "The evidence shows higher EUM index/RMS in patients delivering within 14 days and that EUM predicts preterm delivery, i.e. it enhances identification. Flipping 'enhance' to 'impair' reverses the established relation."
+  },
+  {
+    "id": "inj_0152",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "These data suggest that the R14C KCNQ1 mutation alone is insufficient to cause AF. Rather, we suggest a model in which a \"second hit\", such as an environmental factor like diabetes, which promotes atrial stretch and thereby unmasks an inherited defect in ion channel kinetics (the \"first hit\"), is required for AF to be manifested. Such a model would also account for the age-related increase in AF development.",
+    "error_span": "diabetes",
+    "rationale": "The evidence identifies the R14C family as having a high prevalence of hypertension, and hypertension is the environmental 'second hit'. Substituting 'hypertension' with 'diabetes' replaces the entity with a different, unsupported one."
+  },
+  {
+    "id": "inj_0301",
+    "target_type": "invented",
+    "hallucinated_text": "Differences in maternal mortality are more than just differences between the rich and poor. Acknowledging the magnitude of maternal mortality and harnessing a strong political will to tackle the issues are important factors. However, there is no single, general solution to reduce maternal mortality, and identification of problems needs to be promoted through audit, both national and local, which has been shown to cut maternal mortality by 80% within two years.",
+    "error_span": "which has been shown to cut maternal mortality by 80% within two years",
+    "rationale": "The evidence provides MMR ranges and qualitative causes by setting but never quantifies any reduction attributable to audit; the 80%-within-two-years claim is fabricated and unsupported."
+  },
+  {
+    "id": "inj_0801",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Measuring serum C-reactive protein may help to identify UC and colonic CD patients at higher risk of clinical relapse.",
+    "error_span": "serum C-reactive protein",
+    "rationale": "The study evaluates fecal calprotectin as the predictive marker of relapse; substituting the measured marker with serum C-reactive protein misattributes the basis for relapse prediction to a different, unsupported assay."
+  },
+  {
+    "id": "inj_0783",
+    "target_type": "relation_error",
+    "hallucinated_text": "The administration of polyvalent Crotalidae antivenin is dangerous. Acute hypersensitivity, when it occurs, consists solely in most cases of urticaria. Serious side effects are uncommon.",
+    "error_span": "is dangerous",
+    "rationale": "The evidence concludes antivenin is safe with uncommon serious reactions. Flipping 'safe' to 'dangerous' reverses the relational/evaluative conclusion supported by the data."
+  },
+  {
+    "id": "inj_0993",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "In normal daily practice, only a small number of clinically important polyps are missed. The problem of missed adenomas probably is being exaggerated.",
+    "error_span": "polyps",
+    "rationale": "The study specifically concerns missed adenomas; replacing 'adenomas' with the broader/different entity 'polyps' substitutes a distinct lesion category not equivalent to what was measured."
+  },
+  {
+    "id": "inj_0604",
+    "target_type": "invented",
+    "hallucinated_text": "Despite the statistical imparity of pin protrusion measurement via ultrasound compared to that of gross dissection, a consideration of the clinical relevance of ultrasound measurement bias during an austere operating theatre, where ultrasound achieved 98% sensitivity for detecting cortical breach, leads to the conclusion that ultrasonography is an adequate methodology for Schanz pin protrusion measurement.",
+    "error_span": "where ultrasound achieved 98% sensitivity for detecting cortical breach",
+    "rationale": "The evidence reports protrusion-length measurement accuracy, linear correlation, and proportional bias, but never reports a sensitivity for detecting cortical breach nor any 98% figure; this is a fabricated statistic."
+  },
+  {
+    "id": "inj_0347",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Patients with AC are more likely to undergo successful LC if cared for by a surgeon with an interest in laparoscopy. However, length of hospital stay is influenced more by the type of antibiotic prophylaxis administered in a multivariate model.",
+    "error_span": "the type of antibiotic prophylaxis administered",
+    "rationale": "The evidence attributes hospital stay differences to provider group/patient factors (e.g., age) in the multivariate model, not to antibiotic prophylaxis, which is never mentioned; this misattributes the determining mechanism."
+  },
+  {
+    "id": "inj_0785",
+    "target_type": "relation_error",
+    "hallucinated_text": "Just under half the patients in this present cohort may be physically able to undertake some aspects of self-managed foot care, including nail clipping and filing, callus filing and daily hygiene and inspection.",
+    "error_span": "Just under half",
+    "rationale": "The evidence states 57% of patients passed all physical tests, i.e. just over half. Changing 'over' to 'under' flips the relational/quantitative direction to misrepresent the proportion as a minority."
+  },
+  {
+    "id": "inj_0605",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Most students do not encounter all 12 conditions during patient encounters throughout a 4-week EM rotation, although most have exposure to at least eight. Certain conditions are far less likely than others to be encountered, and may need to be taught in a nonclinical setting.",
+    "error_span": "all 12 conditions",
+    "rationale": "The CDEM task force recommended 10 emergent core conditions, and the evidence repeatedly references 10. Substituting '10' with '12' changes the numeric entity to an unsupported value."
+  },
+  {
+    "id": "inj_0454",
+    "target_type": "invented",
+    "hallucinated_text": "In our study, it was observed that although longer ETA was associated with longer hospitalization, ETA was not correlated with postoperative complications, and laparoscopic appendectomy halved the perforation rate compared with open surgery. Our results inclined toward the position that appendectomy can be performed as a semielective surgery.",
+    "error_span": "laparoscopic appendectomy halved the perforation rate compared with open surgery",
+    "rationale": "The evidence examines ETA versus perforation/complications and never compares laparoscopic versus open appendectomy or reports a halving of perforation rate; this comparative claim is fabricated."
+  },
+  {
+    "id": "inj_0018",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "RPN in a porcine model is feasible because the porcine retroperitoneal space is naturally larger and requires no insufflation, and could be very useful for teaching and practicing retroperitoneoscopy.",
+    "error_span": "because the porcine retroperitoneal space is naturally larger and requires no insufflation",
+    "rationale": "The evidence describes a three-port technique that involves creating the retroperitoneal space, contradicting the invented rationale that the space is naturally large and needs no insufflation; this misattributes the reason the model works."
+  },
+  {
+    "id": "inj_0046",
+    "target_type": "relation_error",
+    "hallucinated_text": "The interval from the onset of clinical symptoms to the initial surgical intervention seems to be the least important prognostic factor with a significant impact on outcome. Despite extensive therapeutic efforts, Fournier's gangrene remains a surgical emergency and early recognition with prompt radical debridement is the mainstays of management.",
+    "error_span": "least important prognostic factor",
+    "rationale": "The evidence emphasizes early/prompt surgical debridement as critical, i.e. the symptom-to-surgery interval is the most important prognostic factor. Changing 'most' to 'least' reverses the relational importance."
+  },
+  {
+    "id": "inj_0636",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "This group of elderly diabetic patients were able to record their BPs reliably at home. Any bias was small and would be unlikely to affect management. Since BP readings in a GP surgery are often a poor indication of true BP, GPs might consider using hypertensive patients' records of home BP monitoring to help guide treatment decisions.",
+    "error_span": "elderly diabetic patients",
+    "rationale": "The study population is hypertensive stroke/TIA patients, not diabetic patients. Substituting 'stroke' with 'diabetic' replaces the cohort entity with an unsupported one."
+  },
+  {
+    "id": "inj_0053",
+    "target_type": "invented",
+    "hallucinated_text": "Font influenced pregnant women's ratings of intervention complexity, and also significantly increased their stated willingness to enroll by 30%.",
+    "error_span": "and also significantly increased their stated willingness to enroll by 30%",
+    "rationale": "The evidence reports effects only on perceptions (complexity ratings) and does not report any willingness-to-enroll outcome or a 30% increase; the enrollment-willingness claim is fabricated."
+  },
+  {
+    "id": "inj_0067",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "IADL disability is a useful addition to the diagnostic process in a memory clinic setting by directly detecting amyloid-beta accumulation, indicating who is at higher risk of developing dementia at 1- and 2-year follow-up.",
+    "error_span": "by directly detecting amyloid-beta accumulation",
+    "rationale": "IADL disability is an informant-questionnaire functional measure used in structural equation modeling; it does not detect amyloid-beta. Attributing its predictive value to amyloid-beta detection is a fabricated mechanism."
+  },
+  {
+    "id": "inj_0365",
+    "target_type": "relation_error",
+    "hallucinated_text": "Comparison of mother-offspring and father-offspring associations for BMI suggests that intergenerational acceleration mechanisms make an important contribution to levels of childhood BMI within the population. Associations at later ages and for different components of body composition now require study.",
+    "error_span": "make an important contribution",
+    "rationale": "The evidence found maternal and paternal BMI associations with offspring BMI to be similar, leading the authors to conclude intergenerational acceleration does NOT contribute importantly. Removing 'do not' flips the conclusion to its opposite."
+  }
+]}

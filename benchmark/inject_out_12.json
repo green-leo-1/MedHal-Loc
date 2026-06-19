@@ -1,0 +1,142 @@
+{"items": [
+  {
+    "id": "inj_0728",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Clinical assessment is the key to diagnose appendicitis. Nevertheless, in girls older than 10 years, selected use of imaging should be implemented to avoid unnecessary appendectomies. Imaging of choice in equivocal cases should be computed tomography.",
+    "error_span": "computed tomography",
+    "rationale": "The evidence states the imaging used was 'mainly abdominal ultrasonography' and the original recommends ultrasonography as the imaging of choice; substituting computed tomography names a different, unsupported imaging modality."
+  },
+  {
+    "id": "inj_0984",
+    "target_type": "invented",
+    "hallucinated_text": "Brachytherapy with ruthenium applicators is an effective therapy for small- and medium-size posterior uveal melanomas. Our results are comparable to other series. The treatment outcome does not seem to be capable of improvement by increasing the apical dose; in our cohort, apical doses exceeding 200 Gy were associated with retinal detachment in 45% of patients. An internationally accepted model for defining the dosage in brachytherapy is needed.",
+    "error_span": "apical doses exceeding 200 Gy were associated with retinal detachment in 45% of patients",
+    "rationale": "The evidence reports a median apical dose of 120 Gy and lists side effects (retinopathy 30%, macular degeneration/scarring 30%) but never mentions doses above 200 Gy or a 45% retinal detachment rate; this is a fabricated finding."
+  },
+  {
+    "id": "inj_0602",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Using data on cumulative hospital mortality from 180 days postadmission does not yield a different perspective from using data from 30 days postadmission for the conditions we studied, because late mortality is driven primarily by community nursing-home care quality rather than by the quality of the index hospital admission.",
+    "error_span": "because late mortality is driven primarily by community nursing-home care quality rather than by the quality of the index hospital admission",
+    "rationale": "The evidence shows 31-180 day data corroborate 0-30 day data and that hospital performance correlations persist (just weaker) over the later interval; it attributes nothing to nursing-home care quality, so this causal mechanism is invented and contradicts the finding that the later interval still reflects hospital performance."
+  },
+  {
+    "id": "inj_0694",
+    "target_type": "relation_error",
+    "hallucinated_text": "In conclusion, concept mapping has a negative effect on students' academic achievement. These findings could provide valuable evidence for establishing concept mapping as a continuous teaching strategy for nursing students.",
+    "error_span": "negative effect",
+    "rationale": "The evidence shows mean cumulative test scores were higher in the map-construction group than the quiz group, so concept mapping had a positive effect; flipping it to a 'negative effect' reverses the relation."
+  },
+  {
+    "id": "inj_0834",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "The HARI was accurate in predicting the presence or absence of esophageal varices in patients with compensated cirrhosis.",
+    "error_span": "HARI",
+    "rationale": "The evidence explicitly states the indices HARI, HAPI, SARI, SAPI 'were not helpful' and that PVV, SI and SPI were the accurate predictors; substituting HARI for SPI names an index the evidence rejects."
+  },
+  {
+    "id": "inj_0480",
+    "target_type": "invented",
+    "hallucinated_text": "While Italian primary care physicians appropriately target eradication therapy for H pylori infection in patients with peptic ulcer disease rather than nonulcer disease, the intervention was still underused in these patients, with physicians in southern Italy prescribing eradication therapy three times less often than those in northern Italy. Improvements in this prescribing behavior are needed.",
+    "error_span": "with physicians in southern Italy prescribing eradication therapy three times less often than those in northern Italy",
+    "rationale": "The evidence reports overall and diagnosis-based prescription rates but contains no regional (north/south) comparison; this geographic threefold difference is fabricated and unsupported."
+  },
+  {
+    "id": "inj_0982",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Slowing the infusion rate of metoclopramide is an effective strategy for the improvement of headache and reducing the incidence of akathisia, by lowering the peak cerebral histamine-receptor blockade, in patients with vascular type headache.",
+    "error_span": "by lowering the peak cerebral histamine-receptor blockade",
+    "rationale": "Akathisia from metoclopramide is a dopamine (D2)-receptor blockade effect, not a histamine-receptor effect; attributing the reduced akathisia to lowered histamine-receptor blockade is a wrong mechanism not supported by the evidence."
+  },
+  {
+    "id": "inj_0744",
+    "target_type": "relation_error",
+    "hallucinated_text": "CBCT was less accurate in detecting cavitation in proximal surfaces than bitewing radiographs; therefore a CBCT examination performed for other clinical applications should also be assessed for proximal surface cavities in teeth without restorations, and when detected, this pathology must be part of the dentist's report.",
+    "error_span": "less accurate",
+    "rationale": "The evidence shows sensitivity and overall accuracy were significantly higher for CBCT than for bitewings (p<0.001), so CBCT was more accurate; flipping to 'less accurate' reverses the comparison."
+  },
+  {
+    "id": "inj_0250",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "High-quality training, strict compliance with evidence-based guidelines, and thorough documentation is associated with significant reductions in ventilator-associated pneumonia. Mindful organizing may lead to a better understanding of what goes into a unit's ability to handle peak demands and sustain extraordinary performance in the long-term.",
+    "error_span": "ventilator-associated pneumonia",
+    "rationale": "The entire study concerns central line-associated bloodstream infections (CLABSIs); substituting ventilator-associated pneumonia names a different infection outcome the evidence never measured."
+  },
+  {
+    "id": "inj_0654",
+    "target_type": "invented",
+    "hallucinated_text": "Complex coronary lesions such as bifurcation and ostial lesions were significantly more common in diabetic patients than in nondiabetic patients, and triple-vessel disease was present in 72% of the diabetic group. Greater age and the presence of DM were independent predictors for these complex lesions. These results may help to explain the poor prognosis of coronary artery disease among diabetic patients.",
+    "error_span": "triple-vessel disease was present in 72% of the diabetic group",
+    "rationale": "The evidence reports prevalence of bifurcation (9.8% vs 4.3%) and ostial (38.4% vs 29.2%) lesions but gives no data on triple-vessel disease or a 72% figure; this finding is fabricated."
+  },
+  {
+    "id": "inj_0864",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "These data indicate that determination of coronary anatomy may not impact on survival in patients undergoing emergency surgery of the aorta, because in-hospital mortality is determined chiefly by the angiographic contrast volume administered rather than by surgical timing, and support the concept that once diagnosed, patients should proceed as quickly as possible to surgery.",
+    "error_span": "because in-hospital mortality is determined chiefly by the angiographic contrast volume administered rather than by surgical timing",
+    "rationale": "The evidence found history of myocardial infarction was the only independent predictor of in-hospital mortality and no mortality difference by angiography status; attributing mortality to contrast volume is an invented, unsupported mechanism."
+  },
+  {
+    "id": "inj_0642",
+    "target_type": "relation_error",
+    "hallucinated_text": "Aspiration thrombectomy before primary PCI is not associated with any benefit on clinical end points and might decrease the risk of stroke. Concomitant administration of intravenous glycoprotein IIb/IIIa inhibitors and ischemic time did not seem to influence any potential benefits observed with aspiration thrombectomy.",
+    "error_span": "decrease the risk of stroke",
+    "rationale": "The evidence shows aspiration thrombectomy was associated with an increase in stroke risk (RR 1.45); changing it to 'decrease the risk of stroke' reverses the direction of the relation."
+  },
+  {
+    "id": "inj_0666",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "A proportionally longer treatment duration was identified as an adverse factor in high-risk patients. Treatment breaks resulting in a NTDR of>/=33% (e.g., four or more breaks during a 40-fraction treatment, 5 d/wk) should be avoided.",
+    "error_span": "high-risk patients",
+    "rationale": "The evidence demonstrates the significant NTDR effect on 10-year FFBF specifically in the low-risk group (82% vs 57%, p=0.0019); substituting 'high-risk' for 'low-risk' misassigns the affected patient subgroup."
+  },
+  {
+    "id": "inj_0890",
+    "target_type": "invented",
+    "hallucinated_text": "Continence function remained undisturbed after anastomotic leakage due to rectal resection, although maximum tolerable volume was reduced by 40% in the leakage group",
+    "error_span": "maximum tolerable volume was reduced by 40% in the leakage group",
+    "rationale": "The evidence states maximum tolerable volume and rectal compliance were only 'slightly but not significantly worse' after leakage; a specific 40% reduction is fabricated and contradicts the non-significant difference reported."
+  },
+  {
+    "id": "inj_0358",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Nontriploid partial moles probably do not exist: careful reevaluation of putative specimens will probably uncover sampling artifacts from formalin overfixation in almost all cases.",
+    "error_span": "sampling artifacts from formalin overfixation",
+    "rationale": "The evidence attributes the apparent nontriploid partial moles to pathologic misclassification and ploidy (flow cytometric) misclassification, not to formalin fixation artifacts; this names a wrong mechanism for the discrepancy."
+  },
+  {
+    "id": "inj_0912",
+    "target_type": "relation_error",
+    "hallucinated_text": "Antireflux surgery failures are most commonly associated with fundoplication breakdown, followed by hiatal herniation. The laparoscopic approach may be used successfully to treat patients with failed antireflux operations. Good results were achieved despite the technical difficulty of the procedures.",
+    "error_span": "most commonly associated with fundoplication breakdown, followed by hiatal herniation",
+    "rationale": "The evidence shows hiatal herniation was the most common cause (67%) and fundoplication breakdown second (43%); reversing the order of the two leading causes flips the relation."
+  },
+  {
+    "id": "inj_0606",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "After 4 weeks' acid-suppressive therapy for LA grade C or D oesophagitis, successful healing appears to reach a threshold above which improvements are unlikely to be achieved despite an increase in number of hours with intragastric pH>6.",
+    "error_span": "intragastric pH>6",
+    "rationale": "The evidence defines the acid-suppression target consistently as intragastric pH>4 (achieved 50-70% of the 24-h period); substituting pH>6 changes the stated pH threshold to a wrong value."
+  },
+  {
+    "id": "inj_0069",
+    "target_type": "invented",
+    "hallucinated_text": "Many children underestimated their degree of overweight. Their parents and even their attending physicians shared this misperception, with nearly 80% of obese children misclassified as normal weight by their physicians. This study demonstrates the need to further educate physicians to recognize obesity and overweight so that they can counsel children and their families.",
+    "error_span": "nearly 80% of obese children misclassified as normal weight by their physicians",
+    "rationale": "The evidence reports parental underestimation rates (44% by word descriptions, 47% by figures) but provides no physician-specific 80% misclassification figure for obese children; this statistic is fabricated."
+  },
+  {
+    "id": "inj_0767",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "While SSA would be the first region to experience the huge benefits of implementing the \"test and treat\" policy of the WHO, the region is not yet prepared to manage the consequential increased burden of ART-related toxic and metabolic complications, which are driven principally by immune reconstitution inflammatory syndrome rather than by mitochondrial toxicity. Urgent measures should be taken to fill the lacunae if SSA is not to become over-burdened by the consequences of the \"test and treat\" policy.",
+    "error_span": "driven principally by immune reconstitution inflammatory syndrome rather than by mitochondrial toxicity",
+    "rationale": "The evidence states the serious ART-related metabolic adverse effects are 'mainly explained by mitochondrial toxicities'; attributing them principally to immune reconstitution inflammatory syndrome instead is a wrong mechanism that contradicts the evidence."
+  },
+  {
+    "id": "inj_0380",
+    "target_type": "relation_error",
+    "hallucinated_text": "The rate of early infection without antibiotic prophylaxis before TIVAD placement in the interventional radiology suite is<1%. Based on these data, use of prophylactic antibiotics for TIVAD placement is recommended.",
+    "error_span": "use of prophylactic antibiotics for TIVAD placement is recommended",
+    "rationale": "Given the <1% early infection rate without prophylaxis, the evidence supports that prophylactic antibiotics are NOT recommended; changing 'is not recommended' to 'is recommended' flips the conclusion's relation."
+  }
+]}

@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "inj_0154",
+      "target_type": "invented",
+      "hallucinated_text": "QTcD is significantly increased in hypertensive patients with LVH compared with those without, being strongly correlated with the indices of LVH. A QTcD cut-off value of 60 ms predicted LVH in hypertensive patients with a high sensitivity and specificity, and a negative predictive value of 99.6%.",
+      "error_span": "and a negative predictive value of 99.6%",
+      "rationale": "The evidence reports only sensitivity (92.9%) and specificity (98.2%) for the 60 ms cut-off; no negative predictive value of 99.6% is stated or derivable, so this number is fabricated and unsupported."
+    },
+    {
+      "id": "inj_0359",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "The advice to perform a concomitant splenectomy in children with mild HS undergoing cholecystectomy for symptomatic gallstones needs revisiting. In the era of minimal access surgery, the need for splenectomy in such children should be judged on the degree of gallstone formation it would prevent.",
+      "error_span": "judged on the degree of gallstone formation it would prevent",
+      "rationale": "The evidence states splenectomy was undertaken only when indicated for haematological reasons and judged on its own merits; attributing the indication to preventing gallstone formation misrepresents the rationale, since cholecystectomy, not splenectomy, addresses gallstones."
+    },
+    {
+      "id": "inj_0427",
+      "target_type": "relation_error",
+      "hallucinated_text": "Weekend hospitalization leads to delayed provision of intensive procedures and reduced 1-year mortality for elderly AMI patients. The existence of measurable differences in treatments raises questions regarding the efficacy of a single input regulation (e.g., mandated nurse staffing ratios) in enhancing the quality of weekend care. My results suggest that targeted financial incentives might be a more cost-effective policy response than broad regulation aimed at improving quality.",
+      "error_span": "reduced 1-year mortality",
+      "rationale": "The evidence states weekend AMI patients experience significantly higher rates of adverse outcomes and elevated 1-year mortality; claiming reduced 1-year mortality reverses the relationship."
+    },
+    {
+      "id": "inj_0931",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Combined approach tympanoplasty (CAT) allows for successful treatment of tympanosclerosis with rates of recurrent and residual disease comparable to open mastoid surgery. Early timing of second-look procedures allows easier removal of any recurrent or residual disease, which reduces the conversion rate to open mastoidectomy.",
+      "error_span": "tympanosclerosis",
+      "rationale": "The study and evidence concern treatment of cholesteatoma; tympanosclerosis is a different middle-ear disease never studied here, making the substituted entity wrong."
+    },
+    {
+      "id": "inj_0336",
+      "target_type": "invented",
+      "hallucinated_text": "Dutch primary schools could play a more important role in fostering healthy eating habits among children. The school food policy could be improved by clearly formulating food rules, simplifying supervision of the food rules, and defining how to enforce the food rules. In addition, the school food policy will only influence children's dietary behaviour if both the school and the parents support the policy, which only 38% of surveyed parents currently did.",
+      "error_span": "which only 38% of surveyed parents currently did",
+      "rationale": "The evidence (survey of 1,429 parents) does not report that 38% of parents supported the policy; this figure is fabricated and unsupported."
+    },
+    {
+      "id": "inj_0971",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "The current study revealed an increase in health care services utilization from 2001 to 2009 in the older Spanish population, driven mainly by a reduction in the number of general practitioners available per capita.",
+      "error_span": "driven mainly by a reduction in the number of general practitioners available per capita",
+      "rationale": "The evidence describes prevalence trends and demographic associations but never identifies a reduction in GPs per capita as the driving mechanism; this causal mechanism is invented and unsupported."
+    },
+    {
+      "id": "inj_0937",
+      "target_type": "relation_error",
+      "hallucinated_text": "UDR provides an objective measurement of VUR and appears as a predictive tool of failure after endoscopic injection.",
+      "error_span": "predictive tool of failure",
+      "rationale": "The evidence tests UDR as a predictor of reflux resolution (success) after endoscopic injection; framing it as a predictor of failure inverts the relationship."
+    },
+    {
+      "id": "inj_0662",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "The site of access in our study does not appear to influence complications specifically deep vein thrombosis or recurrence rates.",
+      "error_span": "deep vein thrombosis",
+      "rationale": "The complications studied in relation to access site were phlebitis, paresthesia (neural injury) and recurrence; deep vein thrombosis was not the highlighted complication, making the substituted entity wrong."
+    },
+    {
+      "id": "inj_0491",
+      "target_type": "invented",
+      "hallucinated_text": "The ACMIA method used for a tacrolimus assay is precise and has advantages, including the lack of a required pretreatment procedure and a 40% faster turnaround time than the MEIA method. Furthermore, it is only slightly influenced by the hematologic or biochemical status of the samples.",
+      "error_span": "and a 40% faster turnaround time than the MEIA method",
+      "rationale": "The evidence compares correlation and the influence of hematologic/biochemical status but provides no turnaround-time data; a 40% faster turnaround is a fabricated, unsupported claim."
+    },
+    {
+      "id": "inj_0404",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "In this study, we found no systematic association between isolated episodes of binge drinking during early pregnancy and child motor function at age 5, likely because early-gestation alcohol exposure precedes cerebellar neuronal migration and therefore spares motor pathways.",
+      "error_span": "likely because early-gestation alcohol exposure precedes cerebellar neuronal migration and therefore spares motor pathways",
+      "rationale": "The evidence reports only the absence of an association from an observational follow-up; it offers no cerebellar neuronal-migration timing mechanism, so this explanatory mechanism is fabricated and unsupported."
+    },
+    {
+      "id": "inj_0140",
+      "target_type": "relation_error",
+      "hallucinated_text": "Tracheobronchoscopy is a useful and safe procedure and should not be recommended in tertiary centers for babies with EA before surgical repair.",
+      "error_span": "should not be recommended",
+      "rationale": "The evidence concludes preoperative tracheobronchoscopy is useful and safe and changed management in several cases; recommending against it reverses the stated conclusion."
+    },
+    {
+      "id": "inj_0880",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "The socio-economic gradient in active travel seems independent of physical environmental characteristics. Whilst more affluent populations enjoy advantages on some health outcomes, they will still benefit from increasing their levels of physical activity through active travel. Benefits of active travel to the whole community would include reduced vehicle emissions, reduced water consumption, the preservation or enhancement of infrastructure and the presentation of a 'normalised' behaviour.",
+      "error_span": "water consumption",
+      "rationale": "The community benefits of active travel relate to reduced vehicle emissions and carbon consumption; reduced water consumption is not a benefit of active travel and is not supported by the evidence."
+    },
+    {
+      "id": "inj_0164",
+      "target_type": "invented",
+      "hallucinated_text": "Premature births from rural mothers have a higher risk of stillbirth and mortality in neonatal intensive care than urban infants, as well as a threefold increase in cerebral palsy.",
+      "error_span": "as well as a threefold increase in cerebral palsy",
+      "rationale": "The evidence reports higher case-mix-adjusted mortality for rural infants but says nothing about cerebral palsy or a threefold increase; this finding is fabricated and unsupported."
+    },
+    {
+      "id": "inj_0127",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "The results of this study do not support the hypothesis that there is a direct link between atmospheric pressure values and abdominal aortic aneurysm ruptures, suggesting that ruptures are instead triggered by barometric effects on aneurysm wall transmural pressure.",
+      "error_span": "suggesting that ruptures are instead triggered by barometric effects on aneurysm wall transmural pressure",
+      "rationale": "The evidence found no significant pressure differences and explicitly does not support a link; positing a barometric transmural-pressure mechanism as the trigger contradicts the finding and invents an unsupported mechanism."
+    },
+    {
+      "id": "inj_0986",
+      "target_type": "relation_error",
+      "hallucinated_text": "Patient coaching offers promise as a means of widening racial/ethnic disparities in pain control. Larger studies are needed to validate these findings and to explore possible mechanisms.",
+      "error_span": "widening racial/ethnic disparities",
+      "rationale": "The trial findings indicate patient coaching reduces disparities in pain control (minorities in the experimental group improved); claiming it widens disparities reverses the relationship."
+    },
+    {
+      "id": "inj_0926",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "No associations appeared between HIF1A SNPs and AMD, which were studied here for the first time; however, polymorphism rs1061170 of the MYRIP gene is associated with AMD in our population.",
+      "error_span": "MYRIP",
+      "rationale": "Per the evidence, rs1061170 is a CFH polymorphism (rs2679798 is the MYRIP SNP); attributing rs1061170 to the MYRIP gene is an incorrect gene assignment."
+    },
+    {
+      "id": "inj_0693",
+      "target_type": "invented",
+      "hallucinated_text": "These findings suggest that schizophrenia is associated with progressive structural brain abnormalities, affecting both gray and white matter. We found a 2.3% annual loss in hippocampal volume and no evidence to suggest progressive medial temporal lobe involvement but did find evidence that this may be partly explained by heterogeneity between studies in patient age and illness duration. The causes and clinical correlates of these progressive brain changes should now be the focus of investigation.",
+      "error_span": "We found a 2.3% annual loss in hippocampal volume and",
+      "rationale": "The meta-analysis reported no significant progressive medial temporal lobe (which contains the hippocampus) change and gives annualized changes only for whole-brain/frontal regions; a 2.3% annual hippocampal volume loss is fabricated and contradicts the stated lack of medial temporal involvement."
+    },
+    {
+      "id": "inj_0748",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Overall, 7% of women in our cohort met either clinical or molecular criteria for Lynch syndrome through BRCA1 promoter hypermethylation silencing homologous recombination repair. All of these women had a prior history or a first-degree relative with an HNPCC-associated cancer. Limiting genetic evaluation to women with synchronous endometrial and ovarian cancer who have a family history suggestive of HNPCC may appropriately identify women with Lynch syndrome.",
+      "error_span": "through BRCA1 promoter hypermethylation silencing homologous recombination repair",
+      "rationale": "Lynch syndrome/HNPCC is defined by mismatch repair (MMR) defects in MSH2, MSH6 and MLH1 as evaluated in the study; attributing it to BRCA1 promoter hypermethylation and homologous recombination repair is the wrong molecular mechanism (that pathway underlies BRCA-related cancers, not Lynch syndrome)."
+    },
+    {
+      "id": "inj_0370",
+      "target_type": "relation_error",
+      "hallucinated_text": "Evaluation of living arrangements is crucial for identifying and explaining gender differences in mortality risks by marital status. The impact of living alone and living with a partner seems to be identical in men and women.",
+      "error_span": "identical in men and women",
+      "rationale": "The evidence shows the benefit of marriage and impact of living arrangements differ by gender (stronger for men); stating the impact is identical in men and women contradicts the demonstrated gender difference."
+    },
+    {
+      "id": "inj_0822",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Cytokine levels can be measured in pancreatic juice obtained from the duodenum without direct cannulation of the pancreatic duct. Interleukin-6 concentration in pancreatic juice can be used to discriminate between normal pancreas and patients with pancreatic disease. This is a relatively simple and noninvasive method to aid in the diagnosis of pancreatic diseases.",
+      "error_span": "Interleukin-6 concentration",
+      "rationale": "The evidence identifies interleukin-8 as the cytokine that discriminates normal pancreas from pancreatic disease; substituting interleukin-6 (also measured but not the discriminator) names the wrong entity."
+    }
+  ]
+}

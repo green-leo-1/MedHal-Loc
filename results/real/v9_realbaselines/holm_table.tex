@@ -1,0 +1,27 @@
+\begin{table}[t]
+\centering\small
+\renewcommand{\arraystretch}{1.15}
+\caption{Holm--Bonferroni step-down survival of paired one-sided bootstrap $p$-values at $\alpha=0.05$, family-wise error rate controlled separately within F1 (top, $m=35$ hypotheses) and AUC-PR (bottom, $m=35$ hypotheses). \textbf{$\checkmark$}: AdaTriple+ remains significantly better than the baseline after correction; $\circ$: not significant after correction. Comparisons against AdaTriple ablations are excluded from the family count to keep the FWER interpretation clean.}
+\label{tab:holm}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{@{}lccccccc@{}}
+\toprule
+\textbf{Dataset} & \textbf{NLI-DeBERTa} & \textbf{HHEM} & \textbf{SelfCheckGPT-NLI} & \textbf{LLM-Judge} & \textbf{Always-Positive} & \textbf{Random} & \textbf{Keyword-Match} \\
+\midrule
+\multicolumn{8}{l}{\textit{F1 paired bootstrap}} \\
+MedHallu & $\circ$ & \textbf{$\checkmark$} & $\circ$ & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} \\
+PubMedQA & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ \\
+MedQA & \textbf{$\checkmark$} & $\circ$ & $\circ$ & \textbf{$\checkmark$} & $\circ$ & $\circ$ & \textbf{$\checkmark$} \\
+SciFact & $\circ$ & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} \\
+MMLU-Med & \textbf{$\checkmark$} & $\circ$ & $\circ$ & \textbf{$\checkmark$} & $\circ$ & $\circ$ & \textbf{$\checkmark$} \\
+\midrule
+\multicolumn{8}{l}{\textit{AUC-PR paired bootstrap}} \\
+MedHallu & $\circ$ & \textbf{$\checkmark$} & $\circ$ & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} \\
+PubMedQA & $\circ$ & \textbf{$\checkmark$} & $\circ$ & $\circ$ & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} \\
+MedQA & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ \\
+SciFact & $\circ$ & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} & \textbf{$\checkmark$} \\
+MMLU-Med & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ & $\circ$ \\
+\bottomrule
+\end{tabular}%
+}
+\end{table}

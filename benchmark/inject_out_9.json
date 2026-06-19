@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "inj_0112",
+      "target_type": "relation_error",
+      "hallucinated_text": "Patients who normalized their CA19-9 levels postoperatively had equivalent survival to patients with normal preoperative CA 19-9 levels. Preoperative serum CA 19-9 level by itself should preclude surgery in patients who have undergone careful preoperative staging.",
+      "error_span": "should preclude surgery",
+      "rationale": "The evidence concludes that elevated CA 19-9 alone should NOT preclude resection (patients who normalize have control-equivalent survival). Flipping 'should not preclude' to 'should preclude' reverses the recommendation relation, making it unsupported and contradictory."
+    },
+    {
+      "id": "inj_0098",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Correlation between level of radiographic transition zone on contrast enema and length of aganglionosis remains low. Systematic preoperative laparotomy by coelioscopy or ombilical incision is mandatory.",
+      "error_span": "laparotomy",
+      "rationale": "The evidence and clean conclusion call for systematic preoperative BIOPSY to determine aganglionosis length, since the radiographic transition zone is unreliable. Substituting 'biopsy' with 'laparotomy' replaces the recommended diagnostic procedure with a different, unsupported one."
+    },
+    {
+      "id": "inj_0056",
+      "target_type": "invented",
+      "hallucinated_text": "We found no evidence that IBR compromised the delivery of adjuvant chemotherapy, although there was a significant incidence of implant infection, with chemotherapy delayed beyond 8 weeks in 22% of reconstructed patients.",
+      "error_span": "with chemotherapy delayed beyond 8 weeks in 22% of reconstructed patients",
+      "rationale": "The evidence explicitly states there was NO significant difference in median time to chemotherapy. The inserted fabricated 22% delay figure and the 8-week threshold are absent from the evidence and contradict the stated finding of comparable timing."
+    },
+    {
+      "id": "inj_0889",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "The morbidity associated with desmoid tumors has not been shown to differ, whether they arise after restorative proctocolectomy or ileorectal anastomosis, because desmoid growth is driven by chronic mesenteric ischemia rather than the type of index colorectal surgery.",
+      "error_span": "because desmoid growth is driven by chronic mesenteric ischemia rather than the type of index colorectal surgery",
+      "rationale": "The study compared desmoid morbidity by surgical type and found no difference; it makes no claim about the biological cause of desmoid growth. Attributing growth to 'chronic mesenteric ischemia' is a fabricated, unsupported mechanism not present in the evidence."
+    },
+    {
+      "id": "inj_0670",
+      "target_type": "relation_error",
+      "hallucinated_text": "Many patients do not understand their ED care or their discharge instructions. Moreover, most patients appear to be aware of their lack of understanding and report inappropriate confidence in their comprehension and recall.",
+      "error_span": "aware of their lack of understanding",
+      "rationale": "The evidence shows patients were largely UNAWARE of their comprehension deficits (78% had deficient comprehension yet reported confidence). Flipping 'unaware' to 'aware' reverses the key relation and contradicts the finding that patients did not recognize their lack of understanding."
+    },
+    {
+      "id": "inj_0397",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "The patients who presented with histological features of pituitary tumor hemorrhage alone had less severe clinical features on presentation, a longer course prior to presentation, and a better outcome than those presenting with hemorrhagic infarction or frank hemorrhage. The endocrine replacement requirements were similar in both groups.",
+      "error_span": "pituitary tumor hemorrhage alone",
+      "rationale": "The evidence defines the favorable group as those with INFARCTION alone (22 patients), contrasted with hemorrhagic infarction/frank hemorrhage. Substituting 'infarction alone' with 'hemorrhage alone' assigns the better outcome to the wrong histological entity, contradicting the evidence."
+    },
+    {
+      "id": "inj_0736",
+      "target_type": "invented",
+      "hallucinated_text": "No significant difference was detected between the treatment with mitoxantrone as a single agent and the combination of low-dose FEC in terms of response or survival, with a median overall survival of 27 months in both arms; therefore, the imperative of the necessity of first-line combination chemotherapy for patients with high-risk metastatic breast cancer may be questioned. Since toxicity and quality of life score favored the single-agent mitoxantrone treatment arm, this treatment may be offered to patients preferring quality of life to a potential small prolongation of survival.",
+      "error_span": "with a median overall survival of 27 months in both arms",
+      "rationale": "The evidence reports no significant difference in response or survival but gives no median overall survival figure. The inserted '27 months in both arms' is a fabricated number unsupported by the evidence."
+    },
+    {
+      "id": "inj_0887",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Our findings reveal a significant decrease in ADMA levels of ex-ELBW subjects compared to C, underlining a probable correlation with preterm birth and low birth weight. Taken together, these results may underlie the onset of early circulatory dysfunction predictive of increased cardiovascular risk through enhanced nitric oxide-mediated vasodilation.",
+      "error_span": "through enhanced nitric oxide-mediated vasodilation",
+      "rationale": "The evidence states ADMA is a strong INHIBITOR of nitric oxide synthesis and links high ADMA to adverse cardiovascular events. Attributing circulatory dysfunction to 'enhanced nitric oxide-mediated vasodilation' is a fabricated mechanism that contradicts ADMA's stated inhibitory role in NO synthesis."
+    },
+    {
+      "id": "inj_0818",
+      "target_type": "relation_error",
+      "hallucinated_text": "Patients diagnosed with schizophrenia or bipolar disorder (ie, SMI) were less likely than other patients to be admitted to nursing homes with higher deficiency citations for both overall quality and clinical care quality. Further research is necessary to understand the reasons behind the disparity in quality of nursing home care associated with SMI.",
+      "error_span": "less likely",
+      "rationale": "The evidence shows SMI patients entered nursing homes with MORE total and healthcare-related deficiencies (13.3 vs 11.2; 8.6 vs 7.2), i.e., they were more likely to enter worse-quality facilities. Flipping 'more likely' to 'less likely' reverses the directional relation and contradicts the data."
+    },
+    {
+      "id": "inj_0633",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Based on the predictive information available in an abdominal ultrasound, we conclude that those patients who will not benefit from a Kasai procedure can be identified preoperatively, and channeled immediately to transplantation.",
+      "error_span": "abdominal ultrasound",
+      "rationale": "The study based its predictive criteria on percutaneous LIVER BIOPSY histology (duct proliferation, necrosis, cirrhosis, etc.). Substituting 'liver biopsy' with 'abdominal ultrasound' replaces the actual diagnostic modality with a different, unsupported one."
+    },
+    {
+      "id": "inj_0165",
+      "target_type": "invented",
+      "hallucinated_text": "Better healing, shorter AT, equal strength, and a 40% reduction in anastomotic leak rate were achieved with ethyl-2-cyanoacrylate compared with polyglactin 910 sutures in intestinal anastomosis in the experimental setting.",
+      "error_span": "and a 40% reduction in anastomotic leak rate",
+      "rationale": "The evidence measured bursting pressures, hydroxyproline levels, and anastomosis time, but did not report anastomotic leak rates. The inserted '40% reduction in anastomotic leak rate' is a fabricated finding absent from the evidence."
+    },
+    {
+      "id": "inj_0942",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "In the majority of patients with medically unexplained physical symptoms, alexithymia does not play a role of clinical significance, because these symptoms are instead driven primarily by impaired autonomic interoception. Patients with unexplained physical symptoms are heterogeneous with respect to psychiatric syndrome pathology and probably also with respect to personality pathology.",
+      "error_span": "because these symptoms are instead driven primarily by impaired autonomic interoception",
+      "rationale": "The study found patients with unexplained symptoms were not more alexithymic and that they more often had a mental disorder; it offers no alternative causal mechanism. Attributing the symptoms to 'impaired autonomic interoception' is a fabricated mechanism unsupported by the evidence."
+    },
+    {
+      "id": "inj_0493",
+      "target_type": "relation_error",
+      "hallucinated_text": "PET data show that amoxapine's profile is very different from that of the established atypical antipsychotics. These data, together with amoxapine's in vitro pharmacologic profile, effectiveness in animal models, and efficacy in psychotic depression raise the possibility of amoxapine as an \"atypical\" antipsychotic agent in the treatment of schizophrenia.",
+      "error_span": "very different from",
+      "rationale": "The PET data show amoxapine has high 5-HT2 occupancy exceeding D2 occupancy at all doses with D2 never exceeding 80%, matching the atypical profile (clean text: 'very similar to'). Flipping 'very similar to' to 'very different from' reverses the relation and contradicts the evidence."
+    },
+    {
+      "id": "inj_0751",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "These data suggest that either apoptosis is not involved in cell loss in MTS, or a very slow rate of cell demise may have precluded detecting TUNEL-positive neurons dying through apoptosis. Increased Bcl-2 expression and activation of caspases support the latter possibility.",
+      "error_span": "Increased Bcl-2 expression",
+      "rationale": "The evidence reports increased BAX immunopositivity in almost all neurons (pro-apoptotic), whereas Bcl-2 is anti-apoptotic and was seen only in some remaining neurons. Substituting 'Bax' with 'Bcl-2' assigns the pro-apoptotic finding to the wrong, oppositely-acting protein."
+    },
+    {
+      "id": "inj_0579",
+      "target_type": "invented",
+      "hallucinated_text": "This illustrates that Paget's disease does exist in India, with sarcomatous transformation documented in three of our patients, and a high index of suspicion is required to clinch the diagnosis.",
+      "error_span": "with sarcomatous transformation documented in three of our patients",
+      "rationale": "The evidence describes 21 patients with demographic, clinical, biochemical, and radiological features but reports no cases of sarcomatous (malignant) transformation. The inserted claim of sarcomatous transformation in three patients is a fabricated finding."
+    },
+    {
+      "id": "inj_0580",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "sst2a IHC of tumor samples has no additional value compared to SRS uptake using OctreoScan庇 in predicting tumor response after PRRT, because PRRT efficacy depends on tumor vascular density rather than somatostatin receptor expression.",
+      "error_span": "because PRRT efficacy depends on tumor vascular density rather than somatostatin receptor expression",
+      "rationale": "PRRT with 177Lu-octreotate acts by binding tumoral somatostatin receptors, and patients were selected on positive SRS (receptor) uptake. Attributing efficacy to 'tumor vascular density rather than somatostatin receptor expression' is a fabricated mechanism contradicting the receptor-targeted basis of PRRT."
+    },
+    {
+      "id": "inj_0629",
+      "target_type": "relation_error",
+      "hallucinated_text": "These results suggest the need to provide interventions that are specifically designed to decrease awareness of potential stroke signs and symptoms and appropriate subsequent clinical actions.",
+      "error_span": "decrease awareness",
+      "rationale": "The evidence shows only 14% of elderly patients correctly endorsed calling 911, indicating poor awareness; interventions should INCREASE awareness. Flipping 'increase' to 'decrease' reverses the relation and contradicts the intended recommendation."
+    },
+    {
+      "id": "inj_0328",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Contrary to common belief, we found that uterine polyps commonly decrease in volume over the course of pregnancy.",
+      "error_span": "uterine polyps",
+      "rationale": "The study measured volume change of uterine MYOMAS (fibroids) during pregnancy. Substituting 'myomas' with 'polyps' replaces the studied entity with a different, distinct lesion not examined in the evidence."
+    },
+    {
+      "id": "inj_0949",
+      "target_type": "invented",
+      "hallucinated_text": "CLM resection following second-line PCT, after oncosurgically favourable selection, could bring similar OS compared to what observed after first-line, with a 90-day postoperative mortality of 4.8%. For initially unresectable patients, OS or DFS is comparable between first- and second-line PCT. Surgery should not be denied after the failure of first-line chemotherapy.",
+      "error_span": "with a 90-day postoperative mortality of 4.8%",
+      "rationale": "The evidence reports survival (OS, DFS) and prognostic factors but provides no 90-day postoperative mortality figure. The inserted '4.8%' mortality is a fabricated number absent from the evidence."
+    },
+    {
+      "id": "inj_0257",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "NT thickness does not show a significative increase in those women who subsequently develop GDM. Therefore, NT assessment does not prove to be an useful ultrasound parameter for predicting GDM onset during pregnancy, likely because nuchal fluid accumulation reflects fetal cardiac strain rather than maternal glucose metabolism.",
+      "error_span": "likely because nuchal fluid accumulation reflects fetal cardiac strain rather than maternal glucose metabolism",
+      "rationale": "The evidence found no significant difference in NT values between GDM and control groups and makes no mechanistic claim about nuchal fluid; NT is used for first-trimester aneuploidy screening. Attributing nuchal fluid to 'fetal cardiac strain rather than maternal glucose metabolism' is a fabricated mechanism unsupported by the evidence."
+    }
+  ]
+}

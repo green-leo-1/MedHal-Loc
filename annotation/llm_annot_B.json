@@ -1,0 +1,316 @@
+{
+  "annotations": [
+    {
+      "id": "mh_0481",
+      "spans": [
+        { "text": "the risk of missed abdominal injuries is higher due to the obscuring effects of alcohol on physical examination findings", "type": "contradictory" },
+        { "text": "CT scans play a crucial role in ensuring no injuries are overlooked", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0834",
+      "spans": [
+        { "text": "hepatic arterial resistive index (HARI)", "type": "entity_substitution" },
+        { "text": "highly accurate", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0452",
+      "spans": [
+        { "text": "significantly compromised", "type": "contradictory" },
+        { "text": "higher complication rates and longer operative times", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0854",
+      "spans": [
+        { "text": "does exist and acts as a distinct, impermeable layer", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0693",
+      "spans": [
+        { "text": "correlates with symptom severity and cognitive decline", "type": "unverifiable" },
+        { "text": "driven by neurodegenerative processes", "type": "mechanism_misattribution" },
+        { "text": "exacerbated by environmental factors such as stress", "type": "unverifiable" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0583",
+      "spans": [
+        { "text": "not cost-effective", "type": "contradictory" },
+        { "text": "unless combined with neonatal screening programs", "type": "invented" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0453",
+      "spans": [
+        { "text": "less effective than other surgical methods", "type": "contradictory" },
+        { "text": "higher rates of postoperative infections and nerve damage", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0626",
+      "spans": [
+        { "text": "Fluoroscopy remains crucial for ensuring the safe and effective retrieval of lower ureteric stones", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0811",
+      "spans": [
+        { "text": "Bilobar prostate morphology is associated with better outcomes", "type": "contradictory" },
+        { "text": "reduced operative time and lower incidence of complications", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0074",
+      "spans": [
+        { "text": "does not significantly affect mechanical alignment", "type": "contradictory" },
+        { "text": "the choice of femoral component design plays a crucial role in achieving optimal postoperative alignment", "type": "invented" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0413",
+      "spans": [
+        { "text": "performing orchiopexy after 13 months significantly increases the risk of testicular atrophy", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0267",
+      "spans": [
+        { "text": "significantly enhances the success rate", "type": "contradictory" },
+        { "text": "in all patients", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0496",
+      "spans": [
+        { "text": "is not an effective predictor of fetal acidosis", "type": "contradictory" },
+        { "text": "reliably predicts neonatal respiratory distress syndrome", "type": "invented" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0848",
+      "spans": [
+        { "text": "significantly enhances the likelihood of maintaining postoperative long-term stable sinus rhythm", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0489",
+      "spans": [
+        { "text": "significantly improved public knowledge and attitudes towards antibiotic use", "type": "contradictory" },
+        { "text": "particularly among younger demographics", "type": "invented" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0355",
+      "spans": [
+        { "text": "Vitamin D insufficiency is the primary factor", "type": "contradictory" },
+        { "text": "rather than deficiency", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0041",
+      "spans": [
+        { "text": "higher rates of complete resection margins and improved overall survival", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0358",
+      "spans": [
+        { "text": "can exist", "type": "contradictory" },
+        { "text": "are identified through advanced genetic testing", "type": "invented" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0605",
+      "spans": [
+        { "text": "All students", "type": "contradictory" },
+        { "text": "met the national standards for clinical encounters of the selected core conditions", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0960",
+      "spans": [
+        { "text": "is not yet reliable for routine use due to high variability in outcomes", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0699",
+      "spans": [
+        { "text": "molluscum contagiosum (MC)", "type": "entity_substitution" },
+        { "text": "significantly higher", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0770",
+      "spans": [
+        { "text": "is less reliable than cervical length in identifying patients in preterm labor", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0156",
+      "spans": [
+        { "text": "is not reliable for managing neutropenic fever", "type": "contradictory" },
+        { "text": "fails to accurately predict complications or mortality", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0230",
+      "spans": [
+        { "text": "it is not exclusively pathognomonic, as similar mucosal fragility can also be seen in conditions such as gastroesophageal reflux disease (GERD) and other types of esophagitis", "type": "unverifiable" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0384",
+      "spans": [
+        { "text": "log reductions of 3.5 to 4.2 against Staphylococcus aureus and Escherichia coli", "type": "entity_substitution" },
+        { "text": "povidone iodine (P) failed to maintain their efficacy under similar conditions", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0014",
+      "spans": [
+        { "text": "do not significantly affect emergency medicine residents' ultrasound education", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0494",
+      "spans": [
+        { "text": "does not cause severe otorrhea", "type": "contradictory" },
+        { "text": "significantly accelerates the healing process of tympanic membrane perforations", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0570",
+      "spans": [
+        { "text": "predominantly consume a balanced diet that aligns closely with nutritional recommendations", "type": "contradictory" },
+        { "text": "showing significant improvements in fiber and saturated fat intake", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0830",
+      "spans": [
+        { "text": "sudden constriction of coronary arteries leading to myocardial infarction", "type": "mechanism_misattribution" },
+        { "text": "rather than chest wall rigidity", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0280",
+      "spans": [
+        { "text": "increases the risk of chronic low back pain", "type": "contradictory" },
+        { "text": "due to vascular changes that affect spinal structures", "type": "mechanism_misattribution" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0039",
+      "spans": [
+        { "text": "significantly decreases the sensitivity of FDG-PET in diagnosing cervical cancer", "type": "contradictory" },
+        { "text": "due to increased background noise from high glucose metabolism in non-tumoral tissues", "type": "mechanism_misattribution" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0068",
+      "spans": [
+        { "text": "increases the incidence of infections", "type": "contradictory" },
+        { "text": "due to enhanced bacterial colonization of the surgical site", "type": "mechanism_misattribution" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0235",
+      "spans": [
+        { "text": "significantly increases the risk of radiation-induced skin necrosis", "type": "unverifiable" },
+        { "text": "due to the increased tissue manipulation and potential disruption of blood supply", "type": "mechanism_misattribution" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0945",
+      "spans": [
+        { "text": "differ significantly in pathogenesis", "type": "contradictory" },
+        { "text": "BDS is primarily caused by bacterial colonization within the bile duct", "type": "mechanism_misattribution" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0464",
+      "spans": [
+        { "text": "primarily caused by exposure to environmental toxins", "type": "mechanism_misattribution" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0061",
+      "spans": [
+        { "text": "significantly increases the risk of developing more severe forms of depression in adulthood", "type": "contradictory" },
+        { "text": "due to altered neurochemical pathways", "type": "mechanism_misattribution" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0467",
+      "spans": [
+        { "text": "increase the perception of dyspnea", "type": "contradictory" },
+        { "text": "by reducing the sensitivity threshold of airway receptors", "type": "mechanism_misattribution" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0874",
+      "spans": [
+        { "text": "through mechanisms that enhance liver function and reduce hepatic lipid synthesis", "type": "mechanism_misattribution" },
+        { "text": "A recent multicenter study found that patients undergoing uvulopalatopharyngoplasty experienced a mean reduction of 15% in total cholesterol levels post-surgery", "type": "invented" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0736",
+      "spans": [
+        { "text": "mitoxantrone combined with paclitaxel and trastuzumab", "type": "invented" },
+        { "text": "was found to be significantly more effective than mitoxantrone alone in terms of overall survival and response rates", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    },
+    {
+      "id": "mh_0056",
+      "spans": [
+        { "text": "can lead to delays in the delivery of adjuvant chemotherapy", "type": "contradictory" },
+        { "text": "A retrospective study by Dr. Jane Lee and colleagues published in the Journal of Plastic and Reconstructive Surgery in 2019", "type": "invented" },
+        { "text": "leading to delayed chemotherapy initiation", "type": "contradictory" }
+      ],
+      "no_locatable_span": false
+    }
+  ]
+}

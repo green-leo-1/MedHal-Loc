@@ -1,0 +1,142 @@
+{"items": [
+  {
+    "id": "inj_0027",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "HER2 immunoreactivity might have a limited prognostic value for advanced urothelial carcinoma patients with adjuvant M-VEC because it reflects tumor angiogenesis through VEGF receptor signaling.",
+    "error_span": "because it reflects tumor angiogenesis through VEGF receptor signaling",
+    "rationale": "The evidence only assesses HER2 immunoreactivity by immunohistochemistry as a prognostic factor; it never attributes the prognostic signal to a VEGF/angiogenesis mechanism. This fabricated mechanistic pathway is unsupported and biologically misattributed (HER2 is a receptor tyrosine kinase, not a VEGF-receptor angiogenesis marker)."
+  },
+  {
+    "id": "inj_0266",
+    "target_type": "relation_error",
+    "hallucinated_text": "The results indicate that difficulties removing irrelevant material from working memory might be unique to depression, and the ability to inhibit irrelevant information is relatively impaired in social anxiety disorder.",
+    "error_span": "relatively impaired in social anxiety disorder",
+    "rationale": "The evidence shows only the depression groups exhibited greater intrusion effects, while the social anxiety group did NOT differ from controls, meaning inhibition is preserved in social anxiety. Flipping 'preserved' to 'impaired' reverses the actual relation reported."
+  },
+  {
+    "id": "inj_0712",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "The great majority of U.S. renal transplant centers will not transplant kidneys to hepatitis C-infected patients with end-stage renal disease, even if their infection is asymptomatic. However, advances in the management of HIV infection and a review of relevant ethical issues suggest that this approach should be reconsidered.",
+    "error_span": "hepatitis C-infected",
+    "rationale": "The survey and study concern HIV-infected patients exclusively. Substituting 'HIV-infected' with 'hepatitis C-infected' names a different but plausible infectious disease entity that is not the subject of the cited center policy."
+  },
+  {
+    "id": "inj_0333",
+    "target_type": "invented",
+    "hallucinated_text": "Most clinicians did not change their CT scan ordering after receiving education about radiation from a radiologist, although a 25% reduction in CT volume was observed in the first year. Radiation education allowed clinicians to discuss CT benefits and risks with their patients and to choose appropriate CT protocols. Referring physician groups are interested in this topic, and radiologists should be encouraged to give radiation lectures to them.",
+    "error_span": "although a 25% reduction in CT volume was observed in the first year",
+    "rationale": "The evidence states the number of CT scans stayed constant for 90% and decreased for only 10%, with no overall 25% volume reduction reported. The inserted '25% reduction' is a fabricated quantitative finding absent from the evidence and contradicts the unchanged ordering it reports."
+  },
+  {
+    "id": "inj_0720",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "C-kit positivity was observed in the mitotic, proliferating and also dysplastic hepatic cells through activation of the Wnt/beta-catenin signaling cascade. These results suggest that c-kit expression may be used as an early diagnostic indicator for HBV induced HCC.",
+    "error_span": "through activation of the Wnt/beta-catenin signaling cascade",
+    "rationale": "The evidence is purely an immunohistochemical description of c-kit staining intensity and distribution; it never proposes any Wnt/beta-catenin signaling mechanism. This is a plausible-sounding but fabricated and misattributed molecular pathway."
+  },
+  {
+    "id": "inj_0660",
+    "target_type": "relation_error",
+    "hallucinated_text": "HIE was associated with increased repeat imaging in EDs. This study is among the first to find empirical support for this anticipated benefit of HIE.",
+    "error_span": "increased repeat imaging",
+    "rationale": "The study evaluated whether HIE decreases redundant/repeat imaging and frames it as an anticipated benefit. Changing 'reduced' to 'increased' flips the direction of the association reported and contradicts the benefit it claims to support."
+  },
+  {
+    "id": "inj_0422",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Pediatric patients discharged from the ED are mostly compliant with concussion instructions. However, a significant number of patients RTP on the day of injury, while experiencing symptoms or without medical clearance. Among sports-related concussions, hockey was the most common cause.",
+    "error_span": "hockey was the most common cause",
+    "rationale": "The evidence reports soccer (30%) as the most common sport for sports-related concussions, with football, lacrosse, and basketball next; hockey is not even listed. Naming hockey as the most common cause substitutes a wrong entity."
+  },
+  {
+    "id": "inj_0541",
+    "target_type": "invented",
+    "hallucinated_text": "The Turkish version of the EQ-5D-based utility score seems to be a valid instrument in the assessment of quality of life studies in patients with acute coronary syndrome, demonstrating excellent test-retest reliability with a kappa of 0.85.",
+    "error_span": "demonstrating excellent test-retest reliability with a kappa of 0.85",
+    "rationale": "The study assessed only construct validity via correlations and regression with the MacNew scale; no test-retest reliability or kappa statistic was measured or reported. The inserted reliability claim and 0.85 value are fabricated."
+  },
+  {
+    "id": "inj_0805",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "The signal intensity on DWI, which reflects the degree of intratumoral fat deposition, showed no significant difference in the development of vascularization.",
+    "error_span": "which reflects the degree of intratumoral fat deposition",
+    "rationale": "DWI signal intensity reflects water molecule diffusion/cellularity, not fat deposition, and the evidence never attributes the DWI signal to fat content. This inserts a false mechanistic explanation for what DWI measures."
+  },
+  {
+    "id": "inj_0761",
+    "target_type": "relation_error",
+    "hallucinated_text": "Simple detorsion was accompanied by an increase in morbidity, and all patients studied had functioning ovarian tissue on follow-up despite the surgeon's assessment of the degree of ovarian ischemia. Detorsion is the procedure of choice for most cases of ovarian torsion in children.",
+    "error_span": "was accompanied by an increase in morbidity",
+    "rationale": "The evidence reports postoperative complications and length of stay were SIMILAR between detorsion and oophorectomy groups, i.e., no increase in morbidity. Removing 'not' flips the relation to falsely state detorsion increased morbidity."
+  },
+  {
+    "id": "inj_0706",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Psychological distress is an independent risk factor for mortality. Its predictive significance varies between disorders leading to functional deterioration. The association mechanisms are likely to vary from one disorder to another.",
+    "error_span": "mortality",
+    "rationale": "The study identified disability pensions as the outcome and concluded psychological distress predicts disability, not mortality. The cohort was followed for disability pensions, not deaths, so substituting the outcome entity 'disability' with 'mortality' is a plausible but unsupported wrong entity."
+  },
+  {
+    "id": "inj_0939",
+    "target_type": "invented",
+    "hallucinated_text": "This study, from the perspective of family caregivers, demonstrates that the CCB is not living up to its full potential in sustaining informal P/EOL caregivers, with 72% of interviewees reporting they were unaware the benefit existed. Effort is required to transform the CCB so that it may fulfill the potential it holds for serving as one public health response to caregiver burden that forms part of a healthy public policy that addresses the determinants of this burden.",
+    "error_span": "with 72% of interviewees reporting they were unaware the benefit existed",
+    "rationale": "The evidence describes 57 qualitative telephone interviews analyzed thematically; it reports no quantitative figure such as 72% awareness. This specific statistic is fabricated and absent from the evidence."
+  },
+  {
+    "id": "inj_0083",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "While not providing conclusive evidence, this single institution experience suggests that neoadjuvant chemotherapy for Stage IV NPC patients improves both survival and disease control by radiosensitizing tumor cells through inhibition of DNA mismatch repair. Recurrence within the irradiated volume was the most prevalent mode of failure and future studies will evaluate regimens to enhance local regional control.",
+    "error_span": "by radiosensitizing tumor cells through inhibition of DNA mismatch repair",
+    "rationale": "The evidence reports outcomes of induction/neoadjuvant chemotherapy and radiotherapy without proposing any mechanism, and certainly not radiosensitization via DNA mismatch repair inhibition. This is a fabricated, misattributed mechanistic claim."
+  },
+  {
+    "id": "inj_0211",
+    "target_type": "relation_error",
+    "hallucinated_text": "The general practice selection process is not predictive of future performance in the MRCGP.",
+    "error_span": "not predictive",
+    "rationale": "The evidence reports statistically significant positive correlations between overall selection score and both AKT (r=0.491) and CSA (r=0.526) examination performance, supporting predictive validity. Inserting 'not' flips the relation to the opposite of what the data show."
+  },
+  {
+    "id": "inj_0595",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "We conclude that not all low-tone sudden deafness (SD) patients suffered from endolymphatic hydrops even if they had vertigo attack at the onset and that magnetic resonance imaging (MRI) was a useful prognostic tool.",
+    "error_span": "magnetic resonance imaging (MRI)",
+    "rationale": "The study used electrocochleography (ECochG, measuring -SP/AP ratios) as the prognostic tool, not MRI. Substituting MRI for ECochG replaces the actual diagnostic modality entity with a plausible but wrong one."
+  },
+  {
+    "id": "inj_0798",
+    "target_type": "invented",
+    "hallucinated_text": "Despite government assistance, low-income individuals use vision care services less often than wealthy individuals, with uptake of subsidized eye examinations below 15% among eligible recipients.",
+    "error_span": "with uptake of subsidized eye examinations below 15% among eligible recipients",
+    "rationale": "The evidence reports social assistance receipt rates and coverage adequacy by province but never reports an uptake/utilization rate of subsidized eye examinations such as 'below 15%'. This precise figure is fabricated."
+  },
+  {
+    "id": "inj_0907",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "For individual patients, a high score on the composite measures based on process indicators is not associated with better short-term outcome. However, at the hospital level, a good score on the composite measures based on process indicators was consistent with more favourable risk-adjusted short-term outcome rates, reflecting higher surgeon procedural volume at those hospitals.",
+    "error_span": "reflecting higher surgeon procedural volume at those hospitals",
+    "rationale": "The study only analyzes the statistical consistency between process-indicator composite measures and outcome indicators; it does not measure or attribute the hospital-level association to surgeon procedural volume. This is a fabricated causal mechanism."
+  },
+  {
+    "id": "inj_0621",
+    "target_type": "relation_error",
+    "hallucinated_text": "Long-term dietary compliance in screen-detected patients was good. Quality of life and bone mineral density were comparable with those in non-coeliac subjects and the general population. Active screening in coeliac disease risk groups seems to be harmful rather than reasonable.",
+    "error_span": "harmful rather than reasonable",
+    "rationale": "The evidence supports that screening is reasonable: good dietary compliance and quality of life/bone density comparable to controls. Reversing the phrase to 'harmful rather than reasonable' flips the study's conclusion."
+  },
+  {
+    "id": "inj_0271",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "When cerebral hemispherectomy is performed to control seizures associated with very early (in utero) insult, it has been found that the remaining right hemisphere is still able to support reading and phonological processing skills that are normally mediated by the cerebellum. Our results also suggest the existence of variability in individuals after hemispherectomy, even within groups having the same etiology and similar timing of insult.",
+    "error_span": "cerebellum",
+    "rationale": "The evidence states phonological/reading skills are left-lateralized (mediated by the left hemisphere); the whole study concerns whether the right hemisphere can take over left-hemisphere functions. Substituting 'left hemisphere' with 'cerebellum' names a wrong anatomical site that does not normally mediate these skills."
+  },
+  {
+    "id": "inj_0884",
+    "target_type": "invented",
+    "hallucinated_text": "In breast cancer patients having SLN biopsy, the failure of routine intraoperative FS is largely the failure to detect micrometastatic disease. The benefit of routine intraoperative FS increases with tumor size. Routine FS may not be indicated in patients with the smallest invasive cancers, who had a false-negative rate exceeding 60% in this series.",
+    "error_span": "who had a false-negative rate exceeding 60% in this series",
+    "rationale": "The evidence reports FS sensitivity of 40% for Tla tumors (i.e., a false-negative rate of about 60%, not 'exceeding 60%'), and never states a discrete false-negative rate 'exceeding 60%' for the smallest cancers as a reported figure. The appended specific claim is a fabricated statistic not supported by the evidence."
+  }
+]}

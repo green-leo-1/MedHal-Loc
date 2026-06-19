@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "inj_0325",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "As demonstrated in this study, size reduction of the ascending aorta using aortoplasty with external reinforcement is a safe procedure with excellent long-term results. It is a therapeutic option in modern aortic surgery in patients with intrinsic medial degeneration and annuloaortic ectasia without impairment of the sinotubular junction of the aortic valve and root.",
+      "error_span": "intrinsic medial degeneration and annuloaortic ectasia",
+      "rationale": "The evidence frames the indication as poststenotic dilatation of the ascending aorta (post-stenosis, bicuspid aortic valve), not intrinsic medial degeneration with annuloaortic ectasia. Attributing the dilatation to a different underlying pathological mechanism is unsupported and contradicts the study population (poststenotic dilatation)."
+    },
+    {
+      "id": "inj_0103",
+      "target_type": "relation_error",
+      "hallucinated_text": "Patients with<or =5 metastatic sites had significantly worse survival rates than patients with>5 lesions. Because existing sites of metastatic disease may be the primary sites of origin for additional metastases, our findings suggest that early detection and aggressive treatment of patients with a small number of metastatic lesions is worth testing as an approach to improving long-term survival.",
+      "error_span": "significantly worse survival rates than patients with>5 lesions",
+      "rationale": "The evidence (and the favorable oligometastatic subset hypothesis) shows patients with <=5 lesions had an IMPROVED/better outcome than those with >5 lesions. Flipping 'better' to 'worse' reverses the direction of the survival relationship and contradicts the data."
+    },
+    {
+      "id": "inj_0430",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "In the present study we found a significant increase in the incidence of GBS colonization in pregnant women in northern Israel. We also found an increased rate of GBS carriers in Bedouin women relative to Jewish women.",
+      "error_span": "Bedouin women",
+      "rationale": "The evidence compares Jewish women (13.7%) with Arab women (19%); it never measures or mentions Bedouin women. Substituting the wrong ethnic-group entity 'Bedouin women' for 'Arab women' is unsupported by the study population."
+    },
+    {
+      "id": "inj_0735",
+      "target_type": "invented",
+      "hallucinated_text": "Perspective-taking increased patient satisfaction in all three studies, across medical schools, clinical disciplines, and racially diverse students and SPs, with the largest benefit seen among female students (effect size = 0.42). Perspective-taking as a means for improving patient satisfaction deserves further exploration in clinical training and practice.",
+      "error_span": "with the largest benefit seen among female students (effect size = 0.42)",
+      "rationale": "The evidence reports effect sizes of 0.16, 0.31, and 0.13 by study and never breaks results down by student sex or reports an effect size of 0.42. The claim about female students and the 0.42 value is fabricated and absent from the evidence."
+    },
+    {
+      "id": "inj_0342",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Samples withdrawn from heparinized arterial lines cannot be relied upon for APTT ratio results owing to dilution by citrate flush solution rather than residual heparin contamination.",
+      "error_span": "owing to dilution by citrate flush solution rather than residual heparin contamination",
+      "rationale": "The evidence explicitly confirms heparin contamination (verified by TEG) as the cause of the unreliable arterial APTT ratios. Attributing the effect to citrate flush dilution instead of heparin contamination misattributes the mechanism and contradicts the stated finding."
+    },
+    {
+      "id": "inj_0312",
+      "target_type": "relation_error",
+      "hallucinated_text": "Half-dose MR angiography using diluted contrast medium injected at a rate of 1 mL/second depicted the abdominal aorta and its branches less clearly than using a full single dose.",
+      "error_span": "less clearly than using a full single dose",
+      "rationale": "The evidence states that overall image quality differences across the four groups were not statistically significant, i.e., half-dose was as clear as full dose. Changing 'as clearly as' to 'less clearly than' flips the comparative relation and is unsupported."
+    },
+    {
+      "id": "inj_0976",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Brachial diastolic blood pressure difference is related to the severity of SSS and can be used as a screening tool for SSS. However, it performed better in severe steal than milder steal phenomena.",
+      "error_span": "Brachial diastolic blood pressure difference",
+      "rationale": "The evidence concerns the side-to-side difference in systolic brachial arterial blood pressure, not diastolic. Substituting 'diastolic' for 'systolic' replaces the measured entity with a wrong one not supported by the study."
+    },
+    {
+      "id": "inj_0811",
+      "target_type": "invented",
+      "hallucinated_text": "Those patients with trilobar prostate morphology are more likely to achieve a greater decrease in the PVR urine volume after holmium laser enucleation of the prostate, as well as a shorter hospital stay (1.2 vs 2.1 days, P = .03). All other outcomes appeared to be similar between the 2 groups. In addition, a 2-lobe technique can be safely used for trilobar prostates when deemed feasible by the surgeon.",
+      "error_span": "as well as a shorter hospital stay (1.2 vs 2.1 days, P = .03)",
+      "rationale": "The evidence reports differences only in operative time and PVR decrease and states all other postoperative outcomes were similar; it provides no hospital stay data or the values 1.2 vs 2.1 days. The hospital-stay finding and numbers are fabricated."
+    },
+    {
+      "id": "inj_0355",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "These first data show that a vitamin D3 deficiency rather than an insufficiency may be involved in the development of OCD lesions. Probably, with a vitamin D3 substitution, the development of an advanced OCD stage could be avoided. Further analyses, including morphological analyses regarding a possible avascular necrosis of the subchondral bone, and examination of the PTH and other determinants of the bone metabolism, should be undertaken to either confirm or refute these data.",
+      "error_span": "avascular necrosis of the subchondral bone",
+      "rationale": "The evidence and clean text propose osteomalacia (a vitamin D / bone-mineralization mechanism) as the morphological correlate to examine, consistent with the vitamin D3 deficiency hypothesis. Replacing it with avascular necrosis of subchondral bone substitutes a different, unsupported pathophysiological mechanism."
+    },
+    {
+      "id": "inj_0777",
+      "target_type": "relation_error",
+      "hallucinated_text": "Low albumin concentrations are associated with poorer survival in patients with gastric cancer. However, the strength of this relation with survival is dependent on the presence of a systemic inflammatory response, as evidenced by an elevated CRP level. Therefore, it appears that the relation between hypoalbuminemia and poor survival is independent of that of the systemic inflammatory response.",
+      "error_span": "is independent of that of the systemic inflammatory response",
+      "rationale": "The evidence shows albumin was no longer an independent predictor on multivariate analysis once CRP was included, meaning the albumin-survival relation is SECONDARY to (dependent on) the systemic inflammatory response. Stating it is 'independent of' the inflammatory response reverses the relation and contradicts the data."
+    },
+    {
+      "id": "inj_0177",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Delivery mode did not affect postpartum quality of life in urban China. Socio-cultural determinants may contribute more in influencing postnatal quality of life.",
+      "error_span": "urban China",
+      "rationale": "The evidence describes a survey of women residing in rural areas / rural townships in rural China. Substituting 'urban China' for 'rural China' replaces the study setting entity with a wrong, unsupported one."
+    },
+    {
+      "id": "inj_0496",
+      "target_type": "invented",
+      "hallucinated_text": "We found that intrapartum VAS was an effective predictor of fetal acidosis in cases of FHR variable decelerations, but its predictability for fetal acidosis in cases of FHR late decelerations was limited. VAS additionally predicted the need for emergency cesarean delivery (odds ratio 3.2). Both VAS and fetal blood pH are good predictors of neonatal morbidity.",
+      "error_span": "VAS additionally predicted the need for emergency cesarean delivery (odds ratio 3.2)",
+      "rationale": "The evidence assesses VAS as a predictor of fetal acidosis and neonatal morbidity in relation to FHR deceleration types; it never evaluates prediction of emergency cesarean delivery nor reports an odds ratio of 3.2 for that outcome. This claim and number are fabricated."
+    },
+    {
+      "id": "inj_0323",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "The preliminary results of this study suggest that this approach may be helpful as an independent tumor staging factor. It is also worth noting that part of the staging process could also be based on the increased number of myeloid CD11c(+) dendritic cells in the lymph nodes of patients with metastases.",
+      "error_span": "increased number of myeloid CD11c(+) dendritic cells in the lymph nodes of patients with metastases",
+      "rationale": "The evidence reports a striking REDUCTION in the number of myeloid CD11c(+) dendritic cells in lymph nodes of patients with metastases (reflecting an immunodeficient state). Stating the staging is based on an INCREASED number of these dendritic cells misattributes the cellular mechanism in the opposite direction of the finding."
+    },
+    {
+      "id": "inj_0763",
+      "target_type": "relation_error",
+      "hallucinated_text": "In this 'at-risk' group with skin microvascular dysfunction maximal oxygen uptake was not reduced compared with healthy controls. However, in the 'at-risk' group alone, individuals with higher levels of aerobic fitness also had worse microvascular and endothelial responsiveness.",
+      "error_span": "higher levels of aerobic fitness also had worse microvascular and endothelial responsiveness",
+      "rationale": "The evidence reports significant POSITIVE correlations between maximal oxygen uptake (aerobic fitness) and maximum hyperaemia and peak ACh response, meaning higher fitness was associated with BETTER microvascular/endothelial responsiveness. Changing 'better' to 'worse' flips the direction of the relationship."
+    },
+    {
+      "id": "inj_0916",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "The results suggest that NA treatment can be stopped in selected patients with CHB as long as they are not cirrhotic, have completed a minimum period of treatment, have normal ALT and sustained undetectable HBsAg. These patients should be closely monitored during the first year and then indefinitely.",
+      "error_span": "sustained undetectable HBsAg",
+      "rationale": "The evidence states the stopping criterion used was undetectable (HBV) DNA, while loss of HBsAg is described as a rare event. Substituting 'undetectable HBsAg' for 'undetectable DNA' replaces the actual virological entity/criterion with a different, unsupported one."
+    },
+    {
+      "id": "inj_0153",
+      "target_type": "invented",
+      "hallucinated_text": "Circumferences and related ratios scale significantly to height, notably after adjustment for age and race, across subjects who are representative of the US population, with the scaling relationships being strongest among Mexican American participants. These observations have implications for the clinical and epidemiologic use of these anthropometric measures and indexes.",
+      "error_span": "with the scaling relationships being strongest among Mexican American participants",
+      "rationale": "The evidence adjusts for race but does not report that scaling relationships were strongest in any specific racial/ethnic group, nor singles out Mexican American participants. This comparative claim is fabricated and absent from the data."
+    },
+    {
+      "id": "inj_0819",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "In our study the U-Blade (RC) lag screw did not reduce the cut-out in treatment of OTA/AO 31A1-3 fractures at all, despite providing additional axial compression across the fracture site. Considering the longer duration of surgery and the higher costs of the U-Blade (RC) lag screw, our results do not justify its use. However, further prospective randomized studies will be necessary.",
+      "error_span": "despite providing additional axial compression across the fracture site",
+      "rationale": "The evidence states the U-Blade (RC) lag screw was introduced to provide monoaxial ROTATIONAL stability of the femoral head and neck fragment, not axial compression across the fracture. Attributing its mechanism to 'additional axial compression' misattributes the device's mechanism of action."
+    },
+    {
+      "id": "inj_0338",
+      "target_type": "relation_error",
+      "hallucinated_text": "MRI of children with OCD consistently showed secondary physis disruption, overlying chondroepiphysial widening, and subchondral bone edema. We suggest that disruption of normal endochondral ossification is unlikely to be associated with juvenile OCD.",
+      "error_span": "is unlikely to be associated with juvenile OCD",
+      "rationale": "The evidence and hypothesis conclude that disruption of endochondral ossification from the secondary physis IS associated with juvenile OCD (consistent secondary physis disruption was found). Changing 'may be associated with' to 'is unlikely to be associated with' reverses the relation and contradicts the findings."
+    },
+    {
+      "id": "inj_0707",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "It is concluded that preloading colloid fluid prior to repositioning could prevent the decrease of diastolic blood pressure and central venous pressure during sitting positioning without other complications.",
+      "error_span": "diastolic blood pressure",
+      "rationale": "The evidence shows the study group maintained SYSTOLIC blood pressure and CVP, while there were no significant changes in DIASTOLIC blood pressure or heart rate in either group. Stating that preloading prevented a decrease in diastolic blood pressure substitutes the wrong hemodynamic entity, since diastolic pressure did not significantly change."
+    },
+    {
+      "id": "inj_0653",
+      "target_type": "invented",
+      "hallucinated_text": "The variation in results obtained could not be attributed to variations in calibrators. The differences in methodologies between laboratories must be the reason for this variation, with the choice of internal standard accounting for the largest share of the observed variability.",
+      "error_span": "with the choice of internal standard accounting for the largest share of the observed variability",
+      "rationale": "The evidence notes that laboratories used a wide variety of internal standards (among other methodological differences) but never quantifies or ranks which methodological factor contributed most. The claim that internal standard choice accounted for the largest share of variation is fabricated and unsupported."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "inj_0538",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "A woman's model of care, such as birth center care, during her first pregnancy does not seem to be a sufficiently important factor to affect subsequent reproduction in Norway.",
+      "error_span": "Norway",
+      "rationale": "The study linked women's identification codes to the Swedish National Birth Register; the data pertain to Sweden, not Norway. Substituting the country with Norway is a plausible-but-wrong entity not supported by the evidence."
+    },
+    {
+      "id": "inj_0304",
+      "target_type": "invented",
+      "hallucinated_text": "During the 5 years, 24% of Africans with optimal BP developed hypertension, with men progressing at nearly twice the rate of women. The surge in hypertension in Africa is largely explained by modifiable risk factors. Public health strategies should focus aggressively on lifestyle to prevent a catastrophic burden on the national health system.",
+      "error_span": "with men progressing at nearly twice the rate of women",
+      "rationale": "The evidence reports no sex-specific progression rates; this claim about men progressing at nearly twice the rate of women is fabricated and unsupported by the cohort data, which never stratifies conversion by sex."
+    },
+    {
+      "id": "inj_0839",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "There are no statistically apparent motion differences between SUP-CTV and INF-CTV, because prostate bed motion is driven primarily by respiratory diaphragmatic excursion. Current uniform planning target volume (PTV) margins are adequate to cover both portions of the CTV.",
+      "error_span": "because prostate bed motion is driven primarily by respiratory diaphragmatic excursion",
+      "rationale": "The study attributes interfractional prostate bed motion to shifts relative to bone/skin tattoos in LR/SI/AP directions, not to respiratory diaphragmatic excursion. Attributing the lack of differential motion to respiratory diaphragmatic excursion is a fabricated, incorrect mechanism."
+    },
+    {
+      "id": "inj_0419",
+      "target_type": "relation_error",
+      "hallucinated_text": "Pre- and post-menopausal polyps exhibit differing hormone receptor and proliferation markers, presumably a result of their hormonal milieu. However, both groups appear to have lost the usual control mechanisms for apoptotic regulation, this appears to be protective against their growth.",
+      "error_span": "protective against their growth",
+      "rationale": "Both groups showed increased Bcl-2 (an inhibitor of apoptosis), so loss of apoptotic control promotes/is responsible for polyp growth, not protective against it. Flipping the relation from causing growth to being protective against growth contradicts the evidence."
+    },
+    {
+      "id": "inj_0523",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Experimental, intra- and postoperative instrumental investigations did not show the short gastric arteries to be engaged in the blood supply to the spleen after a spleen-preserving distal pancreatectomy with resection of the splenic vessels. In all cases, the left gastric artery was the main collateral vessel.",
+      "error_span": "the left gastric artery was the main collateral vessel",
+      "rationale": "The evidence identifies the left gastroepiploic artery as the main collateral; the left gastric artery showed no effective communication with the splenic blood supply. Substituting the left gastroepiploic artery with the left gastric artery is a plausible but incorrect anatomical entity."
+    },
+    {
+      "id": "inj_0793",
+      "target_type": "invented",
+      "hallucinated_text": "Increased D-dimer levels should not be considered as a diagnostic parameter in diagnosis of acute appendicitis, although C-reactive protein remained a reliable marker in this cohort.",
+      "error_span": "although C-reactive protein remained a reliable marker in this cohort",
+      "rationale": "The study evaluated only D-dimer, Alvarado scores, leukocyte count and ultrasonography. C-reactive protein was never measured or assessed, so the claim that CRP remained a reliable marker is fabricated and unsupported."
+    },
+    {
+      "id": "inj_0489",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "There is little evidence that the 2008 public antibiotic campaigns were effective, largely because the campaign posters were displayed predominantly in pharmacies rather than in clinical settings. The use and visibility of future campaign materials needs auditing. A carefully planned approach that targets the public in GP waiting rooms and through clinicians in consultations may be a more effective way of improving prudent antibiotic use.",
+      "error_span": "largely because the campaign posters were displayed predominantly in pharmacies rather than in clinical settings",
+      "rationale": "The evidence never states where posters were displayed or attributes ineffectiveness to pharmacy placement; recollection of posters increased only slightly. Attributing the campaign's failure to poster placement in pharmacies is a fabricated, unsupported mechanism."
+    },
+    {
+      "id": "inj_0544",
+      "target_type": "relation_error",
+      "hallucinated_text": "These data suggest a pattern of diagnostic instability over time for manic and mixed episodes in patients with bipolar disorder. Careful prospective studies of this issue are needed.",
+      "error_span": "diagnostic instability",
+      "rationale": "Episodes were consistent (all manic or all mixed) in significantly more patients than expected by chance, indicating diagnostic stability over time. Stating instability flips the relation and contradicts the evidence."
+    },
+    {
+      "id": "inj_0802",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Preoperative education delivered by physiotherapists reduced anxiety and postoperative complications of patients undergoing cardiac surgery, but it was not effective in reducing readmissions or length of stay.",
+      "error_span": "physiotherapists",
+      "rationale": "The intervention was a nurse-led preoperative education delivered by specially trained nurses. Attributing the education to physiotherapists substitutes a plausible but incorrect provider entity not supported by the evidence."
+    },
+    {
+      "id": "inj_0655",
+      "target_type": "invented",
+      "hallucinated_text": "use of CEA varies widely, depending on area of residence. Variation is not a consequence of differences in need, but reflects clinical practice and supply of services. There is evidence to suggest unmet need for CEA, with waiting times exceeding six months in the most deprived districts.",
+      "error_span": "with waiting times exceeding six months in the most deprived districts",
+      "rationale": "The study examined utilisation rates, stroke mortality, admissions, deprivation and proximity to services, but never measured waiting times. The claim about waiting times exceeding six months in deprived districts is fabricated and unsupported."
+    },
+    {
+      "id": "inj_0588",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Clinical predictors appear inadequate for the evaluation of the cervical spine in geriatric trauma patients with low-energy mechanism, because age-related osteoporosis masks neck tenderness on physical examination.",
+      "error_span": "because age-related osteoporosis masks neck tenderness on physical examination",
+      "rationale": "The study found neck tenderness was present in only 45.5% of fracture cases but never attributes the inadequacy of predictors to osteoporosis masking tenderness. This osteoporosis-masking mechanism is fabricated and unsupported by the data."
+    },
+    {
+      "id": "inj_0879",
+      "target_type": "relation_error",
+      "hallucinated_text": "These data indicate digoxin use may be associated with an increase in risk of PCa. Given the potential mechanisms by which digoxin may exert an anti-neoplastic effect and other recent studies showing a negative association between digoxin use and PCa, further research is warranted.",
+      "error_span": "an increase in risk of PCa",
+      "rationale": "Digoxin use was associated with a reduced odds ratio of prostate cancer (OR 0.58), i.e., a reduction in risk. Stating an increase in risk flips the relation and contradicts the evidence."
+    },
+    {
+      "id": "inj_0132",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Although the cost-effectiveness of a single-pill strategy was within the acceptable willingness-to-pay threshold, the DALY difference were minimal. Further research is recommended to explore the long-term impact of the strategy.",
+      "error_span": "DALY",
+      "rationale": "Utility/effectiveness was measured with SF-6D utility scores yielding QALYs (quality-adjusted life years), not DALYs (disability-adjusted life years). Substituting QALY with DALY is a plausible but incorrect outcome-measure entity."
+    },
+    {
+      "id": "inj_0626",
+      "target_type": "invented",
+      "hallucinated_text": "To uphold the notion for radiation exposure to be as low as reasonably achievable, ureteroscopic stone retrieval can safely be done without the use of fluoroscopy in a significant number of patients, with a mean operative time of under 20 minutes.",
+      "error_span": "with a mean operative time of under 20 minutes",
+      "rationale": "The study reports stone clearance rates and fluoroscopy requirements but never reports operative times. The claim of a mean operative time under 20 minutes is a fabricated number unsupported by the evidence."
+    },
+    {
+      "id": "inj_0248",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "The present study, which is based on internationally accepted assessment tools for SLE patients, shows a significant relationship between increased disease activity, mediated by accumulating organ damage, and reduced physical function. This result emphasizes the importance of optimizing treatment aiming at reducing disease activity.",
+      "error_span": "mediated by accumulating organ damage",
+      "rationale": "The evidence shows disease activity (BILAG) correlated with reduced physical function, while disease damage (SDI) correlated separately with reduced emotional role function. Claiming the physical-function relationship is mediated by organ damage is a fabricated, incorrect mechanism."
+    },
+    {
+      "id": "inj_0178",
+      "target_type": "relation_error",
+      "hallucinated_text": "Little is known about the mechanisms underlying irregular bleeding in HT users. This is the first report of uNK cells and their association with regulating cytokines in postmenopausal endometrium and demonstrates a possible mechanism by which HT may prevent irregular bleeding.",
+      "error_span": "HT may prevent irregular bleeding",
+      "rationale": "uNK cells were significantly increased during bleeding episodes, supporting a mechanism by which HT may induce (cause) irregular bleeding, not prevent it. Flipping induce to prevent reverses the relation and contradicts the evidence."
+    },
+    {
+      "id": "inj_0054",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Isolated sternal fractures in childhood are often due to typical age-related traumatic incidents. Computed tomography is a useful diagnostic tool for fracture detection and radiography is the method of choice for visualization of the extent of the dislocation.",
+      "error_span": "Computed tomography",
+      "rationale": "The study evaluated radiological and sonographical (ultrasonography) criteria, identifying ultrasonography as the useful tool for fracture detection. Substituting ultrasonography with computed tomography is a plausible but incorrect imaging-modality entity not supported by the evidence."
+    },
+    {
+      "id": "inj_0795",
+      "target_type": "invented",
+      "hallucinated_text": "Clinical variables, either isolated or as components of a model, could not identify all children with pathologic radiographs, missing roughly one in three cases of underlying pneumonia.",
+      "error_span": "missing roughly one in three cases of underlying pneumonia",
+      "rationale": "The study classified radiographs only as pathologic versus nonpathologic and never specifically identified pneumonia or a one-in-three miss rate for it (the model predicted just 15% of pathologic radiographs). The pneumonia-specific miss rate is a fabricated, unsupported claim."
+    },
+    {
+      "id": "inj_0278",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Mucosal redundancy is a constant associated finding in IHPS. Although the origin of the redundancy and a cause-and-effect relationship are difficult to establish, our findings support the hypothesis that nitric oxide synthase deficiency may be implicated in the pathogenesis of IHPS, and suggest that mucosal thickening could be implicated as one of the initiating factors in its development.",
+      "error_span": "nitric oxide synthase deficiency",
+      "rationale": "The findings concern pyloric mucosal redundancy/thickening and originally invoke hypergastrinemia; the evidence provides no support for nitric oxide synthase deficiency as the implicated pathogenic mechanism. Substituting the stated mechanism with NOS deficiency is a plausible-sounding but unsupported misattribution."
+    },
+    {
+      "id": "inj_0935",
+      "target_type": "relation_error",
+      "hallucinated_text": "During the time period considered, the FDA AED-related suicidality warning appears to have significantly reduced prescription claims of AED medications for the study population.",
+      "error_span": "appears to have significantly reduced",
+      "rationale": "The interrupted time-series analysis detected no significant change in AED prescription claim trends during or after the FDA warning. Stating the warning significantly reduced claims flips the relation and contradicts the null finding."
+    }
+  ]
+}

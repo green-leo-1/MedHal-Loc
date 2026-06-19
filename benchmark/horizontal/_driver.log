@@ -1,0 +1,16 @@
+launched 3 parallel workers...
+  worker 0 exit=0
+  worker 1 exit=0
+  worker 2 exit=0
+
+==============================================================================
+MedHal-Loc HORIZONTAL localization faithfulness (n=295)
+==============================================================================
+method               gran.      cover  hit@1  hit@3   rand   lift   SE  margin
+AdaTriple            triple      59.3   39.3   54.2   36.0   +3.3  2.8  +0.028
+NLI-clause           clause      99.7   62.0   95.6   41.7  +20.3  2.8  +0.189
+SelfCheckGPT-NLI     sentence   100.0   81.4   99.7   68.7  +12.6  2.3  +0.255
+------------------------------------------------------------------------------
+Response-level (no fine-grained output): NLI-DeBERTa / HHEM / LLM-judge -> localization N/A (0%)
+lift > ~2*SE => real localization above chance for that method
+==============================================================================

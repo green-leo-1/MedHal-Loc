@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "inj_0146",
+      "target_type": "invented",
+      "hallucinated_text": "Healthy lifestyles lead to an increase in the utilization of preventive health services. However, there is not much significantly reducing the number of outpatient visits in people with health behaviors. Specifically, people with regular exercise habits and who take their blood pressure measurement regularly have an increased number of outpatient visits, with regular exercisers attending roughly 30% more outpatient visits than non-exercisers. It is suggested that more available and accessible health consultation services be provided to inculcate in the general public the importance of maintaining a healthy lifestyle.",
+      "error_span": "with regular exercisers attending roughly 30% more outpatient visits than non-exercisers",
+      "rationale": "The evidence reports a significant correlation between exercise habits and increased outpatient visits but never quantifies the magnitude; the specific '30% more' figure is fabricated and absent from the study."
+    },
+    {
+      "id": "inj_0519",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "These preliminary data support our hypothesis that recipient complement activation may affect RBC alloimmunization in humans; however, a more detailed understanding of the pathophysiologic association between inflammation and alloimmunization is required before definitive conclusions can be reached.",
+      "error_span": "recipient complement activation",
+      "rationale": "The evidence frames the febrile transfusion reaction as 'predominantly mediated by inflammatory cytokines' and the hypothesis concerns recipient inflammation; substituting 'complement activation' misattributes the proposed mechanism."
+    },
+    {
+      "id": "inj_0999",
+      "target_type": "relation_error",
+      "hallucinated_text": "Paediatric SF medicines were more erosive than SC medicines in vitro; a more significant predictor of their erosive potential was dose form.",
+      "error_span": "were more erosive than SC medicines",
+      "rationale": "The study found no significant pH/titratable-acidity difference between SF and SC formulations (P>0.05), i.e. SF were NOT more erosive; flipping the relation to 'were more erosive' contradicts the evidence."
+    },
+    {
+      "id": "inj_0842",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "The tendency to clear one's plate when eating is associated with increased waist circumference and may constitute a risk factor for weight gain.",
+      "error_span": "increased waist circumference",
+      "rationale": "The evidence measured association of plate clearing with BMI and body weight, not waist circumference; substituting 'waist circumference' replaces the actual measured entity with an unsupported one."
+    },
+    {
+      "id": "inj_0906",
+      "target_type": "invented",
+      "hallucinated_text": "Family doctors in British Columbia have little awareness of the costs of medical care, with fewer than one in five physicians estimating any item within 25% of its true cost.",
+      "error_span": "with fewer than one in five physicians estimating any item within 25% of its true cost",
+      "rationale": "The evidence states only that 'few respondents estimated costs within 25% of true cost' without giving a proportion; the 'fewer than one in five' figure is fabricated."
+    },
+    {
+      "id": "inj_0029",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "VAT area measurement at a single level 3 cm above the lower margin of the L3 vertebra is feasible and can reflect changes in VAT volume and body weight. Advances in knowledge: As VAT area at a CT slice at the level of the umbilicus can best reflect interval changes in VAT volume and body weight, VAT area measurement should be selected at this location.",
+      "error_span": "at the level of the umbilicus",
+      "rationale": "The study identified the slice '3 cm above the lower margin of L3' as the level best reflecting VAT volume/weight changes; attributing this best correlation to the umbilical level misstates the basis established by the evidence."
+    },
+    {
+      "id": "inj_0066",
+      "target_type": "relation_error",
+      "hallucinated_text": "Our results suggest that colonoscopy significantly affects the management of patients with acute diverticulitis and alters the outcome. The current practice of a routine colonoscopy after acute diverticulitis, diagnosed by typical clinical symptoms and CT needs to be reevaluated.",
+      "error_span": "significantly affects the management of patients with acute diverticulitis and alters the outcome",
+      "rationale": "No new/different diagnosis was made after colonoscopy and no significant outcome differences were found; the evidence supports colonoscopy NOT affecting management, so claiming it 'significantly affects' management flips the relation."
+    },
+    {
+      "id": "inj_0306",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "A task-specific intervention designed to improve gait speed may potentially provide secondary benefits by positively impacting anxiety, mobility and social participation for people post stroke.",
+      "error_span": "anxiety",
+      "rationale": "The treatment group showed significant improvements in depression (Beck Depression Index), mobility, and social participation; anxiety was not assessed. Substituting 'anxiety' for 'depression' replaces a measured outcome entity with an unsupported one."
+    },
+    {
+      "id": "inj_0064",
+      "target_type": "invented",
+      "hallucinated_text": "Although the SLBM is quite repeatable, it underestimates mesopic pupil size by approximately 1.2 mm and shows a too wide range of agreement with CIP. SLBM shows low sensitivity in detecting pupils larger than 6 mm, which may be misleading when planning anterior segment surgery. Previous grading-consensus training strategies may increase interrater reproducibility, and compensation for the systematic underestimation could improve accuracy of the SLBM.",
+      "error_span": "by approximately 1.2 mm",
+      "rationale": "The evidence reports mean SLBM-CIP differences of only -0.60 and -0.30 mm; the fabricated '1.2 mm' underestimation magnitude is unsupported and contradicts the reported values."
+    },
+    {
+      "id": "inj_0243",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "epiDWI has the potential to differentiate pleomorphic adenoma and myoepithelial adenomas from all other examined entities. Due to an overlap not only within the group of benign and malignant lesions but also between groups, diagnoses should not be addressed on the basis of ADC values solely. Therefore, further studies combining dynamic contrast enhancement kinetics, morphologic criteria, and probably other MR imaging techniques seem warranted.",
+      "error_span": "dynamic contrast enhancement kinetics",
+      "rationale": "The study evaluated diffusion-weighted imaging (epiDWI/ADC values); recommending combination with 'dynamic contrast enhancement kinetics' misattributes the imaging mechanism studied, which was diffusion (DWI), not perfusion/contrast kinetics."
+    },
+    {
+      "id": "inj_0759",
+      "target_type": "relation_error",
+      "hallucinated_text": "Eliciting a tibial motor response predicts a lower success rate than eliciting a peroneal motor response with parasacral sciatic nerve block.",
+      "error_span": "predicts a lower success rate than eliciting a peroneal motor response",
+      "rationale": "The evidence shows the success rate was significantly HIGHER in the tibial group (11/14 vs 2/12; P=0.002); stating tibial predicts a 'lower' success rate reverses the direction of the relation."
+    },
+    {
+      "id": "inj_0669",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "It can be concluded that chronic neck pain patients in general have worse motor task performance compared to healthy subjects and that provoking pain-related cognitions further worsened performance.",
+      "error_span": "chronic neck pain patients",
+      "rationale": "The study population was chronic low back pain (CLBP) patients; substituting 'chronic neck pain patients' replaces the studied disease entity with a different, unsupported condition."
+    },
+    {
+      "id": "inj_0972",
+      "target_type": "invented",
+      "hallucinated_text": "The palliative treatment concept of 25 Gy applied in 5 fractions is sufficient for radiation of lung cancer, given that there was no obvious survival improvement in patients treated with the higher total dose regimen, and the 50 Gy regimen produced significantly more grade 3 esophagitis.",
+      "error_span": "the 50 Gy regimen produced significantly more grade 3 esophagitis",
+      "rationale": "The analysis compared only overall survival between the 25 Gy and 50 Gy regimens; no toxicity or esophagitis data are reported, so the grade 3 esophagitis claim is fabricated."
+    },
+    {
+      "id": "inj_0185",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Patients with chronic functional somatic symptoms have a great diversity of functional somatic symptoms. They use more somatic and psychotropic drugs than controls in the years before diagnosis. Moreover, they show high rates of referrals and psychiatric morbidity. A shared underlying autoimmune inflammatory pathway in patients with chronic functional somatic symptoms supports the concept that symptoms do not cluster in well defined distinct syndromes. Therefore, patients with chronic functional somatic symptoms should preferably not be classified into medical subspecialty syndromes.",
+      "error_span": "A shared underlying autoimmune inflammatory pathway",
+      "rationale": "The conclusion is based on the observed diversity of symptoms across body systems; attributing the non-clustering to 'a shared underlying autoimmune inflammatory pathway' invents a biological mechanism the observational study never examined or supports."
+    },
+    {
+      "id": "inj_0444",
+      "target_type": "relation_error",
+      "hallucinated_text": "Although components of the CSM (cognitive and emotional representations, coping strategies) were not associated with fears of recurrence, optimism was found to be the strongest predictor of fear, independent of anxiety and level of fear reported prior to treatment.",
+      "error_span": "were not associated with fears of recurrence",
+      "rationale": "The study found components of the Common Sense Model WERE associated with fears of recurrence (with optimism the strongest predictor); negating this to 'were not associated' flips the established relation."
+    },
+    {
+      "id": "inj_0192",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "The Holmium:YAG laser is an ideal intracorporeal lithotripter for renal calculi, with a high success rate and low morbidity.",
+      "error_span": "renal calculi",
+      "rationale": "The study treated ureteral stones with semirigid ureteroscopy; substituting 'renal calculi' for 'ureteral calculi' changes the anatomical site/indication to one not evaluated in the evidence."
+    },
+    {
+      "id": "inj_0475",
+      "target_type": "invented",
+      "hallucinated_text": "Cue-induced behavioural activation was specific to alcohol cues, reproducible, persistent and could be blocked by naltrexone at the lowest 0.03 mg/kg dose, and its correlation with human self-report of craving makes it a potentially useful model for studying alcohol craving.",
+      "error_span": "at the lowest 0.03 mg/kg dose",
+      "rationale": "The evidence lists naltrexone pre-treatment doses (0.03, 0.1, 1 mg/kg) but the clean conclusion does not specify which dose blocked the effect; asserting the lowest 0.03 mg/kg dose was effective fabricates an unsupported dose-specific finding."
+    },
+    {
+      "id": "inj_0148",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "While genetic susceptibility gradients in health exist among all ethnic groups, they are relatively shallow among Pacific and (especially) Asian peoples. For these ethnic groups, caution should be exercised in applying deprivation or other socio-economic measures as proxy indicators of need for health services.",
+      "error_span": "genetic susceptibility gradients",
+      "rationale": "The study examined deprivation/socio-economic (NZDep) gradients in mortality, not genetic susceptibility; attributing the gradients to 'genetic susceptibility' misattributes the causal factor studied."
+    },
+    {
+      "id": "inj_0508",
+      "target_type": "relation_error",
+      "hallucinated_text": "In patients with clinically apparent unilateral pseudoexfoliation, the lens seems to be more mobile in the affected eye. This results in a deeper anterior chamber when the head is placed in a prone position. Whether this fact might potentially lead to transient pupillary block when engaging in activities such as facing down while reading warrants further study.",
+      "error_span": "a deeper anterior chamber when the head is placed in a prone position",
+      "rationale": "Anterior chamber depth DECREASED (3.08 to 2.95 mm) in the prone/face-down position in pseudoexfoliation eyes, i.e. became shallower; stating it becomes 'deeper' reverses the directional relation."
+    },
+    {
+      "id": "inj_0794",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Based on data derived from self-reported health conditions, and not withstanding the limitations of such a study, we conclude that there is good evidence to suggest that individuals with moderate to severe periodontal disease are at higher risk of suffering from osteoarthritis and vice versa.",
+      "error_span": "osteoarthritis",
+      "rationale": "The study assessed the association between periodontal disease and rheumatoid arthritis (an autoimmune condition); substituting 'osteoarthritis' (a degenerative condition not studied) replaces the disease entity with an unsupported one."
+    }
+  ]
+}

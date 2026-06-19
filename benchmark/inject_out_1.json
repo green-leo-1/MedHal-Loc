@@ -1,0 +1,142 @@
+{"items": [
+  {
+    "id": "inj_0439",
+    "target_type": "relation_error",
+    "hallucinated_text": "An advance care planning model is not feasible for community palliative care services. Quality audit processes are an essential component of the Model with documentation of advance care planning discussion established as an important outcome measure.",
+    "error_span": "is not feasible for",
+    "rationale": "The evidence explicitly states the services 'demonstrated that it was feasible to embed the Model into their organizational structures.' Flipping 'is feasible' to 'is not feasible' reverses the core relational claim, contradicting the evidence."
+  },
+  {
+    "id": "inj_0680",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Greater anterior laxity of the uninjured knee was associated with poorer stability and functional outcomes after ACL reconstruction. Excessive anterior laxity of the uninjured knee thus appears to represent a risk factor for inferior outcomes, as measured with a KT2000 arthrometer exerting a force of 89 N.",
+    "error_span": "89 N",
+    "rationale": "The evidence states the KT2000 arthrometer exerted a force of 134 N, not 89 N. Substituting the dose/number with a different plausible arthrometer force value is unsupported and wrong. (Note: phrase appended to preserve the surgical single-entity substitution while keeping the original facts.)"
+  },
+  {
+    "id": "inj_0263",
+    "target_type": "invented",
+    "hallucinated_text": "Arch form in a Saudi patient group is independent of gender, sagittal molar relationship, and Bolton discrepancy. The tapered arch form was the most prevalent type, occurring in 58% of the sample.",
+    "error_span": "The tapered arch form was the most prevalent type, occurring in 58% of the sample.",
+    "rationale": "The evidence explicitly states 'No single arch form was significantly more common than the others.' Inserting a fabricated claim that the tapered arch form predominated at 58% is unsupported and contradicts the evidence."
+  },
+  {
+    "id": "inj_0521",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Pap smears with glandular cell abnormalities are often flagged as abnormal by RPS, and this results in a sensitivity of 36.4% (at the AGC threshold). Most importantly, some cases of AGC are detected on Pap smears by RPS only because RPS selectively enriches glandular cells through immunocytochemical staining, and this demonstrates that RPS is a valuable QA method.",
+    "error_span": "because RPS selectively enriches glandular cells through immunocytochemical staining",
+    "rationale": "Rapid prescreening is a manual partial-screening QA method; it does not use immunocytochemical staining or selective glandular-cell enrichment. This fabricated mechanism is unsupported by and inconsistent with the evidence describing RPS as visual review for abnormality."
+  },
+  {
+    "id": "inj_0352",
+    "target_type": "relation_error",
+    "hallucinated_text": "Out of the four sacral sparing criteria, the acute phase anal sensory score measurements do not contribute significantly to the prognosis of independent ambulation. The combination of the acute phase voluntary anal contraction and the S4-5 LT and PP scores, predicts significantly worse chronic phase-independent ambulation outcomes than the currently used distinction between complete and incomplete SCI.",
+    "error_span": "predicts significantly worse",
+    "rationale": "The evidence and clean text indicate the combination predicts significantly BETTER chronic phase-independent ambulation outcomes than the complete/incomplete distinction. Flipping 'better' to 'worse' reverses the relational direction of the prognostic finding."
+  },
+  {
+    "id": "inj_0686",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Our findings support CIMT as a significant indicator of both cardiovascular risk and phenotype among adult white Europeans. However, specific thresholds need to be defined based on prospective studies.",
+    "error_span": "white Europeans",
+    "rationale": "The study population was a black African (Nigerian) population, as stated throughout the evidence ('among black Africans'). Substituting the population entity with 'white Europeans' is a plausible but unsupported and wrong entity substitution."
+  },
+  {
+    "id": "inj_0673",
+    "target_type": "invented",
+    "hallucinated_text": "In this small study serum inhibin concentrations higher than those found in the early follicular phase one to two weeks after evacuation of a hydatidiform mole seemed to be specific for persistent trophoblastic disease, with a diagnostic sensitivity of 92%. Further data are needed to confirm these promising results.",
+    "error_span": "with a diagnostic sensitivity of 92%",
+    "rationale": "No sensitivity figure is reported in the evidence; the study reports inhibin concentrations and confidence intervals but never a 92% diagnostic sensitivity. This is a fabricated numeric finding absent from the evidence."
+  },
+  {
+    "id": "inj_0533",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "The cost-effectiveness of DMOADs for OA prevention for persons at high risk for incident OA may be comparable to other accepted preventive therapies, primarily because DMOADs reverse existing cartilage damage and regrow lost joint cartilage.",
+    "error_span": "primarily because DMOADs reverse existing cartilage damage and regrow lost joint cartilage",
+    "rationale": "The evidence describes DMOADs as prophylaxis/prevention modeled by efficacy in preventing incident OA, not as agents that reverse damage or regrow cartilage. This fabricated mechanism of cartilage regeneration is unsupported and inconsistent with the prevention framing."
+  },
+  {
+    "id": "inj_0587",
+    "target_type": "relation_error",
+    "hallucinated_text": "The present survey showed a strong relationship between serum ACE and the frequency of SH, the clinical relevance of which is unclear. This limits the proposed role for serum ACE as an index of risk for SH.",
+    "error_span": "a strong relationship",
+    "rationale": "The evidence repeatedly characterizes the relationship as weak ('a very weak', difference not statistically significant, P = 0.075). Changing 'a weak relationship' to 'a strong relationship' reverses the strength/direction of the relational claim and contradicts the evidence."
+  },
+  {
+    "id": "inj_0176",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Most children undergoing congenital heart surgery can be extubated in the operating room. Most neonates, including many undergoing complex procedures, can be extubated within the first 48 hours after surgery. Early extubation was associated with low morbidity rates and short lengths of intensive care unit and hospital stays.",
+    "error_span": "48 hours",
+    "rationale": "The evidence defines early extubation as within 24 hours ('early extubation (≤ 24 hours)') and reports neonates extubated within that window. Substituting '24 hours' with '48 hours' changes a key threshold number to a wrong value."
+  },
+  {
+    "id": "inj_0645",
+    "target_type": "invented",
+    "hallucinated_text": "DGE after PPPD seems to be of minor clinical importance following uncomplicated surgery. When taking the results into consideration, it can be said that, despite the lack of a control group, antecolic duodenojejunostomy might be the key to a low incidence of DGE after PPPD. In our experience, DGE is linked to the occurrence of other postoperative complications rather than to pylorus preservation, and prophylactic erythromycin further reduced DGE rates to 2%.",
+    "error_span": "and prophylactic erythromycin further reduced DGE rates to 2%",
+    "rationale": "The evidence makes no mention of erythromycin or any prokinetic prophylaxis or a 2% rate attributable to it; the study only compared reconstructive anatomy. This is a fabricated treatment claim with an invented number absent from the evidence."
+  },
+  {
+    "id": "inj_0259",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Despite advances in early diagnosis and surgical technique, 5-year survival of stage I non-small cell lung carcinoma remains low as compared to survival of other solid organ neoplasm. Tumour size<or=3cm, adenocarcinoma histologic type and tumour overexpression of EGFR were associated with a more favourable outcome in our patient population. More effective multimodality treatments are needed to increase survival rates.",
+    "error_span": "tumour overexpression of EGFR",
+    "rationale": "The evidence lists the favourable prognostic factors as tumour size ≤3cm, adenocarcinoma histology, and negative bronchial resection margins. Replacing 'negative bronchial resection margins' with the wrong, unstudied mechanism 'tumour overexpression of EGFR' misattributes the basis for favourable outcome."
+  },
+  {
+    "id": "inj_0368",
+    "target_type": "relation_error",
+    "hallucinated_text": "The metastasis rate of station 9 lymph nodes was significantly higher than other mediastinal stations in lung cancer patients. The metastasis status of station 9 had no significant influence on tumor staging or prognosis. Routine dissection of station 9 lymph nodes may not be necessary, especially in patients with a low T stage, upper or middle lobe tumors, or without intrapulmonary lymph node metastasis.",
+    "error_span": "significantly higher than",
+    "rationale": "The evidence states the metastasis rate of station 9 (3.45%) 'was significantly lower than other mediastinal stations.' Flipping 'lower' to 'higher' reverses the comparative relation and contradicts the evidence."
+  },
+  {
+    "id": "inj_0691",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "Transrectal ultrasound guided and fusion biopsy cancer detection rates decreased with increasing prostate volume. However, magnetic resonance-ultrasound fusion biopsy had a lower prostate cancer detection rate compared to that of transrectal ultrasound guided biopsy in the literature. Magnetic resonance-ultrasound fusion biopsy represents a promising solution for patients with suspicion of prostate cancer and an enlarged prostate.",
+    "error_span": "lower",
+    "rationale": "The evidence states magnetic resonance-ultrasound fusion biopsy 'has shown superior prostate cancer detection rates' and is promising; the clean text says it had a 'higher' detection rate. Substituting 'higher' with 'lower' inverts the comparative entity descriptor and contradicts the evidence."
+  },
+  {
+    "id": "inj_0946",
+    "target_type": "invented",
+    "hallucinated_text": "The Ambu SIB was able to accurately deliver targeted pressures across all three models from preterm to infant. The Neopuff infant resuscitator was unable to deliver the targeted pressures in the infant model developing clinically significant levels of inadvertent PEEP which may pose risk during infant resuscitation. The Neopuff also delivered tidal volumes exceeding the target by an average of 35% in the preterm model.",
+    "error_span": "The Neopuff also delivered tidal volumes exceeding the target by an average of 35% in the preterm model.",
+    "rationale": "The evidence describes the Neopuff failing to reach set peak inflation pressures and elevated PEEP, but does not report any 35% tidal-volume overshoot in the preterm model. This is a fabricated quantitative finding absent from the evidence."
+  },
+  {
+    "id": "inj_0687",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Delayed diagnosis of an ARM appears to be common, occurring in approximately 32% of patients referred to our institution over the last 2.5 years. Current guidelines appear insufficient to ensure prompt diagnosis of ARM, largely because routine prenatal ultrasound fails to visualize the malformation.",
+    "error_span": "largely because routine prenatal ultrasound fails to visualize the malformation",
+    "rationale": "The evidence attributes missed diagnoses to inadequate neonatal physical examination ('Despite undergoing neonatal examination, the diagnosis of ARM was missed in 12 patients'), not to prenatal ultrasound limitations, which are never mentioned. This misattributes the mechanism of delayed diagnosis."
+  },
+  {
+    "id": "inj_0468",
+    "target_type": "relation_error",
+    "hallucinated_text": "We conclude that routine CXR after bronchoscopy with TBB is necessary even in patients without symptoms suggestive of pneumothorax. In asymptomatic patients, pneumothorax is rare and usually small, so routine CXR is not necessary in this category of patients.",
+    "error_span": "necessary even in patients without symptoms suggestive of pneumothorax",
+    "rationale": "The evidence and clean text conclude routine CXR is necessary ONLY in patients WITH symptoms suggestive of pneumothorax. Flipping the conditional relation to 'even in patients without symptoms' reverses the recommendation and contradicts the rest of the statement and evidence."
+  },
+  {
+    "id": "inj_0215",
+    "target_type": "entity_substitution",
+    "hallucinated_text": "This preliminary case-control study indicates the absence of mucosal 'high-risk' HPV types in human cervical mucus.",
+    "error_span": "human cervical mucus",
+    "rationale": "The study evaluated human breast milk specimens, as stated throughout the evidence ('detected in human breast milk'). Substituting the anatomical specimen/site 'human breast milk' with 'human cervical mucus' is a plausible but unsupported and wrong entity substitution."
+  },
+  {
+    "id": "inj_0535",
+    "target_type": "invented",
+    "hallucinated_text": "Human pWAT has chemotactic properties through the secretion of different chemokines, and we propose that pWAT might contribute to the progression of obesity-associated atherosclerosis. Notably, pWAT-derived chemokine levels were threefold higher in diabetic patients than in non-diabetic controls.",
+    "error_span": "Notably, pWAT-derived chemokine levels were threefold higher in diabetic patients than in non-diabetic controls.",
+    "rationale": "The evidence describes chemokine production by perivascular adipose tissue and its chemotactic effects but contains no comparison of diabetic versus non-diabetic patients or any threefold difference. This is a fabricated comparative finding absent from the evidence."
+  },
+  {
+    "id": "inj_0268",
+    "target_type": "mechanism_misattribution",
+    "hallucinated_text": "Consistent with prior studies, we found an inverse relationship between obesity and serum prostate specific antigen, driven by accelerated hepatic clearance of prostate specific antigen in obese men. However, the magnitude of the difference was small. Thus, adjusting prostate specific antigen for body mass index does not appear warranted.",
+    "error_span": "driven by accelerated hepatic clearance of prostate specific antigen in obese men",
+    "rationale": "The evidence attributes the lower PSA in obesity to hemodilution ('Obesity may be associated with lower prostate specific antigen through hemodilution'), not to accelerated hepatic clearance. This substitutes the stated mechanism with a different, unsupported one."
+  }
+]}

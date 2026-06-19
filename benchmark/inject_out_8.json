@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "inj_0369",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "In a multiethnic population, cutaneous melanoma in nonwhite persons is unusual but not rare. Although the diagnoses are distinctly different at initial examinations, suggesting a potential biological component, stage-for-stage outcomes are similar between white and nonwhite persons and suggest a need for early diagnostic interventions with unusual vascular lesions in nonwhite persons.",
+      "error_span": "vascular lesions",
+      "rationale": "The evidence and the original text concern pigmented lesions (melanoma is a pigmented tumour). Substituting the lesion type to vascular lesions is a plausible but wrong entity unsupported by the evidence."
+    },
+    {
+      "id": "inj_0028",
+      "target_type": "invented",
+      "hallucinated_text": "Halofantrine has mild to moderate pathological effects on cochlea histology, and can be considered an ototoxic drug, causing irreversible hearing loss in 40% of treated guinea pigs.",
+      "error_span": "causing irreversible hearing loss in 40% of treated guinea pigs",
+      "rationale": "The study assessed cochlear histology only and reported no hearing tests or any percentage of hearing loss; the 40% irreversible hearing loss figure is fabricated and absent from the evidence."
+    },
+    {
+      "id": "inj_0315",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "In Southern Italy, hepatitis G virus infection is widespread among patients with chronic hepatitis, primarily through parenteral transmission routes. Its frequency in subjects with cryptogenic liver disease parallels that observed in hepatitis C virus chronic liver disease, thus ruling out an aetiologic role of hepatitis G virus. TT virus infection is uncommon in patients with cryptogenic or hepatitis C virus-related liver disease who do not have a history of parenteral exposure.",
+      "error_span": "primarily through parenteral transmission routes",
+      "rationale": "The evidence and original text state HGV is widespread independently of parenteral risk factors. Asserting it spreads primarily through parenteral transmission misattributes the mechanism of spread and contradicts the finding."
+    },
+    {
+      "id": "inj_0600",
+      "target_type": "relation_error",
+      "hallucinated_text": "Cytoplasmic overexpression of β-catenin was observed in the majority of the cases of SbCC of eyelid, and this correlated significantly and inversely with tumour size. The authors therefore hypothesise that β-catenin overexpression in SbCC of eyelid may be a result of Wnt/β-catenin pathway dysregulation. However, its role both in the development of sebaceous cell carcinoma of the eyelid as well as its prognosis needs to be explored further.",
+      "error_span": "significantly and inversely with tumour size",
+      "rationale": "The evidence states β-catenin overexpression correlated POSITIVELY with tumour size. Flipping the direction to an inverse correlation reverses the relation and is wrong."
+    },
+    {
+      "id": "inj_0291",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "The doses evaluated at PIBS points are not impacted by intrafractional movements. PIBS and PIBS +2 dose points allow distinguishing the plans of patients with cervical infiltration. Further studies are needed to correlate these parameters with vaginal morbidity.",
+      "error_span": "cervical infiltration",
+      "rationale": "The evidence reports significant differences for patients with VAGINAL involvement/infiltration, not cervical. Substituting the anatomical site to cervical is a plausible but wrong entity."
+    },
+    {
+      "id": "inj_0740",
+      "target_type": "invented",
+      "hallucinated_text": "An association was found between sublingual varices and hypertension, with sublingual varices present in 82% of patients with newly diagnosed hypertension. Examining the lateral borders of the tongue is easily done, causes no harm and could be a valuable method for the dental profession to take active part in preventive healthcare.",
+      "error_span": "with sublingual varices present in 82% of patients with newly diagnosed hypertension",
+      "rationale": "No such prevalence figure (82%) is reported in the evidence; the specific quantified claim is fabricated while the original association statement is left intact."
+    },
+    {
+      "id": "inj_0779",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "According to ICM-DNA values corresponding to the G0/G1 resting region, patients with breast cancers classified as Auer IV can be divided into subgroups with different tumor characteristics and prognoses.",
+      "error_span": "G0/G1 resting region",
+      "rationale": "The prognostic information came from the S + G2/M (proliferative) fraction, not the G0/G1 resting region. Attributing the result to the resting region misstates the underlying cell-cycle mechanism."
+    },
+    {
+      "id": "inj_0060",
+      "target_type": "relation_error",
+      "hallucinated_text": "Pediatricians should be alert to the earliest manifestations of AEA. Awareness of choking games among the young and, of those, a subset who eventually progress to potentially fatal AEA is strongly encouraged among all primary care professionals who are unlikely to be able to interrupt the behavior.",
+      "error_span": "are unlikely to be able to interrupt the behavior",
+      "rationale": "The evidence frames pediatricians as able to identify the syndrome and possibly prevent a tragedy / interrupt the behavior. Flipping this to being unlikely to interrupt reverses the intended relation."
+    },
+    {
+      "id": "inj_0554",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "No home-prepared replacement milks in South Africa meet all estimated micronutrient and essential fatty acid requirements of infants aged<6 months. Commercial infant formula is the only replacement milk that meets all nutritional needs. Revisions of WHO/UNAIDS/UNICEF HIV and infant feeding course replacement milk options are needed. If replacement milks are to provide total nutrition, preparations should include vegetable oils, such as coconut oil, as a source of linoleic and alpha-linolenic acids, and additional vitamins and minerals.",
+      "error_span": "coconut oil",
+      "rationale": "The original recommends soybean oil as a source of linoleic and alpha-linolenic acids. Coconut oil is predominantly saturated fat and a poor source of these essential fatty acids, so the substituted entity is plausible-sounding but wrong."
+    },
+    {
+      "id": "inj_0510",
+      "target_type": "invented",
+      "hallucinated_text": "Transverse sternal plating with 1 or 4 plates significantly improves sternal stability closure in human cadaver model, increasing displacement resistance by approximately 65%. Adding a single sternal plate to primary closure improves the strength of sternal closure with traditional wiring potentially reducing the risk of sternal dehiscence and could be considered in high risk patients.",
+      "error_span": "increasing displacement resistance by approximately 65%",
+      "rationale": "No such 65% improvement figure is reported; the evidence gives raw pressure values (183.3 to 301.4) without this percentage. The quantified claim is fabricated."
+    },
+    {
+      "id": "inj_0292",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "When additional validation studies were taken into account, asthma medications were found to be prescribed not only for asthma but also as prophylaxis against gastroesophageal reflux. In addition, not all children with current asthma had prescriptions. We therefore conclude that asthma medications are therefore not a good proxy for the disease.",
+      "error_span": "as prophylaxis against gastroesophageal reflux",
+      "rationale": "The evidence indicates asthma medications are prescribed for other RESPIRATORY diseases, not as prophylaxis against gastroesophageal reflux. Substituting this rationale misattributes the mechanism/reason for over-prescription."
+    },
+    {
+      "id": "inj_0634",
+      "target_type": "relation_error",
+      "hallucinated_text": "Among women who had undergone tubal sterilization, a prior history of unintended pregnancy significantly decreased desire for sterilization reversal.",
+      "error_span": "significantly decreased desire for sterilization reversal",
+      "rationale": "The evidence shows that after adjustment unintended pregnancy was no longer significantly associated, and unadjusted it was associated with HIGHER odds of desiring reversal; the original concludes it did NOT decrease desire. Flipping to a significant decrease reverses the relation."
+    },
+    {
+      "id": "inj_0431",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "The introduction of a discharge coordinator improved the quality of medication reconciliation, but at additional cost.",
+      "error_span": "quality of medication reconciliation",
+      "rationale": "The study and evidence assessed the quality of DISCHARGE PLANNING, not medication reconciliation. Substituting the measured outcome to medication reconciliation is a plausible but unsupported entity."
+    },
+    {
+      "id": "inj_0518",
+      "target_type": "invented",
+      "hallucinated_text": "Our results demonstrate that kidney damage occurs during LPN when warm ischemia is>30 min, with a permanent 18% reduction in split renal function on scintigraphy at 12 months. This damage is only partially reversible and efforts should be made to keep warm ischemia within 30 min.",
+      "error_span": "with a permanent 18% reduction in split renal function on scintigraphy at 12 months",
+      "rationale": "The evidence shows scintigraphy values largely recovered toward baseline by 12 months and reports no permanent 18% reduction; this specific fabricated figure contradicts and is absent from the evidence."
+    },
+    {
+      "id": "inj_0572",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Post tonsillectomy antibiotics, whose presumed benefit arises from accelerating mucosal re-epithelialization of the tonsillar bed, did not prove to have a role in minimizing postoperative morbidity. Moreover, analgesics given on the basis of as required had a limited value.",
+      "error_span": "accelerating mucosal re-epithelialization of the tonsillar bed",
+      "rationale": "The evidence attributes any antibiotic role to control of infection-related morbidity (pain, fever, secondary haemorrhage), not to accelerating mucosal re-epithelialization. The inserted mechanism is plausible-sounding but not the stated or supported one."
+    },
+    {
+      "id": "inj_0800",
+      "target_type": "relation_error",
+      "hallucinated_text": "At follow-up, patients with contact urticaria had significantly poorer prognosis than those with contact allergy, and there was a trend towards a better prognosis for those with contact allergy to rubber chemicals than those with allergy to epoxy. A significant positive association between job change and improvement was found.",
+      "error_span": "a better prognosis for those with contact allergy to rubber chemicals than those with allergy to epoxy",
+      "rationale": "The evidence shows nonubiquitous (epoxy) allergy had higher clearance (22%) than ubiquitous (rubber, 10%), i.e. rubber chemical allergy had the POORER prognosis. Flipping to a better prognosis for rubber than epoxy reverses the relation."
+    },
+    {
+      "id": "inj_0460",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "It is important to ensure that new mothers are adequately informed about topics important to them while in hospital. The findings highlight the need for accessible and appropriate community-based information resources for women in the postpartum period, especially for those of advanced maternal age.",
+      "error_span": "advanced maternal age",
+      "rationale": "The evidence emphasizes women of LOW SOCIOECONOMIC STATUS as the subgroup with unmet learning needs. Substituting advanced maternal age changes the targeted subgroup to one not supported by the evidence."
+    },
+    {
+      "id": "inj_0085",
+      "target_type": "invented",
+      "hallucinated_text": "Our data suggested that visually impaired pedestrians can make accurate and reliable street crossing decisions like those of normally sighted pedestrians. When using auditory information only, all subjects significantly overestimated the vehicular gap time by an average of 2.5 seconds. Our finding that blind pedestrians performed significantly worse than either the normally sighted or visually impaired subjects under the hearing only condition suggested that they may benefit from training to improve their detection ability and/or interpretation of vehicular gap times.",
+      "error_span": "by an average of 2.5 seconds",
+      "rationale": "The evidence reports inaccuracy in the hearing-only condition but gives no quantified average overestimation of 2.5 seconds; this specific magnitude is fabricated."
+    },
+    {
+      "id": "inj_0955",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "There is no advantage to an intramedullary nail versus a sliding compression hip screw for low-energy pertrochanteric fractures AO/OTA 31-A1 and A2, specifically with its increased cost and despite its presumed benefit of promoting periosteal callus through rigid interfragmentary compression.",
+      "error_span": "promoting periosteal callus through rigid interfragmentary compression",
+      "rationale": "Intramedullary nails act as load-sharing implants with a shorter lever arm; rigid interfragmentary compression is the mechanism of the sliding compression hip screw, not the nail. Attributing rigid-compression callus promotion to the nail misstates the mechanism, and no such advantage was found."
+    },
+    {
+      "id": "inj_0194",
+      "target_type": "relation_error",
+      "hallucinated_text": "The hypothesis that reducing friction by modifying the bracket/ligature interface increases the rate of space closure was strongly supported. The major determinant of orthodontic tooth movement is probably the individual patient response.",
+      "error_span": "was strongly supported",
+      "rationale": "The evidence shows space closure was very similar across all three bracket/ligature groups, so the friction-reduction hypothesis was NOT supported. Flipping to strongly supported reverses the conclusion."
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "items": [
+    {
+      "id": "inj_0974",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Malnutrition is prevalent in hemodialysis patients and is associated with arterial calcification through suppression of the RANKL/osteoprotegerin signaling axis in calcified radial arteries. Malnutrition may be a new inducer candidate for arterial calcification in hemodialysis patients.",
+      "error_span": "through suppression of the RANKL/osteoprotegerin signaling axis",
+      "rationale": "The evidence attributes the calcification association to increased expression of BMP2 and matrix Gla protein (MGP), not to suppression of a RANKL/osteoprotegerin axis. This substitutes the actual stated molecular mechanism (BMP2/MGP) with a different, unsupported pathway."
+    },
+    {
+      "id": "inj_0411",
+      "target_type": "relation_error",
+      "hallucinated_text": "Current evidence suggests that when used in targeted patient populations, specialty pharmaceuticals may represent a poor health care value.",
+      "error_span": "a poor health care value",
+      "rationale": "The original conclusion and the framing of the evidence (promise of increased life expectancy and quality of life) support that specialty pharmaceuticals may represent a GOOD value in targeted populations. Flipping 'good' to 'poor' reverses the evaluative relation, contradicting the source."
+    },
+    {
+      "id": "inj_0174",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "At baseline assessment patients of lower socioeconomic status showed lower health related lung function. Since there was no clear trend at follow-up assessment this suggests that patients from different socioeconomic status responded to treatment similarly. In general, the findings suggest that quality of life is not only the outcome of the disease and its treatment, but is also highly dependent on each patients' socioeconomic characteristics.",
+      "error_span": "lower health related lung function",
+      "rationale": "The study measured health related quality of life using QoL instruments (NHP, EORTC QLQ-C30, QLQ-LC13), not lung function. Substituting 'quality of life' with 'lung function' replaces the actual measured outcome entity with a different, unsupported one."
+    },
+    {
+      "id": "inj_0760",
+      "target_type": "invented",
+      "hallucinated_text": "Among HBR patients with stable or unstable coronary artery disease, E-ZES implantation provides superior efficacy and safety as compared with conventional BMS, including a 47% relative reduction in definite stent thrombosis. (Zotarolimus-Eluting Endeavor Sprint Stent in Uncertain DES Candidates [ZEUS]; NCT01385319).",
+      "error_span": "including a 47% relative reduction in definite stent thrombosis",
+      "rationale": "The evidence reports the primary endpoint as a 12-month major adverse cardiovascular event composite (death, MI, target vessel revascularization) and never quantifies a 47% reduction in stent thrombosis. This inserts a fabricated, unsupported numeric finding while leaving the original claim intact."
+    },
+    {
+      "id": "inj_0102",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Doctors specialized in infectious diseases and clinical microbiology assess the appropriateness of antimicrobials prescribed for a broad spectrum of indications with acceptable agreement and validity, regardless of their experience or hospital of employment, primarily because their judgments are driven by pharmacokinetic dosing calculations rather than clinical guideline applicability. However, there is room for improvement, which merits attention in multidisciplinary discussions and education.",
+      "error_span": "primarily because their judgments are driven by pharmacokinetic dosing calculations rather than clinical guideline applicability",
+      "rationale": "The evidence states assessors were instructed how to handle guideline applicability and deviations and were validated against a modal expert opinion standard; it never attributes their judgments to pharmacokinetic dosing calculations. This injects a wrong mechanistic explanation for how the assessments were made."
+    },
+    {
+      "id": "inj_0731",
+      "target_type": "relation_error",
+      "hallucinated_text": "We suggest that only when a family history is present, children over 5 years should be screened for hyperlipidemia. Education about hyperlipidemia and precautions for its complications should be given to both children and families. The best and easiest way to reach children is to screen them at schools. School is also a good place for education of children about hyperlipidemia and risk factors.",
+      "error_span": "only when a family history is present",
+      "rationale": "The evidence found NO relation between family history and serum lipid levels, so the conclusion is to screen all children REGARDLESS of family history. Changing 'regardless of family history' to 'only when a family history is present' flips the relation and makes family history a screening criterion, contradicting the data."
+    },
+    {
+      "id": "inj_0619",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "The practice of intensive observation for the first transfusion in adult patients is probably unnecessary.",
+      "error_span": "adult patients",
+      "rationale": "The study population and entire setting concern pediatric patients in a tertiary care pediatric hospital. Substituting 'pediatric patients' with 'adult patients' replaces the studied population entity with a different, unsupported one."
+    },
+    {
+      "id": "inj_0894",
+      "target_type": "invented",
+      "hallucinated_text": "ACR is an independent prognostic factor for maternal and neonatal adverse outcomes in suspected preeclampsia, predicting composite adverse outcomes with 92% sensitivity. ACR may be useful to inform risk predictions within a prognostic model.",
+      "error_span": "predicting composite adverse outcomes with 92% sensitivity",
+      "rationale": "The evidence reports outcome event rates (28.5% maternal, 20.4% neonatal) and a log-ACR association but never states a 92% sensitivity figure. This inserts a fabricated, unsupported performance number while preserving the original conclusion."
+    },
+    {
+      "id": "inj_0597",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "PPM after AVR does not affect survival, functional status, and QoL in patients aged at least 75 years, because the small prosthesis size accelerates left ventricular reverse remodeling that offsets the residual gradient. Surgical procedures, often time-consuming, contemplated to prevent PPM, may therefore be not justified in this patient subgroup.",
+      "error_span": "because the small prosthesis size accelerates left ventricular reverse remodeling that offsets the residual gradient",
+      "rationale": "The evidence shows PPM did not influence survival (P=NS) and that NYHA class improved over time, but it offers no mechanism involving small-prosthesis-driven accelerated reverse remodeling offsetting the gradient. This injects a fabricated mechanistic explanation absent from and unsupported by the source."
+    },
+    {
+      "id": "inj_0133",
+      "target_type": "relation_error",
+      "hallucinated_text": "Economic inequalities in breast and cervical cancer screening are low in LMICs with high screening coverage. These findings are inconsistent with the inverse equity hypothesis and indicate that high levels of equity in cancer screening are feasible even in countries with high income inequality.",
+      "error_span": "inconsistent with the inverse equity hypothesis",
+      "rationale": "The evidence shows inequalities narrow as aggregate coverage rises, which directly supports (is consistent with) the inverse equity hypothesis. Changing 'consistent with' to 'inconsistent with' flips the relational claim and contradicts the reported pattern."
+    },
+    {
+      "id": "inj_0277",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Open access publishing and the Hirsch index of the first signing author increase the impact of scientific articles. The open access advantage is greater for the more highly cited articles, and appears in the 12-18 months after publication.",
+      "error_span": "12-18 months",
+      "rationale": "The evidence specifies the citation comparison window as 30-35 months after publication. Substituting '30-35 months' with '12-18 months' replaces the actual numeric/time entity with a different, unsupported value."
+    },
+    {
+      "id": "inj_0379",
+      "target_type": "invented",
+      "hallucinated_text": "The menopausal transition warrants attention as a period of vulnerability to MDD recurrence, while health factors and VMS should be considered important risk factors for first lifetime-onset of MDD during midlife, with a prior history of childhood trauma identified as the single strongest predictor of recurrence.",
+      "error_span": "with a prior history of childhood trauma identified as the single strongest predictor of recurrence",
+      "rationale": "The evidence describes menopausal status, health histories, personality traits, and time-varying symptoms as candidate risk factors but never identifies childhood trauma, let alone as the single strongest predictor. This inserts a fabricated, unsupported finding while leaving the original claims intact."
+    },
+    {
+      "id": "inj_0226",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Although travel burden is associated with timely diagnosis and treatment for some types of cancer, we did not find evidence that driving time was, in general, better at predicting timeliness of cancer diagnosis and treatment than driving distance, because rural road surface quality rather than the distance itself determines the effective travel burden. More intensive efforts at early detection of breast cancer and early treatment of CRC for Medicaid patients who live in remote areas may be needed.",
+      "error_span": "because rural road surface quality rather than the distance itself determines the effective travel burden",
+      "rationale": "The study compared driving distance versus driving time as indicators of travel burden and found neither superior; it never invokes road surface quality as the determinant of travel burden. This injects a fabricated mechanistic explanation not supported by the evidence."
+    },
+    {
+      "id": "inj_0874",
+      "target_type": "relation_error",
+      "hallucinated_text": "Surgery may worsen blood lipid levels in patients with OSA, especially in patients with preoperative dyslipidemia, potentially yielding a major benefit in metabolism and cardiovascular sequelae. Prospective studies should examine this potential metabolic effect of airway surgery for OSA.",
+      "error_span": "Surgery may worsen blood lipid levels",
+      "rationale": "The evidence shows serum TC and LP(a) decreased significantly post-operatively, i.e., lipid profiles IMPROVED. Changing 'improve' to 'worsen' flips the direction of the effect, contradicting the reported significant decreases."
+    },
+    {
+      "id": "inj_0792",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "MDA on its own was insufficient to control the prevalence of schistosomiasis, intensity of Plasmodium infection, or morbidity of the disease. Alternative control measures will be needed to complement the existing national MDA program.",
+      "error_span": "Plasmodium infection",
+      "rationale": "The study assessed Schistosoma infection intensity (eggs per gram of feces) in schistosomiasis-endemic villages. Substituting the causative organism 'Schistosoma' with 'Plasmodium' (the malaria parasite) replaces the correct organism entity with a different, incorrect one."
+    },
+    {
+      "id": "inj_0144",
+      "target_type": "invented",
+      "hallucinated_text": "It seems quite admissible and justified to encourage medical students to officiate as examiners in undergraduate emergency medicine OSCE formative testing, where inter-examiner reliability between student and faculty examiners exceeded 0.90, but not necessarily in summative assessment evaluations.",
+      "error_span": "where inter-examiner reliability between student and faculty examiners exceeded 0.90",
+      "rationale": "The evidence reports independent-samples t-tests, effect sizes (Cohen's d), and mostly small effects, but never reports an inter-examiner reliability coefficient, let alone one exceeding 0.90. This inserts a fabricated, unsupported statistic while preserving the original recommendation."
+    },
+    {
+      "id": "inj_0981",
+      "target_type": "mechanism_misattribution",
+      "hallucinated_text": "Our data shows that the Ki-67 value predicts the response to neoadjuvant chemotherapy as a function of tumor angiogenesis, reflecting the daily routine concerning Ki-67 and its impressing potential and limitation as a predictive marker for neoadjuvant chemotherapy response.",
+      "error_span": "as a function of tumor angiogenesis",
+      "rationale": "The evidence states Ki-67's predictive value differed by molecular subtype (luminal, Her2-enriched, basal-like), not by tumor angiogenesis. Replacing 'molecular subtype' with 'tumor angiogenesis' misattributes the stated mechanism governing Ki-67's predictive performance."
+    },
+    {
+      "id": "inj_0866",
+      "target_type": "relation_error",
+      "hallucinated_text": "The data from this study has shown that GCB collected during diagnostic periodontal examination cannot be a reliable source of blood for glucometric analysis.",
+      "error_span": "cannot be a reliable source of blood for glucometric analysis",
+      "rationale": "The evidence reports a very strong correlation between gingival crevicular blood and finger-prick glucose readings, supporting that GCB is an excellent/reliable source. Changing 'can be an excellent source' to 'cannot be a reliable source' reverses the conclusion and contradicts the strong correlation."
+    },
+    {
+      "id": "inj_0023",
+      "target_type": "entity_substitution",
+      "hallucinated_text": "Currently available nomograms used to predict BCR accurately predict all-cause mortality and other more clinically relevant endpoints. Moreover, not only do they significantly predict all-cause mortality, but do so with generally greater accuracy than BCR.",
+      "error_span": "all-cause mortality",
+      "rationale": "The study examined the nomograms' ability to predict prostate cancer-specific mortality (PCSM), a disease-specific endpoint, not all-cause mortality. Substituting 'PCSM' with 'all-cause mortality' replaces the actual studied outcome entity with a different one not assessed."
+    },
+    {
+      "id": "inj_0074",
+      "target_type": "invented",
+      "hallucinated_text": "Patients who received a metal-backed Onlay tibial component obtained better postoperative mechanical alignment compared to those who received all-polyethylene Inlay prostheses, with neutral alignment achieved in 98% of Onlay cases. The thicker overall construct of Onlay prostheses appears to be an important determinant of postoperative alignment. Considering their higher survivorship rates and improved postoperative mechanical alignment, Onlay prostheses should be the first option when performing medial UKR.",
+      "error_span": "with neutral alignment achieved in 98% of Onlay cases",
+      "rationale": "The evidence reports mean mechanical alignment values (Onlay mean 2.8 degrees, Inlay mean 3.9 degrees) but never reports a proportion of cases achieving neutral alignment, let alone 98%. This inserts a fabricated, unsupported numeric finding while leaving the original comparison intact."
+    }
+  ]
+}

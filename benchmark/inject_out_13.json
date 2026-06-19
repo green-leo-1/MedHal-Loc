@@ -1,0 +1,144 @@
+{
+    "items":  [
+                  {
+                      "id":  "inj_0494",
+                      "target_type":  "relation_error",
+                      "hallucinated_text":  "N-acetylcysteine may prevent severe otorrhea in the healing process of tympanic membrane perforations. Further studies including histopathological examinations are required to elucidate this condition.",
+                      "error_span":  "may prevent severe otorrhea",
+                      "rationale":  "Evidence shows NAC impaired healing (only 40% of NAC perforations closed) and remaining ears exhibited otorrhea, i.e. NAC was associated with causing otorrhea, not preventing it. Flipping \u0027may cause\u0027 to \u0027may prevent\u0027 inverts the relation."
+                  },
+                  {
+                      "id":  "inj_0170",
+                      "target_type":  "entity_substitution",
+                      "hallucinated_text":  "Clinical axillary examination in breast cancer is subject to false-positive results, and is by itself insufficient justification for axillary lymph node dissection. If other means of preoperative assessment such as palpation- or image-guided core needle biopsy are negative or indeterminate, then SLN biopsy deserves wider consideration as an alternative to routine axillary lymph node dissection in the clinically node-positive setting.",
+                      "error_span":  "core needle biopsy",
+                      "rationale":  "The original text and study context refer to fine needle aspiration as the preoperative assessment; substituting \u0027core needle biopsy\u0027 replaces the specified entity with a different, unsupported procedure."
+                  },
+                  {
+                      "id":  "inj_0210",
+                      "target_type":  "invented",
+                      "hallucinated_text":  "The results of this study suggest that the safest areas for the placement of miniscrews are between the first and second premolars and between the first and second molars, regardless of the angle of insertion, where the mean inter-radicular space exceeded 4.2 mm in all subjects.",
+                      "error_span":  "where the mean inter-radicular space exceeded 4.2 mm in all subjects",
+                      "rationale":  "No such 4.2 mm mean inter-radicular space value (let alone \u0027in all subjects\u0027) is reported in the evidence; it is a fabricated quantitative claim."
+                  },
+                  {
+                      "id":  "inj_0296",
+                      "target_type":  "mechanism_misattribution",
+                      "hallucinated_text":  "A UNP can be trained to perform cystoscopy and detect suspicious lesions as accurately as can a consultant urologist, because flexible cystoscopy relies primarily on tactile rather than visual feedback to identify tumours. Legal and training issues in implementation are important.",
+                      "error_span":  "because flexible cystoscopy relies primarily on tactile rather than visual feedback to identify tumours",
+                      "rationale":  "Flexible cystoscopy detects bladder tumours by direct visual inspection, not tactile feedback; this fabricated mechanism is medically wrong and unsupported by the evidence."
+                  },
+                  {
+                      "id":  "inj_0930",
+                      "target_type":  "relation_error",
+                      "hallucinated_text":  "This large multicenter database analysis suggests that the presence of severe and moderate and even mild preoperative anemia is an independent protective factor against complications and a longer hospital stay after colon surgery.",
+                      "error_span":  "an independent protective factor against complications",
+                      "rationale":  "Evidence shows anemic patients had higher odds (OR 1.83-2.19) of the adverse composite outcome, so anemia is a risk factor, not a protective factor. The relation is inverted."
+                  },
+                  {
+                      "id":  "inj_0998",
+                      "target_type":  "entity_substitution",
+                      "hallucinated_text":  "The PRP group recorded reduced pain, swelling, and trismus as well as enhanced and faster bone healing compared with those in the control. Hence the study showed that topical application of platelet-poor plasma gel has a beneficial effect in enhancing socket healing after third molar surgery.",
+                      "error_span":  "platelet-poor plasma gel",
+                      "rationale":  "The study evaluated platelet-rich plasma (PRP) gel; substituting \u0027platelet-poor plasma\u0027 names a different, unsupported product as the beneficial agent."
+                  },
+                  {
+                      "id":  "inj_0375",
+                      "target_type":  "invented",
+                      "hallucinated_text":  "Vitamin D supplementation was associated with significantly increased %Tregs in apparently healthy individuals, nearly doubling regulatory T-cell frequency by week 8. This immunomodulatory effect of vitamin D might underlie the associations of vitamin D deficiency and autoimmune diseases. Hence, our finding provides a rationale for further studies to investigate vitamin D effects on autoimmunological processes.",
+                      "error_span":  "nearly doubling regulatory T-cell frequency by week 8",
+                      "rationale":  "The evidence reports a modest %Tregs rise from 4.8 to ~5.9 (about a 20% increase), not a near-doubling; the magnitude claim is fabricated and unsupported."
+                  },
+                  {
+                      "id":  "inj_0781",
+                      "target_type":  "mechanism_misattribution",
+                      "hallucinated_text":  "Reorganization of care to offer a primary angioplasty service was acceptable to patients and their carers, largely because mechanical reperfusion eliminates the intracranial bleeding risk inherent to all reperfusion strategies. Satisfaction levels were high regardless of the type of care received, with the exception of discharge and aftercare.",
+                      "error_span":  "because mechanical reperfusion eliminates the intracranial bleeding risk inherent to all reperfusion strategies",
+                      "rationale":  "The study measured satisfaction via survey, not bleeding mechanisms; the claim that angioplasty \u0027eliminates\u0027 intracranial bleeding risk is a fabricated, unsupported mechanism."
+                  },
+                  {
+                      "id":  "inj_0704",
+                      "target_type":  "relation_error",
+                      "hallucinated_text":  "Center differences in enteral feeding advancement occur and may have a significant impact on short-term outcomes, with rapid advancement increasing the rate of nosocomial sepsis. Large, multicenter, prospective trials are required to further elucidate the optimal feeding strategy for VLBW infants.",
+                      "error_span":  "rapid advancement increasing the rate of nosocomial sepsis",
+                      "rationale":  "Evidence shows infants in SLOW advancement centers had significantly higher sepsis rates than rapid advancement centers; attributing increased sepsis to rapid advancement reverses the direction of the relation."
+                  },
+                  {
+                      "id":  "inj_0303",
+                      "target_type":  "entity_substitution",
+                      "hallucinated_text":  "When there is clinical suspicion of sepsis, appropriate empirical systemic antibiotic therapy should be broad spectrum and should rely on the susceptibility of the organisms from recent cultures of the respiratory tract secretions, until the blood cultures results are completed.",
+                      "error_span":  "respiratory tract secretions",
+                      "rationale":  "The study links blood-stream pathogens to burn wound flora and recommends relying on burn wound surface cultures; substituting \u0027respiratory tract secretions\u0027 names the wrong anatomical culture site."
+                  },
+                  {
+                      "id":  "inj_0051",
+                      "target_type":  "invented",
+                      "hallucinated_text":  "Surrogates of injury severity, including days in the ICU and non-ICU hospital LOS\u003e10 days, were associated with the development of HO in our cohort of acetabular fracture patients, in whom Brooker Grade III/IV HO occurred in over 60% of cases. Prophylaxis with XRT was significantly protective against the development of HO, and the ability to provide prophylaxis is very likely related to the severity of injury.",
+                      "error_span":  "Brooker Grade III/IV HO occurred in over 60% of cases",
+                      "rationale":  "No incidence figure such as \u0027over 60%\u0027 for Brooker Grade III/IV HO is reported in the evidence; this specific prevalence is fabricated."
+                  },
+                  {
+                      "id":  "inj_0956",
+                      "target_type":  "mechanism_misattribution",
+                      "hallucinated_text":  "Our results do not support the hypothesis of a link between essential tremor and Parkinson\u0027s disease. However, it appears that ET patients have a small degree of striatal dopaminergic degeneration. If this is due to alterations in the cerebellar cholinergic pathway or of other origin it is not clear. Follow-up studies of essential tremor patients are warranted to assess progression of disease and to understand better the possible cause for striatal dopaminergic degeneration.",
+                      "error_span":  "cerebellar cholinergic pathway",
+                      "rationale":  "The DaTSCAN/Ioflupane findings concern striatal dopaminergic (nigrostriatal) degeneration; the original text names the nigrostriatal pathway. Substituting \u0027cerebellar cholinergic pathway\u0027 misattributes the mechanism to an unrelated, non-dopaminergic system."
+                  },
+                  {
+                      "id":  "inj_0737",
+                      "target_type":  "relation_error",
+                      "hallucinated_text":  "Patients with WD may possibly undergo cardiac surgery with a markedly enhanced risk for bleeding complications despite a more than usual transfusion requirement and significantly lower platelet counts perioperatively.",
+                      "error_span":  "with a markedly enhanced risk for bleeding complications",
+                      "rationale":  "The case-control study concluded WD patients can undergo cardiac surgery WITHOUT a markedly enhanced bleeding risk; changing \u0027without\u0027 to \u0027with a markedly enhanced risk\u0027 inverts the relation."
+                  },
+                  {
+                      "id":  "inj_0481",
+                      "target_type":  "entity_substitution",
+                      "hallucinated_text":  "The incidence of abdominal injury in intoxicated, hemodynamically stable, blunt trauma patients with a normal abdominal examination and normal mentation is low. Physical examination and attention to clinical risk factors allow accurate abdominal evaluation without MRI.",
+                      "error_span":  "without MRI",
+                      "rationale":  "The study addresses whether computed tomography (CT) of the abdomen is necessary and concludes evaluation is possible without CT; substituting \u0027MRI\u0027 names the wrong imaging modality."
+                  },
+                  {
+                      "id":  "inj_0990",
+                      "target_type":  "invented",
+                      "hallucinated_text":  "Despite recent efforts, a large proportion of newly confirmed TB patients could not adhere to standard TB treatment, and patients\u0027 lost to follow-up was still a serious problem. Poor treatment supervision and heavy financial burden might be the main causes for non-adherence, with most defaulting within the first two weeks of therapy. More needs to be done to enhance treatment supervision policies and financial supports to both health providers and TB patients.",
+                      "error_span":  "with most defaulting within the first two weeks of therapy",
+                      "rationale":  "The evidence reports overall non-adherence (36%) and loss to follow-up (28.2%) but gives no timing showing most defaulted within the first two weeks; this temporal claim is fabricated."
+                  },
+                  {
+                      "id":  "inj_0222",
+                      "target_type":  "mechanism_misattribution",
+                      "hallucinated_text":  "Survivors of lobar ICH with atrial fibrillation should not be offered long-term anticoagulation. Similarly, most patients with deep hemispheric ICH and atrial fibrillation should not receive anticoagulant therapy. However, patients with deep hemispheric ICH at particularly high risk for thromboembolic stroke or low risk of ICH recurrence might benefit from long-term anticoagulation by stabilizing the cerebral microvasculature and reducing rebleeding.",
+                      "error_span":  "by stabilizing the cerebral microvasculature and reducing rebleeding",
+                      "rationale":  "Anticoagulation benefits high thromboembolic-risk patients by preventing ischemic stroke, not by stabilizing cerebral microvasculature or reducing rebleeding (warfarin in fact increases ICH risk); this is a wrong, fabricated mechanism."
+                  },
+                  {
+                      "id":  "inj_0960",
+                      "target_type":  "relation_error",
+                      "hallucinated_text":  "Minimally invasive mitral valve repair using neochords provided a high rate of repair, reproducible results in a routine cardiac surgery setting and unstable repair during follow-up. This has become our preferred technique for mitral valve surgery.",
+                      "error_span":  "unstable repair during follow-up",
+                      "rationale":  "Evidence reports a 99.8% repair rate with only Grade I residual regurgitation in a minority and otherwise none, indicating stable repair; changing \u0027stable\u0027 to \u0027unstable repair during follow-up\u0027 inverts the outcome relation."
+                  },
+                  {
+                      "id":  "inj_0667",
+                      "target_type":  "entity_substitution",
+                      "hallucinated_text":  "Urinary biomarkers allow a non-invasive, sensitive, early assessment of the tubular lesions of the SK. Urinary biomarkers of distal tubule injury parallel renal function decline, thus complementing the estimation of GFR. Monitoring of PT dysfunction is mandatory in patients with SK.",
+                      "error_span":  "distal tubule injury",
+                      "rationale":  "The measured biomarkers (urinary NAG and alpha-1-microglobulin) are markers of proximal tubule (PT) injury, as the text itself states (\u0027PT injury\u0027, \u0027PT dysfunction\u0027); substituting \u0027distal tubule injury\u0027 names the wrong nephron segment."
+                  },
+                  {
+                      "id":  "inj_0697",
+                      "target_type":  "invented",
+                      "hallucinated_text":  "Women compared to men often delay seeking treatment for an AMI, taking on average more than twice as long to present, which further increases their risks. Our findings suggest specific characteristics that can serve as a profile to those African Americans most likely to delay seeking treatment for AMI.",
+                      "error_span":  "taking on average more than twice as long to present",
+                      "rationale":  "The evidence reports a non-significant median delay of 4.4 hours for women vs 3.5 hours for men (not more than double); the \u0027more than twice as long\u0027 magnitude is fabricated and contradicts the data."
+                  },
+                  {
+                      "id":  "inj_0966",
+                      "target_type":  "mechanism_misattribution",
+                      "hallucinated_text":  "A policy of early cesarean delivery in eclampsia, carrying \u003e=34 weeks, is not associated with better outcomes, even though cesarean delivery accelerates resolution of maternal cerebral edema and seizures.",
+                      "error_span":  "cesarean delivery accelerates resolution of maternal cerebral edema and seizures",
+                      "rationale":  "The trial found no outcome benefit from early cesarean delivery and provides no mechanistic evidence that cesarean accelerates resolution of cerebral edema or seizures; this is a fabricated, unsupported mechanism."
+                  }
+              ]
+}
